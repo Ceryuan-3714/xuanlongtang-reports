@@ -1,0 +1,31 @@
+{
+  "total": 52,
+  "complete": 29,
+  "incomplete": 23,
+  "invalid": 0,
+  "down": 11,
+  "up": 17,
+  "flat": 1,
+  "down_pct": 37.93103448275862,
+  "ever_below": 28,
+  "ever_close_below": 24,
+  "strictly_decreasing": 0,
+  "nonincreasing": 0,
+  "mean_change_pct": 1.5537373091975537,
+  "median_change_pct": 0.5835945098886741,
+  "contracts": 39,
+  "next_close_down": 16,
+  "next_close_denominator": 51,
+  "initial_two_down": 5,
+  "initial_two_denominator": 51,
+  "close_decline_thresholds": {
+    "0.5": 24,
+    "1": 21,
+    "2": 16
+  },
+  "low_decline_thresholds": {
+    "0.5": 28,
+    "1": 27,
+    "2": 21
+  }
+}
