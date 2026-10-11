@@ -7,11 +7,13 @@
     "period_start": "2026-04-01",
     "period_end": "2026-08-31",
     "date": "2026-07-23",
-    "time": "2026-07-23T11:00:00+08:00",
-    "source_time": "2026-07-23 11:00",
+    "time": "2026-07-23T10:15:00+08:00",
+    "point_date": "2026-07-23",
+    "source_time": "2026-07-23 10:15",
+    "confirmation_time": "2026-07-23T11:00:00+08:00",
     "confirmation_date": "2026-07-23",
     "A_end_time": "2026-07-23T10:00:00+08:00",
-    "center": 4871,
+    "center": 4869,
     "passed": true,
     "verified": false,
     "source_warning_dates": [
@@ -127,12 +129,13 @@
         "warmup_bars": 150,
         "formula_version": "s10103-v1",
         "area_version": "linear-half-edge-v1",
-        "separation_version": "flame-offset2-nearest-blue-candles-aa-peak-higher-v7",
+        "separation_version": "flame-offset2-blue-gap-first-blue-point-v8",
         "flame_offset_bars": 2,
         "candle_gap_rule": "all_blue",
         "red_region_policy": "nearest_endpoint_all_red_interval",
         "peak_rule": "aa_A_strictly_greater",
-        "confirmation_policy": "flame_end_plus_3_closed_bars"
+        "divergence_point_policy": "first_blue_after_A_before_new_red",
+        "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later"
       },
       "passed": true,
       "separator": {
@@ -207,8 +210,12 @@
       },
       "observation_start": "2026-07-23T10:00:00+08:00",
       "observation_end": "2026-07-23T10:00:00+08:00",
+      "divergence_time": "2026-07-23T10:15:00+08:00",
+      "divergence_open": 7607.0,
+      "divergence_close": 7570.0,
+      "divergence_policy": "first_blue_after_A_before_new_red",
       "confirmation_time": "2026-07-23T11:00:00+08:00",
-      "confirmation_policy": "flame_end_plus_3_closed_bars",
+      "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later",
       "previous_time": "2026-07-23T09:30:00+08:00",
       "previous_close": 7598.0,
       "previous_volume": 13316,
@@ -306,12 +313,13 @@
           "warmup_bars": 150,
           "formula_version": "s10103-v1",
           "area_version": "linear-half-edge-v1",
-          "separation_version": "flame-offset2-nearest-blue-candles-aa-peak-higher-v7",
+          "separation_version": "flame-offset2-blue-gap-first-blue-point-v8",
           "flame_offset_bars": 2,
           "candle_gap_rule": "all_blue",
           "red_region_policy": "nearest_endpoint_all_red_interval",
           "peak_rule": "aa_A_strictly_greater",
-          "confirmation_policy": "flame_end_plus_3_closed_bars"
+          "divergence_point_policy": "first_blue_after_A_before_new_red",
+          "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later"
         },
         "passed": true,
         "separator": {
@@ -352,6 +360,44 @@
     "before": 50,
     "after": 50,
     "window": [
+      {
+        "time": "2026-07-17T15:00:00+08:00",
+        "date": "2026-07-17",
+        "source_time": "2026-07-17 15:00",
+        "open": 7476.0,
+        "high": 7476.0,
+        "low": 7449.0,
+        "close": 7457.0,
+        "volume": 10698,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -93.59786809794848,
+          "ready": true,
+          "history_bars": 4820,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T09:15:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 09:15",
+        "open": 7453.0,
+        "high": 7468.0,
+        "low": 7429.0,
+        "close": 7455.0,
+        "volume": 15168,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -100.52521088633007,
+          "ready": true,
+          "history_bars": 4821,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
       {
         "time": "2026-07-20T09:30:00+08:00",
         "date": "2026-07-20",
@@ -2232,44 +2278,6 @@
           "history_bars": 4920,
           "history_start": "2025-03-21T14:00:00+08:00"
         }
-      },
-      {
-        "time": "2026-07-28T14:00:00+08:00",
-        "date": "2026-07-28",
-        "source_time": "2026-07-28 14:00",
-        "open": 7588.0,
-        "high": 7619.0,
-        "low": 7588.0,
-        "close": 7609.0,
-        "volume": 13487,
-        "duration": null,
-        "s10103": {
-          "aa": 45.55800611315942,
-          "ma35": 2030467.9553149918,
-          "var28": 3.76683247843674,
-          "ready": true,
-          "history_bars": 4921,
-          "history_start": "2025-03-21T14:00:00+08:00"
-        }
-      },
-      {
-        "time": "2026-07-28T14:15:00+08:00",
-        "date": "2026-07-28",
-        "source_time": "2026-07-28 14:15",
-        "open": 7609.0,
-        "high": 7617.0,
-        "low": 7590.0,
-        "close": 7604.0,
-        "volume": 6038,
-        "duration": null,
-        "s10103": {
-          "aa": 197.14605809842692,
-          "ma35": 1995813.9935918532,
-          "var28": 6.878890936576141,
-          "ready": true,
-          "history_bars": 4922,
-          "history_start": "2025-03-21T14:00:00+08:00"
-        }
       }
     ],
     "B_visible": true
@@ -2282,11 +2290,13 @@
     "period_start": "2026-04-01",
     "period_end": "2026-08-31",
     "date": "2026-07-07",
-    "time": "2026-07-06T23:00:00+08:00",
-    "source_time": "2026-07-07 23:00",
+    "time": "2026-07-06T22:00:00+08:00",
+    "point_date": "2026-07-07",
+    "source_time": "2026-07-07 22:00",
+    "confirmation_time": "2026-07-06T23:00:00+08:00",
     "confirmation_date": "2026-07-07",
     "A_end_time": "2026-07-06T21:30:00+08:00",
-    "center": 1375,
+    "center": 1373,
     "passed": true,
     "verified": false,
     "source_warning_dates": [
@@ -2411,12 +2421,13 @@
         "warmup_bars": 150,
         "formula_version": "s10103-v1",
         "area_version": "linear-half-edge-v1",
-        "separation_version": "flame-offset2-nearest-blue-candles-aa-peak-higher-v7",
+        "separation_version": "flame-offset2-blue-gap-first-blue-point-v8",
         "flame_offset_bars": 2,
         "candle_gap_rule": "all_blue",
         "red_region_policy": "nearest_endpoint_all_red_interval",
         "peak_rule": "aa_A_strictly_greater",
-        "confirmation_policy": "flame_end_plus_3_closed_bars"
+        "divergence_point_policy": "first_blue_after_A_before_new_red",
+        "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later"
       },
       "passed": true,
       "separator": {
@@ -2491,8 +2502,12 @@
       },
       "observation_start": "2026-07-06T21:30:00+08:00",
       "observation_end": "2026-07-06T21:30:00+08:00",
+      "divergence_time": "2026-07-06T22:00:00+08:00",
+      "divergence_open": 5430.0,
+      "divergence_close": 5428.0,
+      "divergence_policy": "first_blue_after_A_before_new_red",
       "confirmation_time": "2026-07-06T23:00:00+08:00",
-      "confirmation_policy": "flame_end_plus_3_closed_bars",
+      "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later",
       "previous_time": "2026-07-06T14:15:00+08:00",
       "previous_close": 5410.0,
       "previous_volume": 41675,
@@ -2599,12 +2614,13 @@
           "warmup_bars": 150,
           "formula_version": "s10103-v1",
           "area_version": "linear-half-edge-v1",
-          "separation_version": "flame-offset2-nearest-blue-candles-aa-peak-higher-v7",
+          "separation_version": "flame-offset2-blue-gap-first-blue-point-v8",
           "flame_offset_bars": 2,
           "candle_gap_rule": "all_blue",
           "red_region_policy": "nearest_endpoint_all_red_interval",
           "peak_rule": "aa_A_strictly_greater",
-          "confirmation_policy": "flame_end_plus_3_closed_bars"
+          "divergence_point_policy": "first_blue_after_A_before_new_red",
+          "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later"
         },
         "passed": true,
         "separator": {
@@ -2645,6 +2661,44 @@
     "before": 50,
     "after": 50,
     "window": [
+      {
+        "time": "2026-06-30T15:00:00+08:00",
+        "date": "2026-06-30",
+        "source_time": "2026-06-30 15:00",
+        "open": 5472.0,
+        "high": 5482.0,
+        "low": 5468.0,
+        "close": 5480.0,
+        "volume": 42925,
+        "duration": null,
+        "s10103": {
+          "aa": 1558454.795803061,
+          "ma35": 641205.5349970639,
+          "var28": 146.0517904975021,
+          "ready": true,
+          "history_bars": 1324,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-06-30T21:30:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 21:30",
+        "open": 5506.0,
+        "high": 5538.0,
+        "low": 5484.0,
+        "close": 5516.0,
+        "volume": 194034,
+        "duration": null,
+        "s10103": {
+          "aa": 3881311.9108207067,
+          "ma35": 752100.1610205127,
+          "var28": 197.98513620250299,
+          "ready": true,
+          "history_bars": 1325,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
       {
         "time": "2026-06-30T22:00:00+08:00",
         "date": "2026-07-01",
@@ -4523,44 +4577,6 @@
           "var28": 115.45319999649286,
           "ready": true,
           "history_bars": 1424,
-          "history_start": "2026-01-09T09:30:00+08:00"
-        }
-      },
-      {
-        "time": "2026-07-13T09:30:00+08:00",
-        "date": "2026-07-13",
-        "source_time": "2026-07-13 09:30",
-        "open": 5544.0,
-        "high": 5606.0,
-        "low": 5544.0,
-        "close": 5578.0,
-        "volume": 323416,
-        "duration": null,
-        "s10103": {
-          "aa": 5693719.268085025,
-          "ma35": 20416594.857166875,
-          "var28": 224.96420101496514,
-          "ready": true,
-          "history_bars": 1425,
-          "history_start": "2026-01-09T09:30:00+08:00"
-        }
-      },
-      {
-        "time": "2026-07-13T10:00:00+08:00",
-        "date": "2026-07-13",
-        "source_time": "2026-07-13 10:00",
-        "open": 5580.0,
-        "high": 5632.0,
-        "low": 5580.0,
-        "close": 5586.0,
-        "volume": 174442,
-        "duration": null,
-        "s10103": {
-          "aa": 9547450.23466819,
-          "ma35": 19587341.87364309,
-          "var28": 267.2712237685963,
-          "ready": true,
-          "history_bars": 1426,
           "history_start": "2026-01-09T09:30:00+08:00"
         }
       }
