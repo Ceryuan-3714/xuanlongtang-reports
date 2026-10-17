@@ -1,0 +1,428 @@
+{
+  "groups": 52,
+  "independent_algorithm_passed": 6,
+  "verified_passed": 6,
+  "full_history_bars": 120874,
+  "complete_regions_in_period": 1355,
+  "matched_blocks_full_history": 1604,
+  "groups_verified": [
+    {
+      "symbol": "APL9",
+      "interval": "15m",
+      "bars": 5600,
+      "regions": 49,
+      "blocks": 93,
+      "passed": 0
+    },
+    {
+      "symbol": "APL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 1,
+      "blocks": 12,
+      "passed": 0
+    },
+    {
+      "symbol": "APL9",
+      "interval": "240m",
+      "bars": 373,
+      "regions": 1,
+      "blocks": 5,
+      "passed": 0
+    },
+    {
+      "symbol": "APL9",
+      "interval": "30m",
+      "bars": 1400,
+      "regions": 26,
+      "blocks": 17,
+      "passed": 0
+    },
+    {
+      "symbol": "APL9",
+      "interval": "60m",
+      "bars": 700,
+      "regions": 15,
+      "blocks": 8,
+      "passed": 0
+    },
+    {
+      "symbol": "BUL9",
+      "interval": "15m",
+      "bars": 2100,
+      "regions": 20,
+      "blocks": 32,
+      "passed": 0
+    },
+    {
+      "symbol": "BUL9",
+      "interval": "60m",
+      "bars": 700,
+      "regions": 9,
+      "blocks": 18,
+      "passed": 0
+    },
+    {
+      "symbol": "CFL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 77,
+      "blocks": 118,
+      "passed": 0
+    },
+    {
+      "symbol": "CFL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 4,
+      "blocks": 6,
+      "passed": 0
+    },
+    {
+      "symbol": "CFL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 6,
+      "blocks": 6,
+      "passed": 0
+    },
+    {
+      "symbol": "CFL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 39,
+      "blocks": 26,
+      "passed": 1
+    },
+    {
+      "symbol": "CFL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 22,
+      "blocks": 19,
+      "passed": 0
+    },
+    {
+      "symbol": "FGL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 72,
+      "blocks": 76,
+      "passed": 0
+    },
+    {
+      "symbol": "FGL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 1,
+      "blocks": 6,
+      "passed": 0
+    },
+    {
+      "symbol": "FGL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 8,
+      "blocks": 9,
+      "passed": 0
+    },
+    {
+      "symbol": "FGL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 39,
+      "blocks": 22,
+      "passed": 0
+    },
+    {
+      "symbol": "FGL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 16,
+      "blocks": 16,
+      "passed": 0
+    },
+    {
+      "symbol": "IL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 92,
+      "blocks": 117,
+      "passed": 0
+    },
+    {
+      "symbol": "IL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 1,
+      "blocks": 6,
+      "passed": 0
+    },
+    {
+      "symbol": "IL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 3,
+      "blocks": 4,
+      "passed": 0
+    },
+    {
+      "symbol": "IL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 40,
+      "blocks": 28,
+      "passed": 0
+    },
+    {
+      "symbol": "IL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 24,
+      "blocks": 18,
+      "passed": 0
+    },
+    {
+      "symbol": "JDL9",
+      "interval": "15m",
+      "bars": 5600,
+      "regions": 54,
+      "blocks": 70,
+      "passed": 1
+    },
+    {
+      "symbol": "JDL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 1,
+      "blocks": 8,
+      "passed": 0
+    },
+    {
+      "symbol": "JDL9",
+      "interval": "240m",
+      "bars": 373,
+      "regions": 1,
+      "blocks": 2,
+      "passed": 0
+    },
+    {
+      "symbol": "JDL9",
+      "interval": "30m",
+      "bars": 1400,
+      "regions": 28,
+      "blocks": 14,
+      "passed": 1
+    },
+    {
+      "symbol": "JDL9",
+      "interval": "60m",
+      "bars": 700,
+      "regions": 13,
+      "blocks": 10,
+      "passed": 0
+    },
+    {
+      "symbol": "MAL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 75,
+      "blocks": 112,
+      "passed": 0
+    },
+    {
+      "symbol": "MAL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 2,
+      "blocks": 7,
+      "passed": 0
+    },
+    {
+      "symbol": "MAL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 3,
+      "blocks": 2,
+      "passed": 0
+    },
+    {
+      "symbol": "MAL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 34,
+      "blocks": 27,
+      "passed": 0
+    },
+    {
+      "symbol": "MAL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 16,
+      "blocks": 25,
+      "passed": 0
+    },
+    {
+      "symbol": "ML9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 79,
+      "blocks": 114,
+      "passed": 1
+    },
+    {
+      "symbol": "ML9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 4,
+      "blocks": 10,
+      "passed": 0
+    },
+    {
+      "symbol": "ML9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 7,
+      "blocks": 3,
+      "passed": 0
+    },
+    {
+      "symbol": "ML9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 46,
+      "blocks": 23,
+      "passed": 0
+    },
+    {
+      "symbol": "ML9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 19,
+      "blocks": 18,
+      "passed": 0
+    },
+    {
+      "symbol": "SAL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 74,
+      "blocks": 107,
+      "passed": 0
+    },
+    {
+      "symbol": "SAL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 1,
+      "blocks": 12,
+      "passed": 0
+    },
+    {
+      "symbol": "SAL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 7,
+      "blocks": 7,
+      "passed": 0
+    },
+    {
+      "symbol": "SAL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 31,
+      "blocks": 26,
+      "passed": 0
+    },
+    {
+      "symbol": "SAL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 14,
+      "blocks": 17,
+      "passed": 0
+    },
+    {
+      "symbol": "SRL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 66,
+      "blocks": 101,
+      "passed": 0
+    },
+    {
+      "symbol": "SRL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 2,
+      "blocks": 5,
+      "passed": 0
+    },
+    {
+      "symbol": "SRL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 5,
+      "blocks": 4,
+      "passed": 0
+    },
+    {
+      "symbol": "SRL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 39,
+      "blocks": 32,
+      "passed": 1
+    },
+    {
+      "symbol": "SRL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 21,
+      "blocks": 15,
+      "passed": 0
+    },
+    {
+      "symbol": "TAL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 80,
+      "blocks": 108,
+      "passed": 0
+    },
+    {
+      "symbol": "TAL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 0,
+      "blocks": 5,
+      "passed": 0
+    },
+    {
+      "symbol": "TAL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 6,
+      "blocks": 8,
+      "passed": 0
+    },
+    {
+      "symbol": "TAL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 40,
+      "blocks": 33,
+      "passed": 0
+    },
+    {
+      "symbol": "TAL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 22,
+      "blocks": 17,
+      "passed": 1
+    }
+  ],
+  "method": "不导入检测器：独立重建全部完整红区、交点积分、完整火苗、首尾按火苗根数60%向上取整偏移双向最优对应、相邻区块、价格根数面积及第一蓝K；逐点核对偏移、确认和前后50根。",
+  "source_note": "复用历史归档，非独立行情源；240分钟为合成参考。"
+}

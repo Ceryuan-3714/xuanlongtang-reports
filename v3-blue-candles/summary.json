@@ -1,4 +1,7 @@
 {
+  "blue_window_candidates_in_period": 5144,
+  "red_shrink_passed": 6,
+  "blue_window_passed": 0,
   "one_to_one_regions_in_period": 601,
   "pending_flames_in_period": 0,
   "open_red_region_groups_in_period": 0,
@@ -11,12 +14,13 @@
     "warmup_bars": 150,
     "formula_version": "s10103-v1",
     "area_version": "full-crossing-linear-v2",
-    "separation_version": "complete-endpoint60pct-mutual-adjacent-no-peak-v11",
+    "separation_version": "complete-endpoint60pct-or-blue-window-v12",
     "correspondence_ratio": 0.6,
     "correspondence_rounding": "ceil",
     "candle_gap_rule": "all_blue",
     "correspondence_policy": "mutual_unique_minimum_endpoint_offsets",
-    "block_pairing_policy": "adjacent_corresponding_blocks",
+    "block_pairing_policy": "adjacent_red_blocks_or_following_blue_window_flame",
+    "A_blue_window_policy": "full_flame_expanded_by_own_radius_strict_blue",
     "red_region_policy": "complete_blue_bounded_crossings",
     "peak_rule": "none",
     "divergence_point_policy": "first_blue_after_A_before_new_red",
@@ -25,6 +29,9 @@
   "groups": 52,
   "coverage": [
     {
+      "blue_window_candidates_in_period": 202,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "APL9",
       "name": "苹果加权",
       "interval": "15m",
@@ -44,7 +51,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.62,
+      "seconds": 1.67,
       "complete_regions_in_period": 49,
       "one_to_one_regions_in_period": 22,
       "unique_regions_in_period": 22,
@@ -53,15 +60,19 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1390,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 56,
-        "adjacent_price_not_higher": 19,
-        "intervening_not_all_blue": 11,
+        "flame_no_matching_complete_region": 688,
+        "no_previous_corresponding_block": 6,
+        "adjacent_price_not_higher": 275,
+        "adjacent_flame_not_smaller": 377,
+        "intervening_not_all_blue": 112,
+        "A_new_red_before_blue": 19,
         "A_red_not_smaller": 3
       }
     },
     {
+      "blue_window_candidates_in_period": 8,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "APL9",
       "name": "苹果加权",
       "interval": "1d",
@@ -75,7 +86,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.04,
+      "seconds": 0.17,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
@@ -84,15 +95,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 159,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 6,
-        "adjacent_price_not_higher": 3,
-        "intervening_not_all_blue": 1,
+        "flame_no_matching_complete_region": 103,
+        "no_previous_corresponding_block": 6,
+        "adjacent_flame_not_smaller": 28,
+        "adjacent_price_not_higher": 29,
+        "intervening_not_all_blue": 4,
         "A_red_not_smaller": 1
       }
     },
     {
+      "blue_window_candidates_in_period": 8,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "APL9",
       "name": "苹果加权",
       "interval": "240m",
@@ -112,7 +126,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.02,
+      "seconds": 0.12,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
@@ -121,14 +135,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 84,
-        "no_previous_corresponding_block": 1,
+        "flame_no_matching_complete_region": 54,
+        "no_previous_corresponding_block": 2,
         "A_red_not_smaller": 1,
-        "adjacent_flame_not_smaller": 2,
-        "adjacent_price_not_higher": 1
+        "adjacent_price_not_higher": 14,
+        "adjacent_flame_not_smaller": 16,
+        "intervening_not_all_blue": 2
       }
     },
     {
+      "blue_window_candidates_in_period": 89,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "APL9",
       "name": "苹果加权",
       "interval": "30m",
@@ -148,7 +166,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.09,
+      "seconds": 0.24,
       "complete_regions_in_period": 26,
       "one_to_one_regions_in_period": 17,
       "unique_regions_in_period": 17,
@@ -157,14 +175,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 338,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 12,
-        "adjacent_price_not_higher": 3,
-        "intervening_not_all_blue": 1
+        "flame_no_matching_complete_region": 185,
+        "no_previous_corresponding_block": 41,
+        "adjacent_price_not_higher": 76,
+        "adjacent_flame_not_smaller": 36,
+        "intervening_not_all_blue": 15,
+        "A_new_red_before_blue": 2
       }
     },
     {
+      "blue_window_candidates_in_period": 43,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "APL9",
       "name": "苹果加权",
       "interval": "60m",
@@ -184,7 +206,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.05,
+      "seconds": 0.1,
       "complete_regions_in_period": 15,
       "one_to_one_regions_in_period": 8,
       "unique_regions_in_period": 8,
@@ -193,14 +215,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 178,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 3,
-        "adjacent_flame_not_smaller": 3,
-        "A_red_not_smaller": 1
+        "flame_no_matching_complete_region": 109,
+        "no_previous_corresponding_block": 14,
+        "adjacent_price_not_higher": 17,
+        "adjacent_flame_not_smaller": 44,
+        "A_red_not_smaller": 1,
+        "A_new_red_before_blue": 1
       }
     },
     {
+      "blue_window_candidates_in_period": 50,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "BUL9",
       "name": "沥青加权",
       "interval": "15m",
@@ -214,7 +240,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.22,
+      "seconds": 0.28,
       "complete_regions_in_period": 20,
       "one_to_one_regions_in_period": 11,
       "unique_regions_in_period": 11,
@@ -223,14 +249,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 480,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 19,
-        "adjacent_price_not_higher": 6,
-        "intervening_not_all_blue": 6
+        "flame_no_matching_complete_region": 265,
+        "no_previous_corresponding_block": 10,
+        "adjacent_flame_not_smaller": 97,
+        "adjacent_price_not_higher": 88,
+        "intervening_not_all_blue": 48,
+        "A_new_red_before_blue": 4
       }
     },
     {
+      "blue_window_candidates_in_period": 12,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "BUL9",
       "name": "沥青加权",
       "interval": "60m",
@@ -244,7 +274,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.07,
+      "seconds": 0.2,
       "complete_regions_in_period": 9,
       "one_to_one_regions_in_period": 8,
       "unique_regions_in_period": 8,
@@ -253,14 +283,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 154,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 10,
-        "intervening_not_all_blue": 5,
-        "adjacent_price_not_higher": 2
+        "flame_no_matching_complete_region": 91,
+        "no_previous_corresponding_block": 6,
+        "adjacent_price_not_higher": 20,
+        "adjacent_flame_not_smaller": 47,
+        "intervening_not_all_blue": 6,
+        "A_new_red_before_blue": 2
       }
     },
     {
+      "blue_window_candidates_in_period": 355,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "CFL9",
       "name": "郑棉加权",
       "interval": "15m",
@@ -274,7 +308,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.93,
+      "seconds": 2.56,
       "complete_regions_in_period": 77,
       "one_to_one_regions_in_period": 38,
       "unique_regions_in_period": 38,
@@ -283,15 +317,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1849,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 30,
-        "adjacent_flame_not_smaller": 63,
-        "intervening_not_all_blue": 20,
-        "A_new_red_before_blue": 4
+        "flame_no_matching_complete_region": 798,
+        "no_previous_corresponding_block": 3,
+        "adjacent_price_not_higher": 405,
+        "adjacent_flame_not_smaller": 488,
+        "intervening_not_all_blue": 173,
+        "A_new_red_before_blue": 100
       }
     },
     {
+      "blue_window_candidates_in_period": 13,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "CFL9",
       "name": "郑棉加权",
       "interval": "1d",
@@ -305,7 +342,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.05,
+      "seconds": 0.18,
       "complete_regions_in_period": 4,
       "one_to_one_regions_in_period": 3,
       "unique_regions_in_period": 3,
@@ -314,13 +351,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 163,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 4,
-        "intervening_not_all_blue": 1
+        "flame_no_matching_complete_region": 95,
+        "no_previous_corresponding_block": 2,
+        "adjacent_price_not_higher": 38,
+        "adjacent_flame_not_smaller": 15,
+        "A_new_red_before_blue": 1,
+        "intervening_not_all_blue": 18
       }
     },
     {
+      "blue_window_candidates_in_period": 29,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "CFL9",
       "name": "郑棉加权",
       "interval": "240m",
@@ -334,7 +376,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.05,
+      "seconds": 0.18,
       "complete_regions_in_period": 6,
       "one_to_one_regions_in_period": 2,
       "unique_regions_in_period": 2,
@@ -343,13 +385,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 177,
-        "no_previous_corresponding_block": 1,
-        "intervening_not_all_blue": 2,
-        "adjacent_flame_not_smaller": 3
+        "flame_no_matching_complete_region": 105,
+        "no_previous_corresponding_block": 14,
+        "intervening_not_all_blue": 17,
+        "adjacent_flame_not_smaller": 36,
+        "adjacent_price_not_higher": 10,
+        "A_new_red_before_blue": 1
       }
     },
     {
+      "blue_window_candidates_in_period": 156,
+      "red_shrink_passed": 1,
+      "blue_window_passed": 0,
       "symbol": "CFL9",
       "name": "郑棉加权",
       "interval": "30m",
@@ -363,7 +410,7 @@
       "passed": 1,
       "verified_passed": 1,
       "warnings": [],
-      "seconds": 0.16,
+      "seconds": 0.46,
       "complete_regions_in_period": 39,
       "one_to_one_regions_in_period": 17,
       "unique_regions_in_period": 17,
@@ -372,15 +419,19 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 517,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 5,
-        "adjacent_flame_not_smaller": 15,
-        "intervening_not_all_blue": 3,
+        "flame_no_matching_complete_region": 268,
+        "no_previous_corresponding_block": 15,
+        "adjacent_price_not_higher": 101,
+        "adjacent_flame_not_smaller": 92,
+        "A_new_red_before_blue": 21,
+        "intervening_not_all_blue": 44,
         "A_red_not_smaller": 1
       }
     },
     {
+      "blue_window_candidates_in_period": 76,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "CFL9",
       "name": "郑棉加权",
       "interval": "60m",
@@ -394,7 +445,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.09,
+      "seconds": 0.32,
       "complete_regions_in_period": 22,
       "one_to_one_regions_in_period": 10,
       "unique_regions_in_period": 10,
@@ -403,14 +454,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 355,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 11,
-        "intervening_not_all_blue": 5,
-        "adjacent_price_not_higher": 2
+        "flame_no_matching_complete_region": 201,
+        "no_previous_corresponding_block": 10,
+        "intervening_not_all_blue": 36,
+        "adjacent_flame_not_smaller": 51,
+        "adjacent_price_not_higher": 72,
+        "A_new_red_before_blue": 4
       }
     },
     {
+      "blue_window_candidates_in_period": 269,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "FGL9",
       "name": "玻璃加权",
       "interval": "15m",
@@ -424,7 +479,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 1.06,
+      "seconds": 1.78,
       "complete_regions_in_period": 72,
       "one_to_one_regions_in_period": 25,
       "unique_regions_in_period": 25,
@@ -433,14 +488,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1860,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 23,
-        "adjacent_flame_not_smaller": 46,
-        "intervening_not_all_blue": 6
+        "flame_no_matching_complete_region": 905,
+        "no_previous_corresponding_block": 3,
+        "adjacent_price_not_higher": 343,
+        "adjacent_flame_not_smaller": 409,
+        "A_new_red_before_blue": 132,
+        "intervening_not_all_blue": 143
       }
     },
     {
+      "blue_window_candidates_in_period": 17,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "FGL9",
       "name": "玻璃加权",
       "interval": "1d",
@@ -454,7 +513,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.05,
+      "seconds": 0.14,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
@@ -463,14 +522,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 176,
-        "no_previous_corresponding_block": 1,
-        "intervening_not_all_blue": 2,
-        "adjacent_price_not_higher": 1,
-        "adjacent_flame_not_smaller": 2
+        "flame_no_matching_complete_region": 93,
+        "no_previous_corresponding_block": 8,
+        "intervening_not_all_blue": 23,
+        "adjacent_price_not_higher": 45,
+        "adjacent_flame_not_smaller": 12,
+        "A_new_red_before_blue": 1
       }
     },
     {
+      "blue_window_candidates_in_period": 26,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "FGL9",
       "name": "玻璃加权",
       "interval": "240m",
@@ -484,7 +547,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.05,
+      "seconds": 0.11,
       "complete_regions_in_period": 8,
       "one_to_one_regions_in_period": 6,
       "unique_regions_in_period": 6,
@@ -493,14 +556,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 158,
-        "no_previous_corresponding_block": 1,
-        "intervening_not_all_blue": 1,
-        "adjacent_flame_not_smaller": 5,
-        "adjacent_price_not_higher": 2
+        "flame_no_matching_complete_region": 96,
+        "no_previous_corresponding_block": 2,
+        "adjacent_price_not_higher": 50,
+        "intervening_not_all_blue": 3,
+        "adjacent_flame_not_smaller": 15,
+        "A_new_red_before_blue": 1
       }
     },
     {
+      "blue_window_candidates_in_period": 149,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "FGL9",
       "name": "玻璃加权",
       "interval": "30m",
@@ -514,7 +581,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.27,
+      "seconds": 0.53,
       "complete_regions_in_period": 39,
       "one_to_one_regions_in_period": 16,
       "unique_regions_in_period": 16,
@@ -523,14 +590,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 507,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 14,
-        "adjacent_price_not_higher": 5,
-        "intervening_not_all_blue": 2
+        "flame_no_matching_complete_region": 259,
+        "no_previous_corresponding_block": 6,
+        "adjacent_flame_not_smaller": 95,
+        "adjacent_price_not_higher": 105,
+        "A_new_red_before_blue": 26,
+        "intervening_not_all_blue": 38
       }
     },
     {
+      "blue_window_candidates_in_period": 78,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "FGL9",
       "name": "玻璃加权",
       "interval": "60m",
@@ -544,7 +615,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.13,
+      "seconds": 0.48,
       "complete_regions_in_period": 16,
       "one_to_one_regions_in_period": 6,
       "unique_regions_in_period": 6,
@@ -553,15 +624,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 347,
+        "flame_no_matching_complete_region": 177,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 7,
-        "intervening_not_all_blue": 1,
-        "adjacent_price_not_higher": 6,
-        "A_new_red_before_blue": 1
+        "adjacent_price_not_higher": 104,
+        "adjacent_flame_not_smaller": 47,
+        "intervening_not_all_blue": 20,
+        "A_new_red_before_blue": 14
       }
     },
     {
+      "blue_window_candidates_in_period": 269,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "IL9",
       "name": "铁矿加权",
       "interval": "15m",
@@ -575,7 +649,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 1.2,
+      "seconds": 1.92,
       "complete_regions_in_period": 92,
       "one_to_one_regions_in_period": 45,
       "unique_regions_in_period": 45,
@@ -584,15 +658,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1861,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 26,
-        "adjacent_flame_not_smaller": 72,
-        "intervening_not_all_blue": 17,
-        "A_new_red_before_blue": 1
+        "flame_no_matching_complete_region": 902,
+        "no_previous_corresponding_block": 10,
+        "adjacent_price_not_higher": 357,
+        "A_new_red_before_blue": 130,
+        "intervening_not_all_blue": 115,
+        "adjacent_flame_not_smaller": 464
       }
     },
     {
+      "blue_window_candidates_in_period": 14,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "IL9",
       "name": "铁矿加权",
       "interval": "1d",
@@ -615,13 +692,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 168,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 4,
-        "adjacent_price_not_higher": 1
+        "flame_no_matching_complete_region": 96,
+        "no_previous_corresponding_block": 11,
+        "adjacent_price_not_higher": 39,
+        "adjacent_flame_not_smaller": 22,
+        "intervening_not_all_blue": 4,
+        "A_new_red_before_blue": 2
       }
     },
     {
+      "blue_window_candidates_in_period": 24,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "IL9",
       "name": "铁矿加权",
       "interval": "240m",
@@ -635,7 +717,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.06,
+      "seconds": 0.07,
       "complete_regions_in_period": 3,
       "one_to_one_regions_in_period": 1,
       "unique_regions_in_period": 1,
@@ -644,14 +726,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 173,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 1,
-        "adjacent_price_not_higher": 1,
-        "intervening_not_all_blue": 1
+        "flame_no_matching_complete_region": 99,
+        "no_previous_corresponding_block": 7,
+        "adjacent_flame_not_smaller": 42,
+        "A_new_red_before_blue": 5,
+        "adjacent_price_not_higher": 15,
+        "intervening_not_all_blue": 9
       }
     },
     {
+      "blue_window_candidates_in_period": 137,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "IL9",
       "name": "铁矿加权",
       "interval": "30m",
@@ -665,7 +751,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.21,
+      "seconds": 0.26,
       "complete_regions_in_period": 40,
       "one_to_one_regions_in_period": 13,
       "unique_regions_in_period": 13,
@@ -674,14 +760,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 514,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 5,
-        "adjacent_flame_not_smaller": 21,
-        "intervening_not_all_blue": 1
+        "flame_no_matching_complete_region": 299,
+        "no_previous_corresponding_block": 3,
+        "adjacent_price_not_higher": 53,
+        "intervening_not_all_blue": 20,
+        "adjacent_flame_not_smaller": 145,
+        "A_new_red_before_blue": 22
       }
     },
     {
+      "blue_window_candidates_in_period": 71,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "IL9",
       "name": "铁矿加权",
       "interval": "60m",
@@ -695,7 +785,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.14,
+      "seconds": 0.16,
       "complete_regions_in_period": 24,
       "one_to_one_regions_in_period": 7,
       "unique_regions_in_period": 7,
@@ -704,13 +794,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 340,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 11,
-        "adjacent_price_not_higher": 6
+        "flame_no_matching_complete_region": 180,
+        "no_previous_corresponding_block": 3,
+        "adjacent_flame_not_smaller": 95,
+        "adjacent_price_not_higher": 62,
+        "A_new_red_before_blue": 9,
+        "intervening_not_all_blue": 9
       }
     },
     {
+      "blue_window_candidates_in_period": 190,
+      "red_shrink_passed": 1,
+      "blue_window_passed": 0,
       "symbol": "JDL9",
       "name": "鸡蛋加权",
       "interval": "15m",
@@ -730,7 +825,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.66,
+      "seconds": 1.27,
       "complete_regions_in_period": 54,
       "one_to_one_regions_in_period": 30,
       "unique_regions_in_period": 30,
@@ -739,14 +834,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1346,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 38,
-        "adjacent_price_not_higher": 14,
-        "intervening_not_all_blue": 15
+        "flame_no_matching_complete_region": 626,
+        "no_previous_corresponding_block": 10,
+        "adjacent_price_not_higher": 297,
+        "adjacent_flame_not_smaller": 318,
+        "A_new_red_before_blue": 58,
+        "intervening_not_all_blue": 105
       }
     },
     {
+      "blue_window_candidates_in_period": 19,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "JDL9",
       "name": "鸡蛋加权",
       "interval": "1d",
@@ -760,7 +859,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.06,
+      "seconds": 0.1,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
@@ -769,14 +868,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 181,
+        "flame_no_matching_complete_region": 110,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 5,
-        "intervening_not_all_blue": 1,
+        "adjacent_flame_not_smaller": 34,
+        "adjacent_price_not_higher": 24,
+        "intervening_not_all_blue": 19,
         "A_red_not_smaller": 1
       }
     },
     {
+      "blue_window_candidates_in_period": 19,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "JDL9",
       "name": "鸡蛋加权",
       "interval": "240m",
@@ -796,7 +899,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.03,
+      "seconds": 0.08,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
@@ -805,12 +908,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 101,
-        "no_previous_corresponding_block": 1,
-        "A_red_not_smaller": 1
+        "flame_no_matching_complete_region": 71,
+        "no_previous_corresponding_block": 7,
+        "A_red_not_smaller": 1,
+        "adjacent_price_not_higher": 3,
+        "adjacent_flame_not_smaller": 8,
+        "intervening_not_all_blue": 13
       }
     },
     {
+      "blue_window_candidates_in_period": 91,
+      "red_shrink_passed": 1,
+      "blue_window_passed": 0,
       "symbol": "JDL9",
       "name": "鸡蛋加权",
       "interval": "30m",
@@ -830,7 +939,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.14,
+      "seconds": 0.19,
       "complete_regions_in_period": 28,
       "one_to_one_regions_in_period": 11,
       "unique_regions_in_period": 11,
@@ -839,14 +948,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 326,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 8,
-        "intervening_not_all_blue": 3,
-        "adjacent_price_not_higher": 1
+        "flame_no_matching_complete_region": 171,
+        "no_previous_corresponding_block": 39,
+        "adjacent_price_not_higher": 44,
+        "A_new_red_before_blue": 7,
+        "adjacent_flame_not_smaller": 48,
+        "intervening_not_all_blue": 30
       }
     },
     {
+      "blue_window_candidates_in_period": 44,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "JDL9",
       "name": "鸡蛋加权",
       "interval": "60m",
@@ -866,7 +979,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.07,
+      "seconds": 0.1,
       "complete_regions_in_period": 13,
       "one_to_one_regions_in_period": 8,
       "unique_regions_in_period": 8,
@@ -875,13 +988,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 157,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 3,
-        "adjacent_flame_not_smaller": 6
+        "flame_no_matching_complete_region": 101,
+        "no_previous_corresponding_block": 7,
+        "adjacent_price_not_higher": 44,
+        "adjacent_flame_not_smaller": 10,
+        "intervening_not_all_blue": 4,
+        "A_new_red_before_blue": 1
       }
     },
     {
+      "blue_window_candidates_in_period": 272,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "MAL9",
       "name": "甲醇加权",
       "interval": "15m",
@@ -906,7 +1024,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 1.21,
+      "seconds": 2.95,
       "complete_regions_in_period": 75,
       "one_to_one_regions_in_period": 28,
       "unique_regions_in_period": 28,
@@ -915,17 +1033,593 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1839,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 71,
-        "adjacent_price_not_higher": 30,
-        "intervening_not_all_blue": 8,
+        "flame_no_matching_complete_region": 906,
+        "no_previous_corresponding_block": 5,
+        "adjacent_flame_not_smaller": 440,
+        "adjacent_price_not_higher": 389,
+        "A_new_red_before_blue": 52,
+        "intervening_not_all_blue": 157,
         "A_red_not_smaller": 1
       }
     },
     {
+      "blue_window_candidates_in_period": 19,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "MAL9",
       "name": "甲醇加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.12,
+      "complete_regions_in_period": 2,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 90,
+        "no_previous_corresponding_block": 17,
+        "adjacent_flame_not_smaller": 20,
+        "intervening_not_all_blue": 33,
+        "adjacent_price_not_higher": 20
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 20,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "days": 104,
+      "warmup": 420,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-04-10",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-04-20",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.09,
+      "complete_regions_in_period": 3,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 134,
+        "no_previous_corresponding_block": 5,
+        "adjacent_price_not_higher": 19,
+        "intervening_not_all_blue": 1,
+        "adjacent_flame_not_smaller": 11
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 141,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "days": 104,
+      "warmup": 616,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-04-10",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-04-20",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.55,
+      "complete_regions_in_period": 34,
+      "one_to_one_regions_in_period": 15,
+      "unique_regions_in_period": 15,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 285,
+        "no_previous_corresponding_block": 7,
+        "adjacent_price_not_higher": 109,
+        "adjacent_flame_not_smaller": 62,
+        "intervening_not_all_blue": 55,
+        "A_new_red_before_blue": 10
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 73,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "days": 104,
+      "warmup": 658,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-04-10",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-04-20",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.21,
+      "complete_regions_in_period": 16,
+      "one_to_one_regions_in_period": 9,
+      "unique_regions_in_period": 9,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 178,
+        "no_previous_corresponding_block": 11,
+        "intervening_not_all_blue": 31,
+        "adjacent_flame_not_smaller": 56,
+        "adjacent_price_not_higher": 68,
+        "A_new_red_before_blue": 3
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 321,
+      "red_shrink_passed": 1,
+      "blue_window_passed": 0,
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "days": 104,
+      "warmup": 4857,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 1.81,
+      "complete_regions_in_period": 79,
+      "one_to_one_regions_in_period": 35,
+      "unique_regions_in_period": 35,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 868,
+        "no_previous_corresponding_block": 6,
+        "adjacent_flame_not_smaller": 470,
+        "A_new_red_before_blue": 80,
+        "adjacent_price_not_higher": 404,
+        "intervening_not_all_blue": 148,
+        "correspondence_not_reciprocal": 2,
+        "A_red_not_smaller": 1
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 12,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.15,
+      "complete_regions_in_period": 4,
+      "one_to_one_regions_in_period": 3,
+      "unique_regions_in_period": 3,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 96,
+        "no_previous_corresponding_block": 10,
+        "adjacent_price_not_higher": 48,
+        "adjacent_flame_not_smaller": 21,
+        "A_new_red_before_blue": 3,
+        "intervening_not_all_blue": 3
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 23,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "days": 104,
+      "warmup": 420,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.13,
+      "complete_regions_in_period": 7,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 97,
+        "no_previous_corresponding_block": 23,
+        "adjacent_price_not_higher": 3,
+        "adjacent_flame_not_smaller": 11,
+        "intervening_not_all_blue": 23,
+        "A_new_red_before_blue": 1
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 143,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "days": 104,
+      "warmup": 616,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.32,
+      "complete_regions_in_period": 46,
+      "one_to_one_regions_in_period": 18,
+      "unique_regions_in_period": 18,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 283,
+        "no_previous_corresponding_block": 19,
+        "adjacent_price_not_higher": 51,
+        "adjacent_flame_not_smaller": 122,
+        "correspondence_not_reciprocal": 2,
+        "A_new_red_before_blue": 14,
+        "intervening_not_all_blue": 44
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 65,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "days": 104,
+      "warmup": 658,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.24,
+      "complete_regions_in_period": 19,
+      "one_to_one_regions_in_period": 9,
+      "unique_regions_in_period": 9,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 202,
+        "no_previous_corresponding_block": 3,
+        "adjacent_flame_not_smaller": 61,
+        "adjacent_price_not_higher": 58,
+        "intervening_not_all_blue": 20,
+        "A_new_red_before_blue": 12,
+        "A_red_not_smaller": 1
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 262,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "days": 104,
+      "warmup": 4857,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-08-10",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 2.03,
+      "complete_regions_in_period": 74,
+      "one_to_one_regions_in_period": 32,
+      "unique_regions_in_period": 32,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 936,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 407,
+        "A_new_red_before_blue": 113,
+        "adjacent_price_not_higher": 377,
+        "intervening_not_all_blue": 105,
+        "A_red_not_smaller": 1
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 17,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.08,
+      "complete_regions_in_period": 1,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 85,
+        "no_previous_corresponding_block": 10,
+        "adjacent_flame_not_smaller": 49,
+        "adjacent_price_not_higher": 27,
+        "A_new_red_before_blue": 4,
+        "intervening_not_all_blue": 5
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 17,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "days": 104,
+      "warmup": 420,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-08-10",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.07,
+      "complete_regions_in_period": 7,
+      "one_to_one_regions_in_period": 3,
+      "unique_regions_in_period": 3,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 91,
+        "no_previous_corresponding_block": 6,
+        "adjacent_price_not_higher": 30,
+        "adjacent_flame_not_smaller": 26,
+        "A_new_red_before_blue": 2,
+        "intervening_not_all_blue": 8
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 121,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "days": 104,
+      "warmup": 616,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-08-10",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.31,
+      "complete_regions_in_period": 31,
+      "one_to_one_regions_in_period": 11,
+      "unique_regions_in_period": 11,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 295,
+        "no_previous_corresponding_block": 4,
+        "adjacent_price_not_higher": 60,
+        "intervening_not_all_blue": 21,
+        "adjacent_flame_not_smaller": 121,
+        "A_new_red_before_blue": 19
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 67,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "days": 104,
+      "warmup": 658,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-08-10",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.16,
+      "complete_regions_in_period": 14,
+      "one_to_one_regions_in_period": 4,
+      "unique_regions_in_period": 4,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 196,
+        "no_previous_corresponding_block": 6,
+        "adjacent_price_not_higher": 47,
+        "adjacent_flame_not_smaller": 75,
+        "A_new_red_before_blue": 9,
+        "intervening_not_all_blue": 24
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 287,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "SRL9",
+      "name": "白糖加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "days": 104,
+      "warmup": 4857,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 1.79,
+      "complete_regions_in_period": 66,
+      "one_to_one_regions_in_period": 30,
+      "unique_regions_in_period": 30,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 971,
+        "no_previous_corresponding_block": 13,
+        "adjacent_flame_not_smaller": 458,
+        "adjacent_price_not_higher": 314,
+        "A_new_red_before_blue": 80,
+        "intervening_not_all_blue": 143,
+        "correspondence_not_reciprocal": 1,
+        "A_red_not_smaller": 1
+      }
+    },
+    {
+      "blue_window_candidates_in_period": 19,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
+      "symbol": "SRL9",
+      "name": "白糖加权",
       "interval": "1d",
       "derived": false,
       "period_start": "2026-04-01",
@@ -946,526 +1640,17 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 173,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 5,
-        "adjacent_price_not_higher": 1
-      }
-    },
-    {
-      "symbol": "MAL9",
-      "name": "甲醇加权",
-      "interval": "240m",
-      "derived": true,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 666,
-      "period_bars": 205,
-      "days": 104,
-      "warmup": 420,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [
-        {
-          "date": "2026-04-10",
-          "volume": true,
-          "ohlc": false
-        },
-        {
-          "date": "2026-04-20",
-          "volume": true,
-          "ohlc": false
-        }
-      ],
-      "seconds": 0.09,
-      "complete_regions_in_period": 3,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 168,
-        "no_previous_corresponding_block": 1,
-        "intervening_not_all_blue": 1
-      }
-    },
-    {
-      "symbol": "MAL9",
-      "name": "甲醇加权",
-      "interval": "30m",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 2100,
-      "period_bars": 1236,
-      "days": 104,
-      "warmup": 616,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [
-        {
-          "date": "2026-04-10",
-          "volume": true,
-          "ohlc": false
-        },
-        {
-          "date": "2026-04-20",
-          "volume": true,
-          "ohlc": false
-        }
-      ],
-      "seconds": 0.22,
-      "complete_regions_in_period": 34,
-      "one_to_one_regions_in_period": 15,
-      "unique_regions_in_period": 15,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 501,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 14,
-        "intervening_not_all_blue": 5,
-        "adjacent_price_not_higher": 6,
-        "A_new_red_before_blue": 1
-      }
-    },
-    {
-      "symbol": "MAL9",
-      "name": "甲醇加权",
-      "interval": "60m",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 1400,
-      "period_bars": 618,
-      "days": 104,
-      "warmup": 658,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [
-        {
-          "date": "2026-04-10",
-          "volume": true,
-          "ohlc": false
-        },
-        {
-          "date": "2026-04-20",
-          "volume": true,
-          "ohlc": false
-        }
-      ],
-      "seconds": 0.16,
-      "complete_regions_in_period": 16,
-      "one_to_one_regions_in_period": 9,
-      "unique_regions_in_period": 9,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 323,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 13,
-        "intervening_not_all_blue": 5,
-        "adjacent_price_not_higher": 5,
-        "A_new_red_before_blue": 1
-      }
-    },
-    {
-      "symbol": "ML9",
-      "name": "豆粕加权",
-      "interval": "15m",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 7700,
-      "period_bars": 2368,
-      "days": 104,
-      "warmup": 4857,
-      "passed": 1,
-      "verified_passed": 1,
-      "warnings": [],
-      "seconds": 1.16,
-      "complete_regions_in_period": 79,
-      "one_to_one_regions_in_period": 35,
-      "unique_regions_in_period": 35,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 1866,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 67,
-        "intervening_not_all_blue": 21,
-        "adjacent_price_not_higher": 22,
-        "correspondence_not_reciprocal": 2,
-        "A_red_not_smaller": 1
-      }
-    },
-    {
-      "symbol": "ML9",
-      "name": "豆粕加权",
-      "interval": "1d",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 700,
-      "period_bars": 104,
-      "days": 104,
-      "warmup": 575,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [],
-      "seconds": 0.06,
-      "complete_regions_in_period": 4,
-      "one_to_one_regions_in_period": 3,
-      "unique_regions_in_period": 3,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 171,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 2,
-        "adjacent_flame_not_smaller": 5,
-        "intervening_not_all_blue": 2
-      }
-    },
-    {
-      "symbol": "ML9",
-      "name": "豆粕加权",
-      "interval": "240m",
-      "derived": true,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 666,
-      "period_bars": 205,
-      "days": 104,
-      "warmup": 420,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [],
-      "seconds": 0.06,
-      "complete_regions_in_period": 7,
-      "one_to_one_regions_in_period": 1,
-      "unique_regions_in_period": 1,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 155,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 1,
-        "intervening_not_all_blue": 1
-      }
-    },
-    {
-      "symbol": "ML9",
-      "name": "豆粕加权",
-      "interval": "30m",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 2100,
-      "period_bars": 1236,
-      "days": 104,
-      "warmup": 616,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [],
-      "seconds": 0.23,
-      "complete_regions_in_period": 46,
-      "one_to_one_regions_in_period": 18,
-      "unique_regions_in_period": 18,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 510,
-        "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 2,
-        "adjacent_flame_not_smaller": 15,
-        "intervening_not_all_blue": 6,
-        "adjacent_price_not_higher": 1
-      }
-    },
-    {
-      "symbol": "ML9",
-      "name": "豆粕加权",
-      "interval": "60m",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 1400,
-      "period_bars": 618,
-      "days": 104,
-      "warmup": 658,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [],
-      "seconds": 0.14,
-      "complete_regions_in_period": 19,
-      "one_to_one_regions_in_period": 9,
-      "unique_regions_in_period": 9,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 340,
-        "no_previous_corresponding_block": 1,
+        "flame_no_matching_complete_region": 93,
+        "no_previous_corresponding_block": 13,
         "adjacent_flame_not_smaller": 10,
-        "intervening_not_all_blue": 4,
-        "adjacent_price_not_higher": 1,
-        "A_red_not_smaller": 1
+        "adjacent_price_not_higher": 42,
+        "intervening_not_all_blue": 11
       }
     },
     {
-      "symbol": "SAL9",
-      "name": "纯碱加权",
-      "interval": "15m",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 7700,
-      "period_bars": 2368,
-      "days": 104,
-      "warmup": 4857,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [
-        {
-          "date": "2026-08-10",
-          "volume": true,
-          "ohlc": false
-        }
-      ],
-      "seconds": 1.17,
-      "complete_regions_in_period": 74,
-      "one_to_one_regions_in_period": 32,
-      "unique_regions_in_period": 32,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 1833,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 64,
-        "adjacent_price_not_higher": 31,
-        "intervening_not_all_blue": 8,
-        "A_red_not_smaller": 1,
-        "A_new_red_before_blue": 2
-      }
-    },
-    {
-      "symbol": "SAL9",
-      "name": "纯碱加权",
-      "interval": "1d",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 700,
-      "period_bars": 104,
-      "days": 104,
-      "warmup": 575,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [],
-      "seconds": 0.05,
-      "complete_regions_in_period": 1,
-      "one_to_one_regions_in_period": 1,
-      "unique_regions_in_period": 1,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 168,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 6,
-        "adjacent_price_not_higher": 3,
-        "intervening_not_all_blue": 2
-      }
-    },
-    {
-      "symbol": "SAL9",
-      "name": "纯碱加权",
-      "interval": "240m",
-      "derived": true,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 666,
-      "period_bars": 205,
-      "days": 104,
-      "warmup": 420,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [
-        {
-          "date": "2026-08-10",
-          "volume": true,
-          "ohlc": false
-        }
-      ],
-      "seconds": 0.05,
-      "complete_regions_in_period": 7,
-      "one_to_one_regions_in_period": 3,
-      "unique_regions_in_period": 3,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 156,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 2,
-        "adjacent_flame_not_smaller": 4
-      }
-    },
-    {
-      "symbol": "SAL9",
-      "name": "纯碱加权",
-      "interval": "30m",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 2100,
-      "period_bars": 1236,
-      "days": 104,
-      "warmup": 616,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [
-        {
-          "date": "2026-08-10",
-          "volume": true,
-          "ohlc": false
-        }
-      ],
-      "seconds": 0.22,
-      "complete_regions_in_period": 31,
-      "one_to_one_regions_in_period": 11,
-      "unique_regions_in_period": 11,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 494,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 13,
-        "adjacent_price_not_higher": 5,
-        "intervening_not_all_blue": 5,
-        "A_new_red_before_blue": 2
-      }
-    },
-    {
-      "symbol": "SAL9",
-      "name": "纯碱加权",
-      "interval": "60m",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 1400,
-      "period_bars": 618,
-      "days": 104,
-      "warmup": 658,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [
-        {
-          "date": "2026-08-10",
-          "volume": true,
-          "ohlc": false
-        }
-      ],
-      "seconds": 0.14,
-      "complete_regions_in_period": 14,
-      "one_to_one_regions_in_period": 4,
-      "unique_regions_in_period": 4,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 340,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 4,
-        "adjacent_flame_not_smaller": 10,
-        "intervening_not_all_blue": 2
-      }
-    },
-    {
-      "symbol": "SRL9",
-      "name": "白糖加权",
-      "interval": "15m",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 7700,
-      "period_bars": 2368,
-      "days": 104,
-      "warmup": 4857,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [],
-      "seconds": 1.07,
-      "complete_regions_in_period": 66,
-      "one_to_one_regions_in_period": 30,
-      "unique_regions_in_period": 30,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 1879,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 67,
-        "adjacent_price_not_higher": 21,
-        "intervening_not_all_blue": 11,
-        "correspondence_not_reciprocal": 1,
-        "A_red_not_smaller": 1
-      }
-    },
-    {
-      "symbol": "SRL9",
-      "name": "白糖加权",
-      "interval": "1d",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 700,
-      "period_bars": 104,
-      "days": 104,
-      "warmup": 575,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [],
-      "seconds": 0.06,
-      "complete_regions_in_period": 2,
-      "one_to_one_regions_in_period": 1,
-      "unique_regions_in_period": 1,
-      "ambiguous_regions_in_period": 0,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_matching_complete_region": 164,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 3,
-        "adjacent_price_not_higher": 1
-      }
-    },
-    {
+      "blue_window_candidates_in_period": 26,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "SRL9",
       "name": "白糖加权",
       "interval": "240m",
@@ -1479,7 +1664,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.06,
+      "seconds": 0.1,
       "complete_regions_in_period": 5,
       "one_to_one_regions_in_period": 1,
       "unique_regions_in_period": 1,
@@ -1488,14 +1673,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 155,
-        "no_previous_corresponding_block": 1,
+        "flame_no_matching_complete_region": 91,
+        "no_previous_corresponding_block": 6,
+        "adjacent_price_not_higher": 28,
         "A_new_red_before_blue": 1,
-        "adjacent_flame_not_smaller": 1,
-        "adjacent_price_not_higher": 1
+        "adjacent_flame_not_smaller": 2,
+        "intervening_not_all_blue": 31
       }
     },
     {
+      "blue_window_candidates_in_period": 134,
+      "red_shrink_passed": 1,
+      "blue_window_passed": 0,
       "symbol": "SRL9",
       "name": "白糖加权",
       "interval": "30m",
@@ -1509,7 +1698,7 @@
       "passed": 1,
       "verified_passed": 1,
       "warnings": [],
-      "seconds": 0.23,
+      "seconds": 0.52,
       "complete_regions_in_period": 39,
       "one_to_one_regions_in_period": 17,
       "unique_regions_in_period": 17,
@@ -1518,15 +1707,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 513,
+        "flame_no_matching_complete_region": 290,
         "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 7,
-        "adjacent_flame_not_smaller": 19,
-        "intervening_not_all_blue": 3,
-        "A_new_red_before_blue": 1
+        "adjacent_price_not_higher": 80,
+        "adjacent_flame_not_smaller": 135,
+        "intervening_not_all_blue": 26,
+        "A_new_red_before_blue": 11
       }
     },
     {
+      "blue_window_candidates_in_period": 82,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "SRL9",
       "name": "白糖加权",
       "interval": "60m",
@@ -1540,7 +1732,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.15,
+      "seconds": 0.24,
       "complete_regions_in_period": 21,
       "one_to_one_regions_in_period": 9,
       "unique_regions_in_period": 9,
@@ -1549,13 +1741,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 349,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 10,
-        "intervening_not_all_blue": 4
+        "flame_no_matching_complete_region": 184,
+        "no_previous_corresponding_block": 3,
+        "adjacent_price_not_higher": 57,
+        "adjacent_flame_not_smaller": 94,
+        "A_new_red_before_blue": 6,
+        "intervening_not_all_blue": 20
       }
     },
     {
+      "blue_window_candidates_in_period": 309,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "TAL9",
       "name": "PTA加权",
       "interval": "15m",
@@ -1585,7 +1782,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 1.1,
+      "seconds": 2.05,
       "complete_regions_in_period": 80,
       "one_to_one_regions_in_period": 34,
       "unique_regions_in_period": 34,
@@ -1594,16 +1791,19 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1834,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 24,
-        "adjacent_flame_not_smaller": 68,
-        "intervening_not_all_blue": 13,
-        "A_new_red_before_blue": 1,
+        "flame_no_matching_complete_region": 839,
+        "no_previous_corresponding_block": 6,
+        "adjacent_price_not_higher": 454,
+        "A_new_red_before_blue": 72,
+        "adjacent_flame_not_smaller": 356,
+        "intervening_not_all_blue": 213,
         "A_red_not_smaller": 1
       }
     },
     {
+      "blue_window_candidates_in_period": 15,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "TAL9",
       "name": "PTA加权",
       "interval": "1d",
@@ -1617,7 +1817,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.06,
+      "seconds": 0.1,
       "complete_regions_in_period": 0,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
@@ -1626,13 +1826,17 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 171,
+        "flame_no_matching_complete_region": 110,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 3,
-        "adjacent_price_not_higher": 1
+        "adjacent_price_not_higher": 24,
+        "adjacent_flame_not_smaller": 40,
+        "intervening_not_all_blue": 1
       }
     },
     {
+      "blue_window_candidates_in_period": 28,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "TAL9",
       "name": "PTA加权",
       "interval": "240m",
@@ -1662,7 +1866,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.06,
+      "seconds": 0.24,
       "complete_regions_in_period": 6,
       "one_to_one_regions_in_period": 5,
       "unique_regions_in_period": 5,
@@ -1671,13 +1875,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 153,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 3,
-        "adjacent_flame_not_smaller": 4
+        "flame_no_matching_complete_region": 94,
+        "no_previous_corresponding_block": 21,
+        "adjacent_price_not_higher": 24,
+        "adjacent_flame_not_smaller": 18,
+        "intervening_not_all_blue": 3,
+        "A_new_red_before_blue": 1
       }
     },
     {
+      "blue_window_candidates_in_period": 151,
+      "red_shrink_passed": 0,
+      "blue_window_passed": 0,
       "symbol": "TAL9",
       "name": "PTA加权",
       "interval": "30m",
@@ -1707,7 +1916,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.2,
+      "seconds": 0.32,
       "complete_regions_in_period": 40,
       "one_to_one_regions_in_period": 17,
       "unique_regions_in_period": 17,
@@ -1716,15 +1925,18 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 490,
-        "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 21,
-        "intervening_not_all_blue": 4,
-        "adjacent_price_not_higher": 5,
-        "A_new_red_before_blue": 1
+        "flame_no_matching_complete_region": 262,
+        "no_previous_corresponding_block": 9,
+        "adjacent_price_not_higher": 98,
+        "adjacent_flame_not_smaller": 118,
+        "A_new_red_before_blue": 9,
+        "intervening_not_all_blue": 26
       }
     },
     {
+      "blue_window_candidates_in_period": 62,
+      "red_shrink_passed": 1,
+      "blue_window_passed": 0,
       "symbol": "TAL9",
       "name": "PTA加权",
       "interval": "60m",
@@ -1754,7 +1966,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.13,
+      "seconds": 0.25,
       "complete_regions_in_period": 22,
       "one_to_one_regions_in_period": 13,
       "unique_regions_in_period": 13,
@@ -1763,11 +1975,12 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 337,
-        "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 4,
-        "adjacent_flame_not_smaller": 10,
-        "intervening_not_all_blue": 1
+        "flame_no_matching_complete_region": 190,
+        "no_previous_corresponding_block": 38,
+        "adjacent_price_not_higher": 35,
+        "adjacent_flame_not_smaller": 66,
+        "intervening_not_all_blue": 23,
+        "A_new_red_before_blue": 1
       }
     }
   ],

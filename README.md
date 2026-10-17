@@ -38,3 +38,9 @@
 [最新报告](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles/report.html?version=v11) · [v10存档](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles-v10/report.html)
 
 每个完整火苗允许偏移=ceil(火苗K线数量×60%)，首尾分别检查，大小火苗独立计算；5根火苗允许3根偏移。其余完整红区、双向唯一最优互选、相邻区块比较、价格面积及中间全蓝K规则保持。52组原归档120874根K线独立复核，6个符合点，前后各50根；108项测试通过。生产后端未部署。
+
+## V3 v12 新增小火苗全蓝窗口路径
+
+[最新报告](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles/report.html?version=v12) · [v11存档](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles-v11/report.html)
+
+保留完整大小红区面积缩小路径，新增：前面大火苗已对应完整大红区，后面小火苗按自身R=ceil(K线根数×60%)向前后各扩展R根，整个窗口S10103严格全蓝，也满足指标条件。大小、价格新高、中间全蓝K和第一蓝K背离点条件仍检查。未知数据、中性和红区不算全蓝；不伪造A红区。52组归档独立复核，5144个全蓝窗口候选最终新增0个，原6点保留。112项测试通过；各点前后50根K线。生产后端未部署。

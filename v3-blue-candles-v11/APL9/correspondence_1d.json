@@ -1,0 +1,30 @@
+[
+  {
+    "region_id": 23,
+    "start": "2026-07-30",
+    "end": "2026-08-19",
+    "start_time": "2026-07-31T00:00:00+08:00",
+    "end_time": "2026-08-20T00:00:00+08:00",
+    "red_area": 58181347.78874648,
+    "left_crossing": {
+      "index": 655.0,
+      "fraction": -0.0,
+      "before": "2026-07-30T00:00:00+08:00",
+      "after": "2026-07-31T00:00:00+08:00"
+    },
+    "right_crossing": {
+      "index": 670.6694503547794,
+      "fraction": 0.669450354779466,
+      "before": "2026-08-20T00:00:00+08:00",
+      "after": "2026-08-21T00:00:00+08:00"
+    },
+    "settled": true,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
+    "flame_candidate_region_count": null,
+    "flames": []
+  }
+]
