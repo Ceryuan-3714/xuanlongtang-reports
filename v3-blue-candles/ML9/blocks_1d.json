@@ -4,91 +4,61 @@
       "id": 0,
       "flame_id": 55,
       "region_id": 0,
-      "confirmed_index": 212
+      "confirmed_index": 209
     },
     {
       "id": 1,
       "flame_id": 56,
       "region_id": 1,
-      "confirmed_index": 216
+      "confirmed_index": 212
     },
     {
       "id": 2,
       "flame_id": 66,
       "region_id": 3,
-      "confirmed_index": 248
+      "confirmed_index": 244
     },
     {
       "id": 3,
-      "flame_id": 75,
-      "region_id": 4,
-      "confirmed_index": 284
+      "flame_id": 80,
+      "region_id": 6,
+      "confirmed_index": 310
     },
     {
       "id": 4,
-      "flame_id": 80,
-      "region_id": 6,
-      "confirmed_index": 314
+      "flame_id": 95,
+      "region_id": 9,
+      "confirmed_index": 351
     },
     {
       "id": 5,
-      "flame_id": 83,
-      "region_id": 7,
-      "confirmed_index": 319
+      "flame_id": 108,
+      "region_id": 11,
+      "confirmed_index": 413
     },
     {
       "id": 6,
-      "flame_id": 93,
-      "region_id": 8,
-      "confirmed_index": 348
+      "flame_id": 159,
+      "region_id": 15,
+      "confirmed_index": 604
     },
     {
       "id": 7,
-      "flame_id": 95,
-      "region_id": 9,
-      "confirmed_index": 355
-    },
-    {
-      "id": 8,
-      "flame_id": 102,
-      "region_id": 10,
-      "confirmed_index": 394
-    },
-    {
-      "id": 9,
-      "flame_id": 108,
-      "region_id": 11,
-      "confirmed_index": 415
-    },
-    {
-      "id": 10,
-      "flame_id": 113,
-      "region_id": 12,
-      "confirmed_index": 436
-    },
-    {
-      "id": 11,
-      "flame_id": 159,
-      "region_id": 15,
+      "flame_id": 160,
+      "region_id": 16,
       "confirmed_index": 608
     },
     {
-      "id": 12,
-      "flame_id": 160,
-      "region_id": 16,
-      "confirmed_index": 612
-    },
-    {
-      "id": 13,
+      "id": 8,
       "flame_id": 174,
       "region_id": 18,
-      "confirmed_index": 678
+      "confirmed_index": 675
     },
     {
-      "id": 14,
+      "id": 9,
       "flame_id": 179,
       "region_id": 20,
-      "confirmed_index": 697
+      "confirmed_index": 694
     }
   ],
   "flames": [
@@ -584,8 +554,8 @@
       "end": 203,
       "complete": true,
       "settled": true,
-      "best_region_id": 0,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 55,
@@ -611,8 +581,8 @@
       "end": 212,
       "complete": true,
       "settled": true,
-      "best_region_id": 2,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 58,
@@ -620,8 +590,8 @@
       "end": 214,
       "complete": true,
       "settled": true,
-      "best_region_id": 2,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 59,
@@ -629,8 +599,8 @@
       "end": 217,
       "complete": true,
       "settled": true,
-      "best_region_id": 2,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 60,
@@ -683,8 +653,8 @@
       "end": 237,
       "complete": true,
       "settled": true,
-      "best_region_id": 3,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 66,
@@ -773,8 +743,8 @@
       "end": 278,
       "complete": true,
       "settled": true,
-      "best_region_id": 4,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 76,
@@ -827,8 +797,8 @@
       "end": 308,
       "complete": true,
       "settled": true,
-      "best_region_id": 6,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 82,
@@ -836,8 +806,8 @@
       "end": 310,
       "complete": true,
       "settled": true,
-      "best_region_id": 7,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 83,
@@ -845,8 +815,8 @@
       "end": 312,
       "complete": true,
       "settled": true,
-      "best_region_id": 7,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 84,
@@ -854,8 +824,8 @@
       "end": 315,
       "complete": true,
       "settled": true,
-      "best_region_id": 7,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 85,
@@ -926,8 +896,8 @@
       "end": 337,
       "complete": true,
       "settled": true,
-      "best_region_id": 8,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 93,
@@ -935,8 +905,8 @@
       "end": 341,
       "complete": true,
       "settled": true,
-      "best_region_id": 8,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 94,
@@ -944,8 +914,8 @@
       "end": 347,
       "complete": true,
       "settled": true,
-      "best_region_id": 9,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 95,
@@ -1016,8 +986,8 @@
       "end": 383,
       "complete": true,
       "settled": true,
-      "best_region_id": 10,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 103,
@@ -1115,8 +1085,8 @@
       "end": 429,
       "complete": true,
       "settled": true,
-      "best_region_id": 12,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 114,
@@ -1520,8 +1490,8 @@
       "end": 599,
       "complete": true,
       "settled": true,
-      "best_region_id": 15,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 159,
@@ -1547,8 +1517,8 @@
       "end": 610,
       "complete": true,
       "settled": true,
-      "best_region_id": 16,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 162,
@@ -1673,8 +1643,8 @@
       "end": 676,
       "complete": true,
       "settled": true,
-      "best_region_id": 18,
-      "best_region_count": 1
+      "best_region_id": null,
+      "best_region_count": 0
     },
     {
       "id": 176,
@@ -1717,18 +1687,18 @@
       "start": 694,
       "end": 694,
       "complete": true,
-      "settled": false,
+      "settled": true,
       "best_region_id": null,
-      "best_region_count": null
+      "best_region_count": 0
     },
     {
       "id": 181,
       "start": 696,
       "end": 696,
       "complete": true,
-      "settled": false,
+      "settled": true,
       "best_region_id": null,
-      "best_region_count": null
+      "best_region_count": 0
     }
   ]
 }

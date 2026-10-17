@@ -32,3 +32,9 @@
 [最新报告](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles/report.html?version=v10) · [v9存档](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles-v9/report.html) · [v8存档](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles-v8/report.html)
 
 完整红区与完整火苗首尾偏移分别≤5根，双方唯一最优互选后形成区块，只比较相邻区块。保留先大后小、价格创新高、红区面积减小及中间全蓝K，无峰值门槛。52组原归档120874根K线独立复核，7个符合点，展示第一蓝K前后各50根。106项测试通过。未更新行情到今天；生产后端未部署。
+
+## V3 v11 火苗60%动态偏移
+
+[最新报告](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles/report.html?version=v11) · [v10存档](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles-v10/report.html)
+
+每个完整火苗允许偏移=ceil(火苗K线数量×60%)，首尾分别检查，大小火苗独立计算；5根火苗允许3根偏移。其余完整红区、双向唯一最优互选、相邻区块比较、价格面积及中间全蓝K规则保持。52组原归档120874根K线独立复核，6个符合点，前后各50根；108项测试通过。生产后端未部署。

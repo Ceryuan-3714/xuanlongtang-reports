@@ -1,18 +1,19 @@
 {
-  "one_to_one_regions_in_period": 959,
+  "one_to_one_regions_in_period": 601,
   "pending_flames_in_period": 0,
   "open_red_region_groups_in_period": 0,
   "complete_regions_in_period": 1355,
-  "unique_regions_in_period": 965,
-  "ambiguous_regions_in_period": 38,
+  "unique_regions_in_period": 601,
+  "ambiguous_regions_in_period": 0,
   "pending_regions_in_period": 0,
   "parameters": {
     "b_strength": 0.2,
     "warmup_bars": 150,
     "formula_version": "s10103-v1",
     "area_version": "full-crossing-linear-v2",
-    "separation_version": "complete-endpoint5-mutual-adjacent-no-peak-v10",
-    "correspondence_bars": 5,
+    "separation_version": "complete-endpoint60pct-mutual-adjacent-no-peak-v11",
+    "correspondence_ratio": 0.6,
+    "correspondence_rounding": "ceil",
     "candle_gap_rule": "all_blue",
     "correspondence_policy": "mutual_unique_minimum_endpoint_offsets",
     "block_pairing_policy": "adjacent_corresponding_blocks",
@@ -43,24 +44,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.72,
+      "seconds": 0.62,
       "complete_regions_in_period": 49,
-      "one_to_one_regions_in_period": 35,
-      "unique_regions_in_period": 36,
+      "one_to_one_regions_in_period": 22,
+      "unique_regions_in_period": 22,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1214,
+        "flame_no_matching_complete_region": 1390,
         "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 131,
-        "adjacent_price_not_higher": 26,
-        "adjacent_flame_not_smaller": 85,
-        "intervening_not_all_blue": 17,
-        "A_red_not_smaller": 4,
-        "red_region_tied_best_flames": 2,
-        "A_new_red_before_blue": 1
+        "adjacent_flame_not_smaller": 56,
+        "adjacent_price_not_higher": 19,
+        "intervening_not_all_blue": 11,
+        "A_red_not_smaller": 3
       }
     },
     {
@@ -77,7 +75,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.07,
+      "seconds": 0.04,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
@@ -86,12 +84,11 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 134,
-        "correspondence_not_reciprocal": 16,
+        "flame_no_matching_complete_region": 159,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 12,
-        "intervening_not_all_blue": 2,
-        "adjacent_price_not_higher": 4,
+        "adjacent_flame_not_smaller": 6,
+        "adjacent_price_not_higher": 3,
+        "intervening_not_all_blue": 1,
         "A_red_not_smaller": 1
       }
     },
@@ -115,7 +112,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.04,
+      "seconds": 0.02,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
@@ -124,8 +121,7 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 77,
-        "correspondence_not_reciprocal": 6,
+        "flame_no_matching_complete_region": 84,
         "no_previous_corresponding_block": 1,
         "A_red_not_smaller": 1,
         "adjacent_flame_not_smaller": 2,
@@ -143,8 +139,8 @@
       "period_bars": 832,
       "days": 104,
       "warmup": 400,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-07-23",
@@ -152,21 +148,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.12,
+      "seconds": 0.09,
       "complete_regions_in_period": 26,
-      "one_to_one_regions_in_period": 19,
-      "unique_regions_in_period": 19,
+      "one_to_one_regions_in_period": 17,
+      "unique_regions_in_period": 17,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 318,
-        "correspondence_not_reciprocal": 16,
+        "flame_no_matching_complete_region": 338,
         "no_previous_corresponding_block": 1,
         "adjacent_flame_not_smaller": 12,
-        "adjacent_price_not_higher": 4,
-        "intervening_not_all_blue": 2
+        "adjacent_price_not_higher": 3,
+        "intervening_not_all_blue": 1
       }
     },
     {
@@ -189,20 +184,19 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.07,
+      "seconds": 0.05,
       "complete_regions_in_period": 15,
-      "one_to_one_regions_in_period": 10,
-      "unique_regions_in_period": 10,
+      "one_to_one_regions_in_period": 8,
+      "unique_regions_in_period": 8,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 168,
-        "correspondence_not_reciprocal": 6,
+        "flame_no_matching_complete_region": 178,
         "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 4,
-        "adjacent_flame_not_smaller": 5,
+        "adjacent_price_not_higher": 3,
+        "adjacent_flame_not_smaller": 3,
         "A_red_not_smaller": 1
       }
     },
@@ -220,21 +214,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.25,
+      "seconds": 0.22,
       "complete_regions_in_period": 20,
-      "one_to_one_regions_in_period": 16,
-      "unique_regions_in_period": 16,
+      "one_to_one_regions_in_period": 11,
+      "unique_regions_in_period": 11,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 417,
+        "flame_no_matching_complete_region": 480,
         "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 42,
-        "adjacent_flame_not_smaller": 31,
-        "adjacent_price_not_higher": 7,
-        "intervening_not_all_blue": 13
+        "adjacent_flame_not_smaller": 19,
+        "adjacent_price_not_higher": 6,
+        "intervening_not_all_blue": 6
       }
     },
     {
@@ -251,22 +244,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08,
+      "seconds": 0.07,
       "complete_regions_in_period": 9,
-      "one_to_one_regions_in_period": 7,
-      "unique_regions_in_period": 7,
-      "ambiguous_regions_in_period": 1,
+      "one_to_one_regions_in_period": 8,
+      "unique_regions_in_period": 8,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 138,
-        "correspondence_not_reciprocal": 15,
+        "flame_no_matching_complete_region": 154,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 9,
-        "intervening_not_all_blue": 4,
-        "adjacent_price_not_higher": 3,
-        "red_region_tied_best_flames": 1
+        "adjacent_flame_not_smaller": 10,
+        "intervening_not_all_blue": 5,
+        "adjacent_price_not_higher": 2
       }
     },
     {
@@ -283,25 +274,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 1.11,
+      "seconds": 0.93,
       "complete_regions_in_period": 77,
-      "one_to_one_regions_in_period": 59,
-      "unique_regions_in_period": 59,
+      "one_to_one_regions_in_period": 38,
+      "unique_regions_in_period": 38,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1615,
+        "flame_no_matching_complete_region": 1849,
         "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 36,
-        "correspondence_not_reciprocal": 180,
-        "adjacent_flame_not_smaller": 101,
-        "red_region_tied_best_flames": 8,
-        "intervening_not_all_blue": 26,
-        "A_new_red_before_blue": 5,
-        "A_red_not_smaller": 1,
-        "flame_tied_best_regions": 1
+        "adjacent_price_not_higher": 30,
+        "adjacent_flame_not_smaller": 63,
+        "intervening_not_all_blue": 20,
+        "A_new_red_before_blue": 4
       }
     },
     {
@@ -327,11 +314,10 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 151,
-        "correspondence_not_reciprocal": 10,
+        "flame_no_matching_complete_region": 163,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 5,
-        "intervening_not_all_blue": 2
+        "adjacent_flame_not_smaller": 4,
+        "intervening_not_all_blue": 1
       }
     },
     {
@@ -350,19 +336,17 @@
       "warnings": [],
       "seconds": 0.05,
       "complete_regions_in_period": 6,
-      "one_to_one_regions_in_period": 4,
-      "unique_regions_in_period": 4,
+      "one_to_one_regions_in_period": 2,
+      "unique_regions_in_period": 2,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 157,
+        "flame_no_matching_complete_region": 177,
         "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 13,
-        "adjacent_flame_not_smaller": 8,
-        "adjacent_price_not_higher": 1,
-        "intervening_not_all_blue": 2
+        "intervening_not_all_blue": 2,
+        "adjacent_flame_not_smaller": 3
       }
     },
     {
@@ -379,22 +363,20 @@
       "passed": 1,
       "verified_passed": 1,
       "warnings": [],
-      "seconds": 0.25,
+      "seconds": 0.16,
       "complete_regions_in_period": 39,
-      "one_to_one_regions_in_period": 25,
-      "unique_regions_in_period": 25,
-      "ambiguous_regions_in_period": 4,
+      "one_to_one_regions_in_period": 17,
+      "unique_regions_in_period": 17,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 458,
-        "correspondence_not_reciprocal": 45,
+        "flame_no_matching_complete_region": 517,
         "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 9,
-        "adjacent_flame_not_smaller": 23,
-        "intervening_not_all_blue": 4,
-        "red_region_tied_best_flames": 4,
+        "adjacent_price_not_higher": 5,
+        "adjacent_flame_not_smaller": 15,
+        "intervening_not_all_blue": 3,
         "A_red_not_smaller": 1
       }
     },
@@ -412,23 +394,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.15,
+      "seconds": 0.09,
       "complete_regions_in_period": 22,
-      "one_to_one_regions_in_period": 16,
-      "unique_regions_in_period": 16,
+      "one_to_one_regions_in_period": 10,
+      "unique_regions_in_period": 10,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 319,
-        "red_region_tied_best_flames": 1,
-        "correspondence_not_reciprocal": 25,
+        "flame_no_matching_complete_region": 355,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 17,
-        "intervening_not_all_blue": 8,
-        "adjacent_price_not_higher": 1,
-        "A_new_red_before_blue": 1
+        "adjacent_flame_not_smaller": 11,
+        "intervening_not_all_blue": 5,
+        "adjacent_price_not_higher": 2
       }
     },
     {
@@ -445,23 +424,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 1.02,
+      "seconds": 1.06,
       "complete_regions_in_period": 72,
-      "one_to_one_regions_in_period": 51,
-      "unique_regions_in_period": 51,
+      "one_to_one_regions_in_period": 25,
+      "unique_regions_in_period": 25,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1682,
-        "correspondence_not_reciprocal": 115,
+        "flame_no_matching_complete_region": 1860,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 82,
-        "adjacent_price_not_higher": 36,
-        "intervening_not_all_blue": 16,
-        "red_region_tied_best_flames": 2,
-        "A_new_red_before_blue": 2
+        "adjacent_price_not_higher": 23,
+        "adjacent_flame_not_smaller": 46,
+        "intervening_not_all_blue": 6
       }
     },
     {
@@ -478,23 +454,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.06,
+      "seconds": 0.05,
       "complete_regions_in_period": 1,
-      "one_to_one_regions_in_period": 1,
-      "unique_regions_in_period": 1,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 156,
+        "flame_no_matching_complete_region": 176,
         "no_previous_corresponding_block": 1,
-        "A_red_not_smaller": 1,
-        "correspondence_not_reciprocal": 12,
         "intervening_not_all_blue": 2,
-        "adjacent_price_not_higher": 3,
-        "adjacent_flame_not_smaller": 6,
-        "red_region_tied_best_flames": 1
+        "adjacent_price_not_higher": 1,
+        "adjacent_flame_not_smaller": 2
       }
     },
     {
@@ -511,21 +484,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.06,
+      "seconds": 0.05,
       "complete_regions_in_period": 8,
-      "one_to_one_regions_in_period": 8,
-      "unique_regions_in_period": 8,
+      "one_to_one_regions_in_period": 6,
+      "unique_regions_in_period": 6,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 144,
-        "correspondence_not_reciprocal": 9,
+        "flame_no_matching_complete_region": 158,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 8,
         "intervening_not_all_blue": 1,
-        "adjacent_price_not_higher": 4
+        "adjacent_flame_not_smaller": 5,
+        "adjacent_price_not_higher": 2
       }
     },
     {
@@ -542,22 +514,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.19,
+      "seconds": 0.27,
       "complete_regions_in_period": 39,
-      "one_to_one_regions_in_period": 28,
-      "unique_regions_in_period": 28,
-      "ambiguous_regions_in_period": 2,
+      "one_to_one_regions_in_period": 16,
+      "unique_regions_in_period": 16,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 449,
-        "correspondence_not_reciprocal": 37,
+        "flame_no_matching_complete_region": 507,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 26,
-        "adjacent_price_not_higher": 11,
-        "red_region_tied_best_flames": 2,
-        "intervening_not_all_blue": 4
+        "adjacent_flame_not_smaller": 14,
+        "adjacent_price_not_higher": 5,
+        "intervening_not_all_blue": 2
       }
     },
     {
@@ -574,21 +544,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.12,
+      "seconds": 0.13,
       "complete_regions_in_period": 16,
-      "one_to_one_regions_in_period": 11,
-      "unique_regions_in_period": 11,
+      "one_to_one_regions_in_period": 6,
+      "unique_regions_in_period": 6,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 310,
-        "correspondence_not_reciprocal": 26,
+        "flame_no_matching_complete_region": 347,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 14,
-        "intervening_not_all_blue": 2,
-        "adjacent_price_not_higher": 8
+        "adjacent_flame_not_smaller": 7,
+        "intervening_not_all_blue": 1,
+        "adjacent_price_not_higher": 6,
+        "A_new_red_before_blue": 1
       }
     },
     {
@@ -605,25 +575,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 1.1,
+      "seconds": 1.2,
       "complete_regions_in_period": 92,
-      "one_to_one_regions_in_period": 72,
-      "unique_regions_in_period": 72,
-      "ambiguous_regions_in_period": 3,
+      "one_to_one_regions_in_period": 45,
+      "unique_regions_in_period": 45,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1590,
+        "flame_no_matching_complete_region": 1861,
         "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 189,
-        "adjacent_flame_not_smaller": 125,
-        "adjacent_price_not_higher": 38,
-        "intervening_not_all_blue": 24,
-        "A_red_not_smaller": 4,
-        "red_region_tied_best_flames": 6,
-        "A_new_red_before_blue": 5,
-        "flame_tied_best_regions": 1
+        "adjacent_price_not_higher": 26,
+        "adjacent_flame_not_smaller": 72,
+        "intervening_not_all_blue": 17,
+        "A_new_red_before_blue": 1
       }
     },
     {
@@ -642,18 +608,16 @@
       "warnings": [],
       "seconds": 0.06,
       "complete_regions_in_period": 1,
-      "one_to_one_regions_in_period": 1,
-      "unique_regions_in_period": 1,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 153,
+        "flame_no_matching_complete_region": 168,
         "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 8,
-        "intervening_not_all_blue": 4,
-        "adjacent_flame_not_smaller": 6,
+        "adjacent_flame_not_smaller": 4,
         "adjacent_price_not_higher": 1
       }
     },
@@ -671,22 +635,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.05,
+      "seconds": 0.06,
       "complete_regions_in_period": 3,
-      "one_to_one_regions_in_period": 2,
-      "unique_regions_in_period": 2,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 156,
+        "flame_no_matching_complete_region": 173,
         "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 12,
-        "intervening_not_all_blue": 2,
-        "adjacent_flame_not_smaller": 4,
+        "adjacent_flame_not_smaller": 1,
         "adjacent_price_not_higher": 1,
-        "red_region_tied_best_flames": 1
+        "intervening_not_all_blue": 1
       }
     },
     {
@@ -703,22 +665,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.19,
+      "seconds": 0.21,
       "complete_regions_in_period": 40,
-      "one_to_one_regions_in_period": 22,
-      "unique_regions_in_period": 23,
-      "ambiguous_regions_in_period": 4,
+      "one_to_one_regions_in_period": 13,
+      "unique_regions_in_period": 13,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 431,
-        "correspondence_not_reciprocal": 63,
+        "flame_no_matching_complete_region": 514,
         "no_previous_corresponding_block": 1,
         "adjacent_price_not_higher": 5,
-        "adjacent_flame_not_smaller": 34,
-        "intervening_not_all_blue": 6,
-        "red_region_tied_best_flames": 4
+        "adjacent_flame_not_smaller": 21,
+        "intervening_not_all_blue": 1
       }
     },
     {
@@ -735,21 +695,19 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.12,
+      "seconds": 0.14,
       "complete_regions_in_period": 24,
-      "one_to_one_regions_in_period": 19,
-      "unique_regions_in_period": 19,
+      "one_to_one_regions_in_period": 7,
+      "unique_regions_in_period": 7,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 297,
-        "correspondence_not_reciprocal": 28,
+        "flame_no_matching_complete_region": 340,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 19,
-        "adjacent_price_not_higher": 9,
-        "intervening_not_all_blue": 2
+        "adjacent_flame_not_smaller": 11,
+        "adjacent_price_not_higher": 6
       }
     },
     {
@@ -772,25 +730,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.61,
+      "seconds": 0.66,
       "complete_regions_in_period": 54,
-      "one_to_one_regions_in_period": 39,
-      "unique_regions_in_period": 39,
-      "ambiguous_regions_in_period": 1,
+      "one_to_one_regions_in_period": 30,
+      "unique_regions_in_period": 30,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1216,
+        "flame_no_matching_complete_region": 1346,
         "no_previous_corresponding_block": 1,
-        "red_region_tied_best_flames": 5,
-        "correspondence_not_reciprocal": 97,
-        "intervening_not_all_blue": 19,
-        "adjacent_flame_not_smaller": 57,
-        "adjacent_price_not_higher": 17,
-        "flame_tied_best_regions": 1,
-        "A_new_red_before_blue": 4,
-        "A_red_not_smaller": 1
+        "adjacent_flame_not_smaller": 38,
+        "adjacent_price_not_higher": 14,
+        "intervening_not_all_blue": 15
       }
     },
     {
@@ -807,7 +760,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08,
+      "seconds": 0.06,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
@@ -816,13 +769,11 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 165,
-        "correspondence_not_reciprocal": 11,
+        "flame_no_matching_complete_region": 181,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 7,
+        "adjacent_flame_not_smaller": 5,
         "intervening_not_all_blue": 1,
-        "A_red_not_smaller": 1,
-        "adjacent_price_not_higher": 1
+        "A_red_not_smaller": 1
       }
     },
     {
@@ -845,7 +796,7 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.04,
+      "seconds": 0.03,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
@@ -854,12 +805,9 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 94,
+        "flame_no_matching_complete_region": 101,
         "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 3,
-        "adjacent_flame_not_smaller": 1,
-        "A_red_not_smaller": 1,
-        "adjacent_price_not_higher": 1
+        "A_red_not_smaller": 1
       }
     },
     {
@@ -882,22 +830,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.13,
+      "seconds": 0.14,
       "complete_regions_in_period": 28,
-      "one_to_one_regions_in_period": 22,
-      "unique_regions_in_period": 22,
-      "ambiguous_regions_in_period": 1,
+      "one_to_one_regions_in_period": 11,
+      "unique_regions_in_period": 11,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 293,
+        "flame_no_matching_complete_region": 326,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 15,
-        "adjacent_price_not_higher": 6,
-        "correspondence_not_reciprocal": 18,
-        "intervening_not_all_blue": 4,
-        "red_region_tied_best_flames": 1
+        "adjacent_flame_not_smaller": 8,
+        "intervening_not_all_blue": 3,
+        "adjacent_price_not_higher": 1
       }
     },
     {
@@ -920,21 +866,19 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.08,
+      "seconds": 0.07,
       "complete_regions_in_period": 13,
-      "one_to_one_regions_in_period": 11,
-      "unique_regions_in_period": 11,
+      "one_to_one_regions_in_period": 8,
+      "unique_regions_in_period": 8,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 142,
+        "flame_no_matching_complete_region": 157,
         "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 12,
-        "adjacent_price_not_higher": 2,
-        "adjacent_flame_not_smaller": 7,
-        "intervening_not_all_blue": 3
+        "adjacent_price_not_higher": 3,
+        "adjacent_flame_not_smaller": 6
       }
     },
     {
@@ -962,23 +906,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 1.04,
+      "seconds": 1.21,
       "complete_regions_in_period": 75,
-      "one_to_one_regions_in_period": 52,
-      "unique_regions_in_period": 52,
-      "ambiguous_regions_in_period": 4,
+      "one_to_one_regions_in_period": 28,
+      "unique_regions_in_period": 28,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1596,
+        "flame_no_matching_complete_region": 1839,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 113,
-        "correspondence_not_reciprocal": 171,
-        "intervening_not_all_blue": 19,
-        "adjacent_price_not_higher": 42,
-        "A_new_red_before_blue": 5,
-        "red_region_tied_best_flames": 9,
+        "adjacent_flame_not_smaller": 71,
+        "adjacent_price_not_higher": 30,
+        "intervening_not_all_blue": 8,
         "A_red_not_smaller": 1
       }
     },
@@ -996,22 +937,19 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.06,
+      "seconds": 0.1,
       "complete_regions_in_period": 2,
       "one_to_one_regions_in_period": 1,
       "unique_regions_in_period": 1,
-      "ambiguous_regions_in_period": 1,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 154,
-        "correspondence_not_reciprocal": 13,
+        "flame_no_matching_complete_region": 173,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 8,
-        "intervening_not_all_blue": 2,
-        "adjacent_price_not_higher": 1,
-        "red_region_tied_best_flames": 1
+        "adjacent_flame_not_smaller": 5,
+        "adjacent_price_not_higher": 1
       }
     },
     {
@@ -1039,21 +977,18 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.05,
+      "seconds": 0.09,
       "complete_regions_in_period": 3,
-      "one_to_one_regions_in_period": 1,
-      "unique_regions_in_period": 1,
-      "ambiguous_regions_in_period": 1,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 162,
+        "flame_no_matching_complete_region": 168,
         "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 4,
-        "intervening_not_all_blue": 1,
-        "red_region_tied_best_flames": 1,
-        "adjacent_flame_not_smaller": 1
+        "intervening_not_all_blue": 1
       }
     },
     {
@@ -1081,23 +1016,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.19,
+      "seconds": 0.22,
       "complete_regions_in_period": 34,
-      "one_to_one_regions_in_period": 25,
-      "unique_regions_in_period": 25,
+      "one_to_one_regions_in_period": 15,
+      "unique_regions_in_period": 15,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 457,
-        "correspondence_not_reciprocal": 30,
+        "flame_no_matching_complete_region": 501,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 23,
-        "intervening_not_all_blue": 7,
-        "adjacent_price_not_higher": 8,
-        "A_new_red_before_blue": 1,
-        "red_region_tied_best_flames": 1
+        "adjacent_flame_not_smaller": 14,
+        "intervening_not_all_blue": 5,
+        "adjacent_price_not_higher": 6,
+        "A_new_red_before_blue": 1
       }
     },
     {
@@ -1125,24 +1058,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.12,
+      "seconds": 0.16,
       "complete_regions_in_period": 16,
-      "one_to_one_regions_in_period": 13,
-      "unique_regions_in_period": 13,
-      "ambiguous_regions_in_period": 1,
+      "one_to_one_regions_in_period": 9,
+      "unique_regions_in_period": 9,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 275,
-        "correspondence_not_reciprocal": 39,
+        "flame_no_matching_complete_region": 323,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 17,
-        "flame_tied_best_regions": 2,
-        "intervening_not_all_blue": 8,
-        "adjacent_price_not_higher": 4,
-        "red_region_tied_best_flames": 2,
-        "A_new_red_before_blue": 2
+        "adjacent_flame_not_smaller": 13,
+        "intervening_not_all_blue": 5,
+        "adjacent_price_not_higher": 5,
+        "A_new_red_before_blue": 1
       }
     },
     {
@@ -1159,24 +1089,22 @@
       "passed": 1,
       "verified_passed": 1,
       "warnings": [],
-      "seconds": 1.02,
+      "seconds": 1.16,
       "complete_regions_in_period": 79,
-      "one_to_one_regions_in_period": 55,
-      "unique_regions_in_period": 56,
-      "ambiguous_regions_in_period": 1,
+      "one_to_one_regions_in_period": 35,
+      "unique_regions_in_period": 35,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1624,
-        "correspondence_not_reciprocal": 179,
+        "flame_no_matching_complete_region": 1866,
         "no_previous_corresponding_block": 1,
-        "intervening_not_all_blue": 29,
-        "adjacent_flame_not_smaller": 109,
-        "A_new_red_before_blue": 4,
-        "adjacent_price_not_higher": 32,
-        "A_red_not_smaller": 1,
-        "red_region_tied_best_flames": 5
+        "adjacent_flame_not_smaller": 67,
+        "intervening_not_all_blue": 21,
+        "adjacent_price_not_higher": 22,
+        "correspondence_not_reciprocal": 2,
+        "A_red_not_smaller": 1
       }
     },
     {
@@ -1202,13 +1130,11 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 151,
-        "correspondence_not_reciprocal": 13,
+        "flame_no_matching_complete_region": 171,
         "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 4,
-        "red_region_tied_best_flames": 1,
-        "adjacent_flame_not_smaller": 7,
-        "intervening_not_all_blue": 3
+        "adjacent_price_not_higher": 2,
+        "adjacent_flame_not_smaller": 5,
+        "intervening_not_all_blue": 2
       }
     },
     {
@@ -1227,18 +1153,17 @@
       "warnings": [],
       "seconds": 0.06,
       "complete_regions_in_period": 7,
-      "one_to_one_regions_in_period": 6,
-      "unique_regions_in_period": 6,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 136,
-        "correspondence_not_reciprocal": 10,
+        "flame_no_matching_complete_region": 155,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 7,
-        "intervening_not_all_blue": 3
+        "adjacent_flame_not_smaller": 1,
+        "intervening_not_all_blue": 1
       }
     },
     {
@@ -1255,22 +1180,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.21,
+      "seconds": 0.23,
       "complete_regions_in_period": 46,
-      "one_to_one_regions_in_period": 31,
-      "unique_regions_in_period": 31,
-      "ambiguous_regions_in_period": 2,
+      "one_to_one_regions_in_period": 18,
+      "unique_regions_in_period": 18,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 450,
+        "flame_no_matching_complete_region": 510,
         "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 44,
-        "adjacent_flame_not_smaller": 25,
-        "intervening_not_all_blue": 10,
-        "adjacent_price_not_higher": 4,
-        "red_region_tied_best_flames": 2
+        "correspondence_not_reciprocal": 2,
+        "adjacent_flame_not_smaller": 15,
+        "intervening_not_all_blue": 6,
+        "adjacent_price_not_higher": 1
       }
     },
     {
@@ -1289,21 +1213,19 @@
       "warnings": [],
       "seconds": 0.14,
       "complete_regions_in_period": 19,
-      "one_to_one_regions_in_period": 11,
-      "unique_regions_in_period": 11,
-      "ambiguous_regions_in_period": 1,
+      "one_to_one_regions_in_period": 9,
+      "unique_regions_in_period": 9,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 303,
-        "correspondence_not_reciprocal": 26,
+        "flame_no_matching_complete_region": 340,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 16,
-        "intervening_not_all_blue": 5,
-        "adjacent_price_not_higher": 3,
-        "A_red_not_smaller": 2,
-        "red_region_tied_best_flames": 1
+        "adjacent_flame_not_smaller": 10,
+        "intervening_not_all_blue": 4,
+        "adjacent_price_not_higher": 1,
+        "A_red_not_smaller": 1
       }
     },
     {
@@ -1326,24 +1248,22 @@
           "ohlc": false
         }
       ],
-      "seconds": 1.04,
+      "seconds": 1.17,
       "complete_regions_in_period": 74,
-      "one_to_one_regions_in_period": 51,
-      "unique_regions_in_period": 51,
-      "ambiguous_regions_in_period": 3,
+      "one_to_one_regions_in_period": 32,
+      "unique_regions_in_period": 32,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1614,
-        "correspondence_not_reciprocal": 155,
+        "flame_no_matching_complete_region": 1833,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 104,
-        "adjacent_price_not_higher": 42,
-        "red_region_tied_best_flames": 8,
-        "intervening_not_all_blue": 19,
+        "adjacent_flame_not_smaller": 64,
+        "adjacent_price_not_higher": 31,
+        "intervening_not_all_blue": 8,
         "A_red_not_smaller": 1,
-        "A_new_red_before_blue": 3
+        "A_new_red_before_blue": 2
       }
     },
     {
@@ -1360,7 +1280,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.06,
+      "seconds": 0.05,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 1,
       "unique_regions_in_period": 1,
@@ -1369,13 +1289,11 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 143,
+        "flame_no_matching_complete_region": 168,
         "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 19,
-        "adjacent_price_not_higher": 4,
-        "adjacent_flame_not_smaller": 11,
-        "red_region_tied_best_flames": 1,
-        "intervening_not_all_blue": 1
+        "adjacent_flame_not_smaller": 6,
+        "adjacent_price_not_higher": 3,
+        "intervening_not_all_blue": 2
       }
     },
     {
@@ -1398,22 +1316,19 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.06,
+      "seconds": 0.05,
       "complete_regions_in_period": 7,
-      "one_to_one_regions_in_period": 5,
-      "unique_regions_in_period": 5,
-      "ambiguous_regions_in_period": 1,
+      "one_to_one_regions_in_period": 3,
+      "unique_regions_in_period": 3,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 143,
+        "flame_no_matching_complete_region": 156,
         "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 3,
-        "correspondence_not_reciprocal": 9,
-        "adjacent_flame_not_smaller": 5,
-        "intervening_not_all_blue": 1,
-        "red_region_tied_best_flames": 1
+        "adjacent_price_not_higher": 2,
+        "adjacent_flame_not_smaller": 4
       }
     },
     {
@@ -1436,22 +1351,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.2,
+      "seconds": 0.22,
       "complete_regions_in_period": 31,
-      "one_to_one_regions_in_period": 20,
-      "unique_regions_in_period": 21,
+      "one_to_one_regions_in_period": 11,
+      "unique_regions_in_period": 11,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 438,
-        "correspondence_not_reciprocal": 39,
+        "flame_no_matching_complete_region": 494,
         "no_previous_corresponding_block": 1,
-        "intervening_not_all_blue": 7,
-        "adjacent_flame_not_smaller": 24,
-        "adjacent_price_not_higher": 10,
-        "A_new_red_before_blue": 1
+        "adjacent_flame_not_smaller": 13,
+        "adjacent_price_not_higher": 5,
+        "intervening_not_all_blue": 5,
+        "A_new_red_before_blue": 2
       }
     },
     {
@@ -1476,20 +1390,18 @@
       ],
       "seconds": 0.14,
       "complete_regions_in_period": 14,
-      "one_to_one_regions_in_period": 9,
-      "unique_regions_in_period": 9,
+      "one_to_one_regions_in_period": 4,
+      "unique_regions_in_period": 4,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 293,
-        "correspondence_not_reciprocal": 31,
+        "flame_no_matching_complete_region": 340,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 20,
-        "adjacent_price_not_higher": 6,
-        "intervening_not_all_blue": 6,
-        "red_region_tied_best_flames": 1
+        "adjacent_price_not_higher": 4,
+        "adjacent_flame_not_smaller": 10,
+        "intervening_not_all_blue": 2
       }
     },
     {
@@ -1506,24 +1418,22 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 1.18,
+      "seconds": 1.07,
       "complete_regions_in_period": 66,
-      "one_to_one_regions_in_period": 45,
-      "unique_regions_in_period": 45,
-      "ambiguous_regions_in_period": 1,
+      "one_to_one_regions_in_period": 30,
+      "unique_regions_in_period": 30,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1675,
+        "flame_no_matching_complete_region": 1879,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 95,
-        "red_region_tied_best_flames": 5,
-        "correspondence_not_reciprocal": 154,
-        "adjacent_price_not_higher": 32,
-        "intervening_not_all_blue": 22,
-        "A_red_not_smaller": 1,
-        "flame_tied_best_regions": 1
+        "adjacent_flame_not_smaller": 67,
+        "adjacent_price_not_higher": 21,
+        "intervening_not_all_blue": 11,
+        "correspondence_not_reciprocal": 1,
+        "A_red_not_smaller": 1
       }
     },
     {
@@ -1542,20 +1452,17 @@
       "warnings": [],
       "seconds": 0.06,
       "complete_regions_in_period": 2,
-      "one_to_one_regions_in_period": 2,
-      "unique_regions_in_period": 2,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 148,
+        "flame_no_matching_complete_region": 164,
         "no_previous_corresponding_block": 1,
-        "correspondence_not_reciprocal": 10,
-        "adjacent_price_not_higher": 2,
-        "adjacent_flame_not_smaller": 4,
-        "intervening_not_all_blue": 3,
-        "red_region_tied_best_flames": 1
+        "adjacent_flame_not_smaller": 3,
+        "adjacent_price_not_higher": 1
       }
     },
     {
@@ -1574,19 +1481,18 @@
       "warnings": [],
       "seconds": 0.06,
       "complete_regions_in_period": 5,
-      "one_to_one_regions_in_period": 2,
-      "unique_regions_in_period": 2,
-      "ambiguous_regions_in_period": 1,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 145,
+        "flame_no_matching_complete_region": 155,
         "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 4,
-        "adjacent_flame_not_smaller": 3,
-        "correspondence_not_reciprocal": 6,
-        "red_region_tied_best_flames": 1
+        "A_new_red_before_blue": 1,
+        "adjacent_flame_not_smaller": 1,
+        "adjacent_price_not_higher": 1
       }
     },
     {
@@ -1603,23 +1509,21 @@
       "passed": 1,
       "verified_passed": 1,
       "warnings": [],
-      "seconds": 0.2,
+      "seconds": 0.23,
       "complete_regions_in_period": 39,
-      "one_to_one_regions_in_period": 25,
-      "unique_regions_in_period": 26,
-      "ambiguous_regions_in_period": 2,
+      "one_to_one_regions_in_period": 17,
+      "unique_regions_in_period": 17,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 444,
+        "flame_no_matching_complete_region": 513,
         "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 9,
-        "correspondence_not_reciprocal": 55,
-        "adjacent_flame_not_smaller": 28,
-        "A_new_red_before_blue": 2,
-        "intervening_not_all_blue": 4,
-        "red_region_tied_best_flames": 2
+        "adjacent_price_not_higher": 7,
+        "adjacent_flame_not_smaller": 19,
+        "intervening_not_all_blue": 3,
+        "A_new_red_before_blue": 1
       }
     },
     {
@@ -1638,19 +1542,17 @@
       "warnings": [],
       "seconds": 0.15,
       "complete_regions_in_period": 21,
-      "one_to_one_regions_in_period": 13,
-      "unique_regions_in_period": 13,
+      "one_to_one_regions_in_period": 9,
+      "unique_regions_in_period": 9,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 302,
-        "correspondence_not_reciprocal": 36,
+        "flame_no_matching_complete_region": 349,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 16,
-        "adjacent_price_not_higher": 3,
-        "intervening_not_all_blue": 5
+        "adjacent_flame_not_smaller": 10,
+        "intervening_not_all_blue": 4
       }
     },
     {
@@ -1683,24 +1585,22 @@
           "ohlc": false
         }
       ],
-      "seconds": 1.06,
+      "seconds": 1.1,
       "complete_regions_in_period": 80,
-      "one_to_one_regions_in_period": 59,
-      "unique_regions_in_period": 60,
+      "one_to_one_regions_in_period": 34,
+      "unique_regions_in_period": 34,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 1635,
-        "correspondence_not_reciprocal": 129,
+        "flame_no_matching_complete_region": 1834,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 109,
-        "adjacent_price_not_higher": 38,
-        "red_region_tied_best_flames": 5,
-        "A_new_red_before_blue": 6,
-        "intervening_not_all_blue": 22,
-        "A_red_not_smaller": 2
+        "adjacent_price_not_higher": 24,
+        "adjacent_flame_not_smaller": 68,
+        "intervening_not_all_blue": 13,
+        "A_new_red_before_blue": 1,
+        "A_red_not_smaller": 1
       }
     },
     {
@@ -1717,7 +1617,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.07,
+      "seconds": 0.06,
       "complete_regions_in_period": 0,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
@@ -1726,13 +1626,10 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 153,
-        "correspondence_not_reciprocal": 12,
+        "flame_no_matching_complete_region": 171,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 5,
-        "adjacent_price_not_higher": 1,
-        "red_region_tied_best_flames": 2,
-        "intervening_not_all_blue": 2
+        "adjacent_flame_not_smaller": 3,
+        "adjacent_price_not_higher": 1
       }
     },
     {
@@ -1765,21 +1662,19 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.08,
+      "seconds": 0.06,
       "complete_regions_in_period": 6,
-      "one_to_one_regions_in_period": 6,
-      "unique_regions_in_period": 6,
+      "one_to_one_regions_in_period": 5,
+      "unique_regions_in_period": 5,
       "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 135,
-        "correspondence_not_reciprocal": 12,
+        "flame_no_matching_complete_region": 153,
         "no_previous_corresponding_block": 1,
-        "adjacent_flame_not_smaller": 7,
-        "intervening_not_all_blue": 1,
-        "adjacent_price_not_higher": 4
+        "adjacent_price_not_higher": 3,
+        "adjacent_flame_not_smaller": 4
       }
     },
     {
@@ -1812,24 +1707,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.31,
+      "seconds": 0.2,
       "complete_regions_in_period": 40,
-      "one_to_one_regions_in_period": 26,
-      "unique_regions_in_period": 26,
-      "ambiguous_regions_in_period": 2,
+      "one_to_one_regions_in_period": 17,
+      "unique_regions_in_period": 17,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 432,
-        "correspondence_not_reciprocal": 45,
+        "flame_no_matching_complete_region": 490,
         "no_previous_corresponding_block": 1,
-        "adjacent_price_not_higher": 7,
-        "adjacent_flame_not_smaller": 26,
-        "intervening_not_all_blue": 8,
-        "red_region_tied_best_flames": 2,
-        "A_new_red_before_blue": 1,
-        "flame_tied_best_regions": 1
+        "adjacent_flame_not_smaller": 21,
+        "intervening_not_all_blue": 4,
+        "adjacent_price_not_higher": 5,
+        "A_new_red_before_blue": 1
       }
     },
     {
@@ -1862,30 +1754,28 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.21,
+      "seconds": 0.13,
       "complete_regions_in_period": 22,
-      "one_to_one_regions_in_period": 16,
-      "unique_regions_in_period": 16,
-      "ambiguous_regions_in_period": 1,
+      "one_to_one_regions_in_period": 13,
+      "unique_regions_in_period": 13,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_matching_complete_region": 309,
-        "correspondence_not_reciprocal": 21,
+        "flame_no_matching_complete_region": 337,
         "no_previous_corresponding_block": 1,
         "adjacent_price_not_higher": 4,
-        "adjacent_flame_not_smaller": 13,
-        "red_region_tied_best_flames": 2,
-        "intervening_not_all_blue": 3
+        "adjacent_flame_not_smaller": 10,
+        "intervening_not_all_blue": 1
       }
     }
   ],
-  "passed": 7,
-  "verified_passed": 7,
-  "native_passed": 7,
+  "passed": 6,
+  "verified_passed": 6,
+  "native_passed": 6,
   "derived_passed": 0,
-  "native_verified": 7,
+  "native_verified": 6,
   "derived_verified": 0,
   "data_note": "复用此前全部加权品种归档；按A火苗结束交易日筛选，确认日期另列；不重新抓行情"
 }

@@ -1,17 +1,17 @@
 {
   "groups": 52,
-  "independent_algorithm_passed": 7,
-  "verified_passed": 7,
+  "independent_algorithm_passed": 6,
+  "verified_passed": 6,
   "full_history_bars": 120874,
   "complete_regions_in_period": 1355,
-  "matched_blocks_full_history": 2520,
+  "matched_blocks_full_history": 1604,
   "groups_verified": [
     {
       "symbol": "APL9",
       "interval": "15m",
       "bars": 5600,
       "regions": 49,
-      "blocks": 137,
+      "blocks": 93,
       "passed": 0
     },
     {
@@ -19,7 +19,7 @@
       "interval": "1d",
       "bars": 700,
       "regions": 1,
-      "blocks": 20,
+      "blocks": 12,
       "passed": 0
     },
     {
@@ -35,15 +35,15 @@
       "interval": "30m",
       "bars": 1400,
       "regions": 26,
-      "blocks": 20,
-      "passed": 1
+      "blocks": 17,
+      "passed": 0
     },
     {
       "symbol": "APL9",
       "interval": "60m",
       "bars": 700,
       "regions": 15,
-      "blocks": 11,
+      "blocks": 8,
       "passed": 0
     },
     {
@@ -51,7 +51,7 @@
       "interval": "15m",
       "bars": 2100,
       "regions": 20,
-      "blocks": 52,
+      "blocks": 32,
       "passed": 0
     },
     {
@@ -59,7 +59,7 @@
       "interval": "60m",
       "bars": 700,
       "regions": 9,
-      "blocks": 17,
+      "blocks": 18,
       "passed": 0
     },
     {
@@ -67,7 +67,7 @@
       "interval": "15m",
       "bars": 7700,
       "regions": 77,
-      "blocks": 170,
+      "blocks": 118,
       "passed": 0
     },
     {
@@ -75,7 +75,7 @@
       "interval": "1d",
       "bars": 700,
       "regions": 4,
-      "blocks": 8,
+      "blocks": 6,
       "passed": 0
     },
     {
@@ -83,7 +83,7 @@
       "interval": "240m",
       "bars": 666,
       "regions": 6,
-      "blocks": 12,
+      "blocks": 6,
       "passed": 0
     },
     {
@@ -91,7 +91,7 @@
       "interval": "30m",
       "bars": 2100,
       "regions": 39,
-      "blocks": 39,
+      "blocks": 26,
       "passed": 1
     },
     {
@@ -99,7 +99,7 @@
       "interval": "60m",
       "bars": 1400,
       "regions": 22,
-      "blocks": 28,
+      "blocks": 19,
       "passed": 0
     },
     {
@@ -107,7 +107,7 @@
       "interval": "15m",
       "bars": 7700,
       "regions": 72,
-      "blocks": 137,
+      "blocks": 76,
       "passed": 0
     },
     {
@@ -115,7 +115,7 @@
       "interval": "1d",
       "bars": 700,
       "regions": 1,
-      "blocks": 13,
+      "blocks": 6,
       "passed": 0
     },
     {
@@ -123,7 +123,7 @@
       "interval": "240m",
       "bars": 666,
       "regions": 8,
-      "blocks": 14,
+      "blocks": 9,
       "passed": 0
     },
     {
@@ -131,7 +131,7 @@
       "interval": "30m",
       "bars": 2100,
       "regions": 39,
-      "blocks": 42,
+      "blocks": 22,
       "passed": 0
     },
     {
@@ -139,7 +139,7 @@
       "interval": "60m",
       "bars": 1400,
       "regions": 16,
-      "blocks": 25,
+      "blocks": 16,
       "passed": 0
     },
     {
@@ -147,7 +147,7 @@
       "interval": "15m",
       "bars": 7700,
       "regions": 92,
-      "blocks": 197,
+      "blocks": 117,
       "passed": 0
     },
     {
@@ -155,7 +155,7 @@
       "interval": "1d",
       "bars": 700,
       "regions": 1,
-      "blocks": 12,
+      "blocks": 6,
       "passed": 0
     },
     {
@@ -163,7 +163,7 @@
       "interval": "240m",
       "bars": 666,
       "regions": 3,
-      "blocks": 8,
+      "blocks": 4,
       "passed": 0
     },
     {
@@ -171,7 +171,7 @@
       "interval": "30m",
       "bars": 2100,
       "regions": 40,
-      "blocks": 46,
+      "blocks": 28,
       "passed": 0
     },
     {
@@ -179,7 +179,7 @@
       "interval": "60m",
       "bars": 1400,
       "regions": 24,
-      "blocks": 31,
+      "blocks": 18,
       "passed": 0
     },
     {
@@ -187,7 +187,7 @@
       "interval": "15m",
       "bars": 5600,
       "regions": 54,
-      "blocks": 101,
+      "blocks": 70,
       "passed": 1
     },
     {
@@ -195,7 +195,7 @@
       "interval": "1d",
       "bars": 700,
       "regions": 1,
-      "blocks": 11,
+      "blocks": 8,
       "passed": 0
     },
     {
@@ -203,7 +203,7 @@
       "interval": "240m",
       "bars": 373,
       "regions": 1,
-      "blocks": 4,
+      "blocks": 2,
       "passed": 0
     },
     {
@@ -211,7 +211,7 @@
       "interval": "30m",
       "bars": 1400,
       "regions": 28,
-      "blocks": 27,
+      "blocks": 14,
       "passed": 1
     },
     {
@@ -219,7 +219,7 @@
       "interval": "60m",
       "bars": 700,
       "regions": 13,
-      "blocks": 13,
+      "blocks": 10,
       "passed": 0
     },
     {
@@ -227,7 +227,7 @@
       "interval": "15m",
       "bars": 7700,
       "regions": 75,
-      "blocks": 183,
+      "blocks": 112,
       "passed": 0
     },
     {
@@ -235,7 +235,7 @@
       "interval": "1d",
       "bars": 700,
       "regions": 2,
-      "blocks": 12,
+      "blocks": 7,
       "passed": 0
     },
     {
@@ -243,7 +243,7 @@
       "interval": "240m",
       "bars": 666,
       "regions": 3,
-      "blocks": 3,
+      "blocks": 2,
       "passed": 0
     },
     {
@@ -251,7 +251,7 @@
       "interval": "30m",
       "bars": 2100,
       "regions": 34,
-      "blocks": 40,
+      "blocks": 27,
       "passed": 0
     },
     {
@@ -259,7 +259,7 @@
       "interval": "60m",
       "bars": 1400,
       "regions": 16,
-      "blocks": 32,
+      "blocks": 25,
       "passed": 0
     },
     {
@@ -267,7 +267,7 @@
       "interval": "15m",
       "bars": 7700,
       "regions": 79,
-      "blocks": 178,
+      "blocks": 114,
       "passed": 1
     },
     {
@@ -275,7 +275,7 @@
       "interval": "1d",
       "bars": 700,
       "regions": 4,
-      "blocks": 15,
+      "blocks": 10,
       "passed": 0
     },
     {
@@ -283,7 +283,7 @@
       "interval": "240m",
       "bars": 666,
       "regions": 7,
-      "blocks": 11,
+      "blocks": 3,
       "passed": 0
     },
     {
@@ -291,7 +291,7 @@
       "interval": "30m",
       "bars": 2100,
       "regions": 46,
-      "blocks": 40,
+      "blocks": 23,
       "passed": 0
     },
     {
@@ -299,7 +299,7 @@
       "interval": "60m",
       "bars": 1400,
       "regions": 19,
-      "blocks": 28,
+      "blocks": 18,
       "passed": 0
     },
     {
@@ -307,7 +307,7 @@
       "interval": "15m",
       "bars": 7700,
       "regions": 74,
-      "blocks": 170,
+      "blocks": 107,
       "passed": 0
     },
     {
@@ -315,7 +315,7 @@
       "interval": "1d",
       "bars": 700,
       "regions": 1,
-      "blocks": 17,
+      "blocks": 12,
       "passed": 0
     },
     {
@@ -323,7 +323,7 @@
       "interval": "240m",
       "bars": 666,
       "regions": 7,
-      "blocks": 10,
+      "blocks": 7,
       "passed": 0
     },
     {
@@ -331,7 +331,7 @@
       "interval": "30m",
       "bars": 2100,
       "regions": 31,
-      "blocks": 43,
+      "blocks": 26,
       "passed": 0
     },
     {
@@ -339,7 +339,7 @@
       "interval": "60m",
       "bars": 1400,
       "regions": 14,
-      "blocks": 33,
+      "blocks": 17,
       "passed": 0
     },
     {
@@ -347,7 +347,7 @@
       "interval": "15m",
       "bars": 7700,
       "regions": 66,
-      "blocks": 151,
+      "blocks": 101,
       "passed": 0
     },
     {
@@ -355,7 +355,7 @@
       "interval": "1d",
       "bars": 700,
       "regions": 2,
-      "blocks": 10,
+      "blocks": 5,
       "passed": 0
     },
     {
@@ -363,7 +363,7 @@
       "interval": "240m",
       "bars": 666,
       "regions": 5,
-      "blocks": 8,
+      "blocks": 4,
       "passed": 0
     },
     {
@@ -371,7 +371,7 @@
       "interval": "30m",
       "bars": 2100,
       "regions": 39,
-      "blocks": 45,
+      "blocks": 32,
       "passed": 1
     },
     {
@@ -379,7 +379,7 @@
       "interval": "60m",
       "bars": 1400,
       "regions": 21,
-      "blocks": 25,
+      "blocks": 15,
       "passed": 0
     },
     {
@@ -387,7 +387,7 @@
       "interval": "15m",
       "bars": 7700,
       "regions": 80,
-      "blocks": 178,
+      "blocks": 108,
       "passed": 0
     },
     {
@@ -395,7 +395,7 @@
       "interval": "1d",
       "bars": 700,
       "regions": 0,
-      "blocks": 9,
+      "blocks": 5,
       "passed": 0
     },
     {
@@ -403,7 +403,7 @@
       "interval": "240m",
       "bars": 666,
       "regions": 6,
-      "blocks": 13,
+      "blocks": 8,
       "passed": 0
     },
     {
@@ -411,7 +411,7 @@
       "interval": "30m",
       "bars": 2100,
       "regions": 40,
-      "blocks": 44,
+      "blocks": 33,
       "passed": 0
     },
     {
@@ -419,10 +419,10 @@
       "interval": "60m",
       "bars": 1400,
       "regions": 22,
-      "blocks": 22,
+      "blocks": 17,
       "passed": 1
     }
   ],
-  "method": "不导入检测器：独立重建全部完整红区、交点积分、完整火苗、首尾±5偏移双向最优对应、相邻区块、价格根数面积及第一蓝K；逐点核对偏移、确认和前后50根。",
+  "method": "不导入检测器：独立重建全部完整红区、交点积分、完整火苗、首尾按火苗根数60%向上取整偏移双向最优对应、相邻区块、价格根数面积及第一蓝K；逐点核对偏移、确认和前后50根。",
   "source_note": "复用历史归档，非独立行情源；240分钟为合成参考。"
 }
