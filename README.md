@@ -26,3 +26,9 @@
 [新规则报告](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles/report.html) · [保留的v8旧规则报告](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles-v8/report.html)
 
 2026年10月17日按新规则重算52组原归档。完整红区两侧均有蓝区；区间最近距离≤5根；红区和火苗双向一一对应；取消峰值高低比较。1355段完整红区，1349段因对应多个火苗排除，6段单向唯一，3段双向唯一，最终0个合格配对。98项测试及独立批处理全量复核通过。没有抓取截至今日的新行情，生产后端未部署。
+
+## V3 v10 完整区间偏移对应及相邻区块
+
+[最新报告](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles/report.html?version=v10) · [v9存档](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles-v9/report.html) · [v8存档](https://ceryuan-3714.github.io/xuanlongtang-reports/v3-blue-candles-v8/report.html)
+
+完整红区与完整火苗首尾偏移分别≤5根，双方唯一最优互选后形成区块，只比较相邻区块。保留先大后小、价格创新高、红区面积减小及中间全蓝K，无峰值门槛。52组原归档120874根K线独立复核，7个符合点，展示第一蓝K前后各50根。106项测试通过。未更新行情到今天；生产后端未部署。

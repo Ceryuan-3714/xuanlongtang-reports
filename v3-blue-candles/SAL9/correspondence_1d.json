@@ -20,6 +20,13 @@
     },
     "settled": true,
     "candidate_flame_count": 3,
+    "best_flame_id": 158,
+    "best_flame_count": 1,
+    "matching_score": [
+      1,
+      1
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {

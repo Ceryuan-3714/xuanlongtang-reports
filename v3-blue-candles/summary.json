@@ -1,24 +1,25 @@
 {
-  "one_to_one_regions_in_period": 3,
+  "one_to_one_regions_in_period": 959,
   "pending_flames_in_period": 0,
   "open_red_region_groups_in_period": 0,
   "complete_regions_in_period": 1355,
-  "unique_regions_in_period": 6,
-  "ambiguous_regions_in_period": 1349,
+  "unique_regions_in_period": 965,
+  "ambiguous_regions_in_period": 38,
   "pending_regions_in_period": 0,
   "parameters": {
     "b_strength": 0.2,
     "warmup_bars": 150,
     "formula_version": "s10103-v1",
     "area_version": "full-crossing-linear-v2",
-    "separation_version": "complete-blue-bounded-unique5-no-peak-v9",
+    "separation_version": "complete-endpoint5-mutual-adjacent-no-peak-v10",
     "correspondence_bars": 5,
     "candle_gap_rule": "all_blue",
-    "correspondence_policy": "unique_region_and_flame",
+    "correspondence_policy": "mutual_unique_minimum_endpoint_offsets",
+    "block_pairing_policy": "adjacent_corresponding_blocks",
     "red_region_policy": "complete_blue_bounded_crossings",
     "peak_rule": "none",
     "divergence_point_policy": "first_blue_after_A_before_new_red",
-    "confirmation_policy": "complete_regions_unique5_and_first_blue"
+    "confirmation_policy": "complete_endpoint_matches_stable_adjacent_blocks"
   },
   "groups": 52,
   "coverage": [
@@ -42,20 +43,24 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.92,
+      "seconds": 0.72,
       "complete_regions_in_period": 49,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 49,
+      "one_to_one_regions_in_period": 35,
+      "unique_regions_in_period": 36,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 1250,
-        "A_new_red_before_blue": 39,
-        "red_region_multiple_flames": 185,
-        "flame_multiple_red_regions": 192,
-        "no_prior_corresponding_larger_flame": 1
+        "flame_no_matching_complete_region": 1214,
+        "no_previous_corresponding_block": 1,
+        "correspondence_not_reciprocal": 131,
+        "adjacent_price_not_higher": 26,
+        "adjacent_flame_not_smaller": 85,
+        "intervening_not_all_blue": 17,
+        "A_red_not_smaller": 4,
+        "red_region_tied_best_flames": 2,
+        "A_new_red_before_blue": 1
       }
     },
     {
@@ -72,19 +77,22 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.05,
+      "seconds": 0.07,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 1,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 138,
-        "A_new_red_before_blue": 1,
-        "red_region_multiple_flames": 24,
-        "flame_multiple_red_regions": 31
+        "flame_no_matching_complete_region": 134,
+        "correspondence_not_reciprocal": 16,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 12,
+        "intervening_not_all_blue": 2,
+        "adjacent_price_not_higher": 4,
+        "A_red_not_smaller": 1
       }
     },
     {
@@ -107,18 +115,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.03,
+      "seconds": 0.04,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 1,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 84,
-        "red_region_multiple_flames": 6,
-        "flame_multiple_red_regions": 4
+        "flame_no_matching_complete_region": 77,
+        "correspondence_not_reciprocal": 6,
+        "no_previous_corresponding_block": 1,
+        "A_red_not_smaller": 1,
+        "adjacent_flame_not_smaller": 2,
+        "adjacent_price_not_higher": 1
       }
     },
     {
@@ -132,8 +143,8 @@
       "period_bars": 832,
       "days": 104,
       "warmup": 400,
-      "passed": 0,
-      "verified_passed": 0,
+      "passed": 1,
+      "verified_passed": 1,
       "warnings": [
         {
           "date": "2026-07-23",
@@ -143,17 +154,19 @@
       ],
       "seconds": 0.12,
       "complete_regions_in_period": 26,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 26,
+      "one_to_one_regions_in_period": 19,
+      "unique_regions_in_period": 19,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 326,
-        "A_new_red_before_blue": 4,
-        "red_region_multiple_flames": 31,
-        "flame_multiple_red_regions": 24
+        "flame_no_matching_complete_region": 318,
+        "correspondence_not_reciprocal": 16,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 12,
+        "adjacent_price_not_higher": 4,
+        "intervening_not_all_blue": 2
       }
     },
     {
@@ -176,19 +189,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.05,
+      "seconds": 0.07,
       "complete_regions_in_period": 15,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 15,
+      "one_to_one_regions_in_period": 10,
+      "unique_regions_in_period": 10,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 171,
-        "red_region_multiple_flames": 17,
-        "flame_multiple_red_regions": 13,
-        "A_new_red_before_blue": 1
+        "flame_no_matching_complete_region": 168,
+        "correspondence_not_reciprocal": 6,
+        "no_previous_corresponding_block": 1,
+        "adjacent_price_not_higher": 4,
+        "adjacent_flame_not_smaller": 5,
+        "A_red_not_smaller": 1
       }
     },
     {
@@ -205,19 +220,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.19,
+      "seconds": 0.25,
       "complete_regions_in_period": 20,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 20,
+      "one_to_one_regions_in_period": 16,
+      "unique_regions_in_period": 16,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 439,
-        "A_new_red_before_blue": 15,
-        "red_region_multiple_flames": 68,
-        "flame_multiple_red_regions": 57
+        "flame_no_matching_complete_region": 417,
+        "no_previous_corresponding_block": 1,
+        "correspondence_not_reciprocal": 42,
+        "adjacent_flame_not_smaller": 31,
+        "adjacent_price_not_higher": 7,
+        "intervening_not_all_blue": 13
       }
     },
     {
@@ -234,19 +251,22 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.06,
+      "seconds": 0.08,
       "complete_regions_in_period": 9,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 9,
+      "one_to_one_regions_in_period": 7,
+      "unique_regions_in_period": 7,
+      "ambiguous_regions_in_period": 1,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "A_new_red_before_blue": 8,
-        "flame_no_unique_red_region": 142,
-        "red_region_multiple_flames": 22,
-        "flame_multiple_red_regions": 20
+        "flame_no_matching_complete_region": 138,
+        "correspondence_not_reciprocal": 15,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 9,
+        "intervening_not_all_blue": 4,
+        "adjacent_price_not_higher": 3,
+        "red_region_tied_best_flames": 1
       }
     },
     {
@@ -263,20 +283,25 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 1.14,
+      "seconds": 1.11,
       "complete_regions_in_period": 77,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 77,
+      "one_to_one_regions_in_period": 59,
+      "unique_regions_in_period": 59,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 1606,
-        "A_new_red_before_blue": 182,
-        "red_region_multiple_flames": 235,
-        "flame_multiple_red_regions": 177,
-        "no_prior_corresponding_larger_flame": 1
+        "flame_no_matching_complete_region": 1615,
+        "no_previous_corresponding_block": 1,
+        "adjacent_price_not_higher": 36,
+        "correspondence_not_reciprocal": 180,
+        "adjacent_flame_not_smaller": 101,
+        "red_region_tied_best_flames": 8,
+        "intervening_not_all_blue": 26,
+        "A_new_red_before_blue": 5,
+        "A_red_not_smaller": 1,
+        "flame_tied_best_regions": 1
       }
     },
     {
@@ -295,17 +320,18 @@
       "warnings": [],
       "seconds": 0.05,
       "complete_regions_in_period": 4,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 4,
+      "one_to_one_regions_in_period": 3,
+      "unique_regions_in_period": 3,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 151,
-        "A_new_red_before_blue": 5,
-        "red_region_multiple_flames": 14,
-        "flame_multiple_red_regions": 13
+        "flame_no_matching_complete_region": 151,
+        "correspondence_not_reciprocal": 10,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 5,
+        "intervening_not_all_blue": 2
       }
     },
     {
@@ -324,17 +350,19 @@
       "warnings": [],
       "seconds": 0.05,
       "complete_regions_in_period": 6,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 6,
+      "one_to_one_regions_in_period": 4,
+      "unique_regions_in_period": 4,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 153,
-        "A_new_red_before_blue": 8,
-        "red_region_multiple_flames": 16,
-        "flame_multiple_red_regions": 21
+        "flame_no_matching_complete_region": 157,
+        "no_previous_corresponding_block": 1,
+        "correspondence_not_reciprocal": 13,
+        "adjacent_flame_not_smaller": 8,
+        "adjacent_price_not_higher": 1,
+        "intervening_not_all_blue": 2
       }
     },
     {
@@ -348,53 +376,59 @@
       "period_bars": 1236,
       "days": 104,
       "warmup": 616,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 0.25,
+      "complete_regions_in_period": 39,
+      "one_to_one_regions_in_period": 25,
+      "unique_regions_in_period": 25,
+      "ambiguous_regions_in_period": 4,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 458,
+        "correspondence_not_reciprocal": 45,
+        "no_previous_corresponding_block": 1,
+        "adjacent_price_not_higher": 9,
+        "adjacent_flame_not_smaller": 23,
+        "intervening_not_all_blue": 4,
+        "red_region_tied_best_flames": 4,
+        "A_red_not_smaller": 1
+      }
+    },
+    {
+      "symbol": "CFL9",
+      "name": "郑棉加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "days": 104,
+      "warmup": 658,
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
       "seconds": 0.15,
-      "complete_regions_in_period": 39,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 39,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_unique_red_region": 463,
-        "A_new_red_before_blue": 38,
-        "red_region_multiple_flames": 57,
-        "flame_multiple_red_regions": 40,
-        "no_prior_corresponding_larger_flame": 1
-      }
-    },
-    {
-      "symbol": "CFL9",
-      "name": "郑棉加权",
-      "interval": "60m",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 1400,
-      "period_bars": 618,
-      "days": 104,
-      "warmup": 658,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [],
-      "seconds": 0.1,
       "complete_regions_in_period": 22,
-      "one_to_one_regions_in_period": 1,
-      "unique_regions_in_period": 1,
-      "ambiguous_regions_in_period": 21,
+      "one_to_one_regions_in_period": 16,
+      "unique_regions_in_period": 16,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "A_new_red_before_blue": 21,
-        "flame_no_unique_red_region": 311,
-        "red_region_multiple_flames": 37,
-        "flame_multiple_red_regions": 39,
-        "no_prior_corresponding_larger_flame": 1
+        "flame_no_matching_complete_region": 319,
+        "red_region_tied_best_flames": 1,
+        "correspondence_not_reciprocal": 25,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 17,
+        "intervening_not_all_blue": 8,
+        "adjacent_price_not_higher": 1,
+        "A_new_red_before_blue": 1
       }
     },
     {
@@ -411,20 +445,23 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 1.25,
+      "seconds": 1.02,
       "complete_regions_in_period": 72,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 1,
-      "ambiguous_regions_in_period": 71,
+      "one_to_one_regions_in_period": 51,
+      "unique_regions_in_period": 51,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 1535,
-        "A_new_red_before_blue": 242,
-        "red_region_multiple_flames": 205,
-        "flame_multiple_red_regions": 152,
-        "no_prior_corresponding_larger_flame": 1
+        "flame_no_matching_complete_region": 1682,
+        "correspondence_not_reciprocal": 115,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 82,
+        "adjacent_price_not_higher": 36,
+        "intervening_not_all_blue": 16,
+        "red_region_tied_best_flames": 2,
+        "A_new_red_before_blue": 2
       }
     },
     {
@@ -441,19 +478,23 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08,
+      "seconds": 0.06,
       "complete_regions_in_period": 1,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 1,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 167,
-        "red_region_multiple_flames": 16,
-        "flame_multiple_red_regions": 12,
-        "A_new_red_before_blue": 2
+        "flame_no_matching_complete_region": 156,
+        "no_previous_corresponding_block": 1,
+        "A_red_not_smaller": 1,
+        "correspondence_not_reciprocal": 12,
+        "intervening_not_all_blue": 2,
+        "adjacent_price_not_higher": 3,
+        "adjacent_flame_not_smaller": 6,
+        "red_region_tied_best_flames": 1
       }
     },
     {
@@ -470,19 +511,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08,
+      "seconds": 0.06,
       "complete_regions_in_period": 8,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 8,
+      "one_to_one_regions_in_period": 8,
+      "unique_regions_in_period": 8,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 154,
-        "A_new_red_before_blue": 4,
-        "red_region_multiple_flames": 16,
-        "flame_multiple_red_regions": 9
+        "flame_no_matching_complete_region": 144,
+        "correspondence_not_reciprocal": 9,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 8,
+        "intervening_not_all_blue": 1,
+        "adjacent_price_not_higher": 4
       }
     },
     {
@@ -499,19 +542,22 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.26,
+      "seconds": 0.19,
       "complete_regions_in_period": 39,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 39,
+      "one_to_one_regions_in_period": 28,
+      "unique_regions_in_period": 28,
+      "ambiguous_regions_in_period": 2,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 429,
-        "A_new_red_before_blue": 50,
-        "red_region_multiple_flames": 58,
-        "flame_multiple_red_regions": 49
+        "flame_no_matching_complete_region": 449,
+        "correspondence_not_reciprocal": 37,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 26,
+        "adjacent_price_not_higher": 11,
+        "red_region_tied_best_flames": 2,
+        "intervening_not_all_blue": 4
       }
     },
     {
@@ -528,19 +574,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.17,
+      "seconds": 0.12,
       "complete_regions_in_period": 16,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 16,
+      "one_to_one_regions_in_period": 11,
+      "unique_regions_in_period": 11,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 303,
-        "A_new_red_before_blue": 30,
-        "red_region_multiple_flames": 34,
-        "flame_multiple_red_regions": 28
+        "flame_no_matching_complete_region": 310,
+        "correspondence_not_reciprocal": 26,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 14,
+        "intervening_not_all_blue": 2,
+        "adjacent_price_not_higher": 8
       }
     },
     {
@@ -557,79 +605,88 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.85,
+      "seconds": 1.1,
       "complete_regions_in_period": 92,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 92,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_unique_red_region": 1505,
-        "A_new_red_before_blue": 249,
-        "red_region_multiple_flames": 258,
-        "flame_multiple_red_regions": 217,
-        "no_prior_corresponding_larger_flame": 1
-      }
-    },
-    {
-      "symbol": "IL9",
-      "name": "铁矿加权",
-      "interval": "1d",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 700,
-      "period_bars": 104,
-      "days": 104,
-      "warmup": 575,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [],
-      "seconds": 0.07,
-      "complete_regions_in_period": 1,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 1,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_unique_red_region": 158,
-        "red_region_multiple_flames": 16,
-        "flame_multiple_red_regions": 13,
-        "A_new_red_before_blue": 2
-      }
-    },
-    {
-      "symbol": "IL9",
-      "name": "铁矿加权",
-      "interval": "240m",
-      "derived": true,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 666,
-      "period_bars": 205,
-      "days": 104,
-      "warmup": 420,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [],
-      "seconds": 0.07,
-      "complete_regions_in_period": 3,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
+      "one_to_one_regions_in_period": 72,
+      "unique_regions_in_period": 72,
       "ambiguous_regions_in_period": 3,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "A_new_red_before_blue": 10,
-        "flame_no_unique_red_region": 158,
-        "red_region_multiple_flames": 12,
-        "no_prior_corresponding_larger_flame": 1,
-        "flame_multiple_red_regions": 7
+        "flame_no_matching_complete_region": 1590,
+        "no_previous_corresponding_block": 1,
+        "correspondence_not_reciprocal": 189,
+        "adjacent_flame_not_smaller": 125,
+        "adjacent_price_not_higher": 38,
+        "intervening_not_all_blue": 24,
+        "A_red_not_smaller": 4,
+        "red_region_tied_best_flames": 6,
+        "A_new_red_before_blue": 5,
+        "flame_tied_best_regions": 1
+      }
+    },
+    {
+      "symbol": "IL9",
+      "name": "铁矿加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.06,
+      "complete_regions_in_period": 1,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 153,
+        "no_previous_corresponding_block": 1,
+        "correspondence_not_reciprocal": 8,
+        "intervening_not_all_blue": 4,
+        "adjacent_flame_not_smaller": 6,
+        "adjacent_price_not_higher": 1
+      }
+    },
+    {
+      "symbol": "IL9",
+      "name": "铁矿加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "days": 104,
+      "warmup": 420,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.05,
+      "complete_regions_in_period": 3,
+      "one_to_one_regions_in_period": 2,
+      "unique_regions_in_period": 2,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 156,
+        "no_previous_corresponding_block": 1,
+        "correspondence_not_reciprocal": 12,
+        "intervening_not_all_blue": 2,
+        "adjacent_flame_not_smaller": 4,
+        "adjacent_price_not_higher": 1,
+        "red_region_tied_best_flames": 1
       }
     },
     {
@@ -646,19 +703,22 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.24,
+      "seconds": 0.19,
       "complete_regions_in_period": 40,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 40,
+      "one_to_one_regions_in_period": 22,
+      "unique_regions_in_period": 23,
+      "ambiguous_regions_in_period": 4,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 417,
-        "A_new_red_before_blue": 50,
-        "red_region_multiple_flames": 70,
-        "flame_multiple_red_regions": 73
+        "flame_no_matching_complete_region": 431,
+        "correspondence_not_reciprocal": 63,
+        "no_previous_corresponding_block": 1,
+        "adjacent_price_not_higher": 5,
+        "adjacent_flame_not_smaller": 34,
+        "intervening_not_all_blue": 6,
+        "red_region_tied_best_flames": 4
       }
     },
     {
@@ -675,19 +735,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.14,
+      "seconds": 0.12,
       "complete_regions_in_period": 24,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 24,
+      "one_to_one_regions_in_period": 19,
+      "unique_regions_in_period": 19,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 294,
-        "A_new_red_before_blue": 27,
-        "red_region_multiple_flames": 40,
-        "flame_multiple_red_regions": 35
+        "flame_no_matching_complete_region": 297,
+        "correspondence_not_reciprocal": 28,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 19,
+        "adjacent_price_not_higher": 9,
+        "intervening_not_all_blue": 2
       }
     },
     {
@@ -701,8 +763,8 @@
       "period_bars": 1560,
       "days": 104,
       "warmup": 3725,
-      "passed": 0,
-      "verified_passed": 0,
+      "passed": 1,
+      "verified_passed": 1,
       "warnings": [
         {
           "date": "2026-06-24",
@@ -710,19 +772,25 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.78,
+      "seconds": 0.61,
       "complete_regions_in_period": 54,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 54,
+      "one_to_one_regions_in_period": 39,
+      "unique_regions_in_period": 39,
+      "ambiguous_regions_in_period": 1,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 1194,
-        "A_new_red_before_blue": 113,
-        "red_region_multiple_flames": 152,
-        "flame_multiple_red_regions": 108
+        "flame_no_matching_complete_region": 1216,
+        "no_previous_corresponding_block": 1,
+        "red_region_tied_best_flames": 5,
+        "correspondence_not_reciprocal": 97,
+        "intervening_not_all_blue": 19,
+        "adjacent_flame_not_smaller": 57,
+        "adjacent_price_not_higher": 17,
+        "flame_tied_best_regions": 1,
+        "A_new_red_before_blue": 4,
+        "A_red_not_smaller": 1
       }
     },
     {
@@ -743,15 +811,18 @@
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 1,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 173,
-        "red_region_multiple_flames": 17,
-        "flame_multiple_red_regions": 13,
-        "A_new_red_before_blue": 1
+        "flame_no_matching_complete_region": 165,
+        "correspondence_not_reciprocal": 11,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 7,
+        "intervening_not_all_blue": 1,
+        "A_red_not_smaller": 1,
+        "adjacent_price_not_higher": 1
       }
     },
     {
@@ -774,19 +845,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.05,
+      "seconds": 0.04,
       "complete_regions_in_period": 1,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 1,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 97,
-        "red_region_multiple_flames": 6,
-        "flame_multiple_red_regions": 3,
-        "A_new_red_before_blue": 1
+        "flame_no_matching_complete_region": 94,
+        "no_previous_corresponding_block": 1,
+        "correspondence_not_reciprocal": 3,
+        "adjacent_flame_not_smaller": 1,
+        "A_red_not_smaller": 1,
+        "adjacent_price_not_higher": 1
       }
     },
     {
@@ -800,8 +873,8 @@
       "period_bars": 832,
       "days": 104,
       "warmup": 400,
-      "passed": 0,
-      "verified_passed": 0,
+      "passed": 1,
+      "verified_passed": 1,
       "warnings": [
         {
           "date": "2026-06-24",
@@ -809,19 +882,22 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.19,
+      "seconds": 0.13,
       "complete_regions_in_period": 28,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 28,
+      "one_to_one_regions_in_period": 22,
+      "unique_regions_in_period": 22,
+      "ambiguous_regions_in_period": 1,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 297,
-        "A_new_red_before_blue": 16,
-        "red_region_multiple_flames": 37,
-        "flame_multiple_red_regions": 25
+        "flame_no_matching_complete_region": 293,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 15,
+        "adjacent_price_not_higher": 6,
+        "correspondence_not_reciprocal": 18,
+        "intervening_not_all_blue": 4,
+        "red_region_tied_best_flames": 1
       }
     },
     {
@@ -844,19 +920,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.09,
+      "seconds": 0.08,
       "complete_regions_in_period": 13,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 13,
+      "one_to_one_regions_in_period": 11,
+      "unique_regions_in_period": 11,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "A_new_red_before_blue": 6,
-        "flame_no_unique_red_region": 145,
-        "red_region_multiple_flames": 17,
-        "flame_multiple_red_regions": 16
+        "flame_no_matching_complete_region": 142,
+        "no_previous_corresponding_block": 1,
+        "correspondence_not_reciprocal": 12,
+        "adjacent_price_not_higher": 2,
+        "adjacent_flame_not_smaller": 7,
+        "intervening_not_all_blue": 3
       }
     },
     {
@@ -884,20 +962,24 @@
           "ohlc": false
         }
       ],
-      "seconds": 1.19,
+      "seconds": 1.04,
       "complete_regions_in_period": 75,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 1,
-      "ambiguous_regions_in_period": 74,
+      "one_to_one_regions_in_period": 52,
+      "unique_regions_in_period": 52,
+      "ambiguous_regions_in_period": 4,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 1595,
-        "red_region_multiple_flames": 250,
-        "flame_multiple_red_regions": 219,
-        "A_new_red_before_blue": 134,
-        "no_prior_corresponding_larger_flame": 2
+        "flame_no_matching_complete_region": 1596,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 113,
+        "correspondence_not_reciprocal": 171,
+        "intervening_not_all_blue": 19,
+        "adjacent_price_not_higher": 42,
+        "A_new_red_before_blue": 5,
+        "red_region_tied_best_flames": 9,
+        "A_red_not_smaller": 1
       }
     },
     {
@@ -914,19 +996,22 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08,
+      "seconds": 0.06,
       "complete_regions_in_period": 2,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 2,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 1,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 156,
-        "A_new_red_before_blue": 2,
-        "red_region_multiple_flames": 17,
-        "flame_multiple_red_regions": 21
+        "flame_no_matching_complete_region": 154,
+        "correspondence_not_reciprocal": 13,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 8,
+        "intervening_not_all_blue": 2,
+        "adjacent_price_not_higher": 1,
+        "red_region_tied_best_flames": 1
       }
     },
     {
@@ -954,19 +1039,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.08,
+      "seconds": 0.05,
       "complete_regions_in_period": 3,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 3,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 1,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 157,
-        "A_new_red_before_blue": 6,
-        "red_region_multiple_flames": 8,
-        "flame_multiple_red_regions": 6
+        "flame_no_matching_complete_region": 162,
+        "no_previous_corresponding_block": 1,
+        "correspondence_not_reciprocal": 4,
+        "intervening_not_all_blue": 1,
+        "red_region_tied_best_flames": 1,
+        "adjacent_flame_not_smaller": 1
       }
     },
     {
@@ -994,20 +1081,23 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.29,
+      "seconds": 0.19,
       "complete_regions_in_period": 34,
-      "one_to_one_regions_in_period": 1,
-      "unique_regions_in_period": 1,
-      "ambiguous_regions_in_period": 33,
+      "one_to_one_regions_in_period": 25,
+      "unique_regions_in_period": 25,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 450,
-        "A_new_red_before_blue": 30,
-        "red_region_multiple_flames": 54,
-        "flame_multiple_red_regions": 45,
-        "no_prior_corresponding_larger_flame": 2
+        "flame_no_matching_complete_region": 457,
+        "correspondence_not_reciprocal": 30,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 23,
+        "intervening_not_all_blue": 7,
+        "adjacent_price_not_higher": 8,
+        "A_new_red_before_blue": 1,
+        "red_region_tied_best_flames": 1
       }
     },
     {
@@ -1035,19 +1125,24 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.18,
+      "seconds": 0.12,
       "complete_regions_in_period": 16,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 16,
+      "one_to_one_regions_in_period": 13,
+      "unique_regions_in_period": 13,
+      "ambiguous_regions_in_period": 1,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 303,
-        "A_new_red_before_blue": 12,
-        "red_region_multiple_flames": 42,
-        "flame_multiple_red_regions": 33
+        "flame_no_matching_complete_region": 275,
+        "correspondence_not_reciprocal": 39,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 17,
+        "flame_tied_best_regions": 2,
+        "intervening_not_all_blue": 8,
+        "adjacent_price_not_higher": 4,
+        "red_region_tied_best_flames": 2,
+        "A_new_red_before_blue": 2
       }
     },
     {
@@ -1061,22 +1156,27 @@
       "period_bars": 2368,
       "days": 104,
       "warmup": 4857,
-      "passed": 0,
-      "verified_passed": 0,
+      "passed": 1,
+      "verified_passed": 1,
       "warnings": [],
-      "seconds": 1.0,
+      "seconds": 1.02,
       "complete_regions_in_period": 79,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 79,
+      "one_to_one_regions_in_period": 55,
+      "unique_regions_in_period": 56,
+      "ambiguous_regions_in_period": 1,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 1573,
-        "A_new_red_before_blue": 171,
-        "red_region_multiple_flames": 253,
-        "flame_multiple_red_regions": 236
+        "flame_no_matching_complete_region": 1624,
+        "correspondence_not_reciprocal": 179,
+        "no_previous_corresponding_block": 1,
+        "intervening_not_all_blue": 29,
+        "adjacent_flame_not_smaller": 109,
+        "A_new_red_before_blue": 4,
+        "adjacent_price_not_higher": 32,
+        "A_red_not_smaller": 1,
+        "red_region_tied_best_flames": 5
       }
     },
     {
@@ -1093,19 +1193,22 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.07,
+      "seconds": 0.06,
       "complete_regions_in_period": 4,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 4,
+      "one_to_one_regions_in_period": 3,
+      "unique_regions_in_period": 3,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 156,
-        "red_region_multiple_flames": 21,
-        "flame_multiple_red_regions": 18,
-        "A_new_red_before_blue": 5
+        "flame_no_matching_complete_region": 151,
+        "correspondence_not_reciprocal": 13,
+        "no_previous_corresponding_block": 1,
+        "adjacent_price_not_higher": 4,
+        "red_region_tied_best_flames": 1,
+        "adjacent_flame_not_smaller": 7,
+        "intervening_not_all_blue": 3
       }
     },
     {
@@ -1124,17 +1227,18 @@
       "warnings": [],
       "seconds": 0.06,
       "complete_regions_in_period": 7,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 7,
+      "one_to_one_regions_in_period": 6,
+      "unique_regions_in_period": 6,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 140,
-        "A_new_red_before_blue": 4,
-        "red_region_multiple_flames": 15,
-        "flame_multiple_red_regions": 13
+        "flame_no_matching_complete_region": 136,
+        "correspondence_not_reciprocal": 10,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 7,
+        "intervening_not_all_blue": 3
       }
     },
     {
@@ -1151,19 +1255,22 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.23,
+      "seconds": 0.21,
       "complete_regions_in_period": 46,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 46,
+      "one_to_one_regions_in_period": 31,
+      "unique_regions_in_period": 31,
+      "ambiguous_regions_in_period": 2,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 450,
-        "A_new_red_before_blue": 37,
-        "red_region_multiple_flames": 60,
-        "flame_multiple_red_regions": 47
+        "flame_no_matching_complete_region": 450,
+        "no_previous_corresponding_block": 1,
+        "correspondence_not_reciprocal": 44,
+        "adjacent_flame_not_smaller": 25,
+        "intervening_not_all_blue": 10,
+        "adjacent_price_not_higher": 4,
+        "red_region_tied_best_flames": 2
       }
     },
     {
@@ -1182,82 +1289,93 @@
       "warnings": [],
       "seconds": 0.14,
       "complete_regions_in_period": 19,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 19,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_unique_red_region": 295,
-        "A_new_red_before_blue": 25,
-        "red_region_multiple_flames": 39,
-        "flame_multiple_red_regions": 37
-      }
-    },
-    {
-      "symbol": "SAL9",
-      "name": "纯碱加权",
-      "interval": "15m",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 7700,
-      "period_bars": 2368,
-      "days": 104,
-      "warmup": 4857,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [
-        {
-          "date": "2026-08-10",
-          "volume": true,
-          "ohlc": false
-        }
-      ],
-      "seconds": 1.28,
-      "complete_regions_in_period": 74,
-      "one_to_one_regions_in_period": 1,
-      "unique_regions_in_period": 1,
-      "ambiguous_regions_in_period": 73,
-      "pending_regions_in_period": 0,
-      "pending_flames_in_period": 0,
-      "open_red_region_overlaps_period": false,
-      "rejection_counts": {
-        "flame_no_unique_red_region": 1538,
-        "A_new_red_before_blue": 212,
-        "red_region_multiple_flames": 240,
-        "flame_multiple_red_regions": 188,
-        "no_prior_corresponding_larger_flame": 1
-      }
-    },
-    {
-      "symbol": "SAL9",
-      "name": "纯碱加权",
-      "interval": "1d",
-      "derived": false,
-      "period_start": "2026-04-01",
-      "period_end": "2026-08-31",
-      "source_bars": 700,
-      "period_bars": 104,
-      "days": 104,
-      "warmup": 575,
-      "passed": 0,
-      "verified_passed": 0,
-      "warnings": [],
-      "seconds": 0.08,
-      "complete_regions_in_period": 1,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
+      "one_to_one_regions_in_period": 11,
+      "unique_regions_in_period": 11,
       "ambiguous_regions_in_period": 1,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 149,
-        "red_region_multiple_flames": 22,
-        "flame_multiple_red_regions": 25,
-        "A_new_red_before_blue": 5
+        "flame_no_matching_complete_region": 303,
+        "correspondence_not_reciprocal": 26,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 16,
+        "intervening_not_all_blue": 5,
+        "adjacent_price_not_higher": 3,
+        "A_red_not_smaller": 2,
+        "red_region_tied_best_flames": 1
+      }
+    },
+    {
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "days": 104,
+      "warmup": 4857,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-08-10",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 1.04,
+      "complete_regions_in_period": 74,
+      "one_to_one_regions_in_period": 51,
+      "unique_regions_in_period": 51,
+      "ambiguous_regions_in_period": 3,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 1614,
+        "correspondence_not_reciprocal": 155,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 104,
+        "adjacent_price_not_higher": 42,
+        "red_region_tied_best_flames": 8,
+        "intervening_not_all_blue": 19,
+        "A_red_not_smaller": 1,
+        "A_new_red_before_blue": 3
+      }
+    },
+    {
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.06,
+      "complete_regions_in_period": 1,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_matching_complete_region": 143,
+        "no_previous_corresponding_block": 1,
+        "correspondence_not_reciprocal": 19,
+        "adjacent_price_not_higher": 4,
+        "adjacent_flame_not_smaller": 11,
+        "red_region_tied_best_flames": 1,
+        "intervening_not_all_blue": 1
       }
     },
     {
@@ -1280,19 +1398,22 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.08,
+      "seconds": 0.06,
       "complete_regions_in_period": 7,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 7,
+      "one_to_one_regions_in_period": 5,
+      "unique_regions_in_period": 5,
+      "ambiguous_regions_in_period": 1,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 144,
-        "A_new_red_before_blue": 7,
-        "red_region_multiple_flames": 15,
-        "flame_multiple_red_regions": 11
+        "flame_no_matching_complete_region": 143,
+        "no_previous_corresponding_block": 1,
+        "adjacent_price_not_higher": 3,
+        "correspondence_not_reciprocal": 9,
+        "adjacent_flame_not_smaller": 5,
+        "intervening_not_all_blue": 1,
+        "red_region_tied_best_flames": 1
       }
     },
     {
@@ -1315,19 +1436,22 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.38,
+      "seconds": 0.2,
       "complete_regions_in_period": 31,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 31,
+      "one_to_one_regions_in_period": 20,
+      "unique_regions_in_period": 21,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "A_new_red_before_blue": 51,
-        "flame_no_unique_red_region": 422,
-        "red_region_multiple_flames": 58,
-        "flame_multiple_red_regions": 47
+        "flame_no_matching_complete_region": 438,
+        "correspondence_not_reciprocal": 39,
+        "no_previous_corresponding_block": 1,
+        "intervening_not_all_blue": 7,
+        "adjacent_flame_not_smaller": 24,
+        "adjacent_price_not_higher": 10,
+        "A_new_red_before_blue": 1
       }
     },
     {
@@ -1350,19 +1474,22 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.17,
+      "seconds": 0.14,
       "complete_regions_in_period": 14,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 14,
+      "one_to_one_regions_in_period": 9,
+      "unique_regions_in_period": 9,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 293,
-        "A_new_red_before_blue": 27,
-        "red_region_multiple_flames": 41,
-        "flame_multiple_red_regions": 37
+        "flame_no_matching_complete_region": 293,
+        "correspondence_not_reciprocal": 31,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 20,
+        "adjacent_price_not_higher": 6,
+        "intervening_not_all_blue": 6,
+        "red_region_tied_best_flames": 1
       }
     },
     {
@@ -1379,19 +1506,24 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 1.25,
+      "seconds": 1.18,
       "complete_regions_in_period": 66,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 66,
+      "one_to_one_regions_in_period": 45,
+      "unique_regions_in_period": 45,
+      "ambiguous_regions_in_period": 1,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 1659,
-        "A_new_red_before_blue": 156,
-        "red_region_multiple_flames": 216,
-        "flame_multiple_red_regions": 166
+        "flame_no_matching_complete_region": 1675,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 95,
+        "red_region_tied_best_flames": 5,
+        "correspondence_not_reciprocal": 154,
+        "adjacent_price_not_higher": 32,
+        "intervening_not_all_blue": 22,
+        "A_red_not_smaller": 1,
+        "flame_tied_best_regions": 1
       }
     },
     {
@@ -1408,19 +1540,22 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.1,
+      "seconds": 0.06,
       "complete_regions_in_period": 2,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 2,
+      "one_to_one_regions_in_period": 2,
+      "unique_regions_in_period": 2,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 156,
-        "A_new_red_before_blue": 2,
-        "red_region_multiple_flames": 17,
-        "flame_multiple_red_regions": 10
+        "flame_no_matching_complete_region": 148,
+        "no_previous_corresponding_block": 1,
+        "correspondence_not_reciprocal": 10,
+        "adjacent_price_not_higher": 2,
+        "adjacent_flame_not_smaller": 4,
+        "intervening_not_all_blue": 3,
+        "red_region_tied_best_flames": 1
       }
     },
     {
@@ -1437,20 +1572,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08,
+      "seconds": 0.06,
       "complete_regions_in_period": 5,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 5,
+      "one_to_one_regions_in_period": 2,
+      "unique_regions_in_period": 2,
+      "ambiguous_regions_in_period": 1,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 140,
-        "A_new_red_before_blue": 3,
-        "no_prior_corresponding_larger_flame": 1,
-        "red_region_multiple_flames": 13,
-        "flame_multiple_red_regions": 15
+        "flame_no_matching_complete_region": 145,
+        "no_previous_corresponding_block": 1,
+        "adjacent_price_not_higher": 4,
+        "adjacent_flame_not_smaller": 3,
+        "correspondence_not_reciprocal": 6,
+        "red_region_tied_best_flames": 1
       }
     },
     {
@@ -1464,22 +1600,26 @@
       "period_bars": 1236,
       "days": 104,
       "warmup": 616,
-      "passed": 0,
-      "verified_passed": 0,
+      "passed": 1,
+      "verified_passed": 1,
       "warnings": [],
-      "seconds": 0.27,
+      "seconds": 0.2,
       "complete_regions_in_period": 39,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 39,
+      "one_to_one_regions_in_period": 25,
+      "unique_regions_in_period": 26,
+      "ambiguous_regions_in_period": 2,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 459,
-        "A_new_red_before_blue": 25,
-        "red_region_multiple_flames": 66,
-        "flame_multiple_red_regions": 60
+        "flame_no_matching_complete_region": 444,
+        "no_previous_corresponding_block": 1,
+        "adjacent_price_not_higher": 9,
+        "correspondence_not_reciprocal": 55,
+        "adjacent_flame_not_smaller": 28,
+        "A_new_red_before_blue": 2,
+        "intervening_not_all_blue": 4,
+        "red_region_tied_best_flames": 2
       }
     },
     {
@@ -1496,19 +1636,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.2,
+      "seconds": 0.15,
       "complete_regions_in_period": 21,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 21,
+      "one_to_one_regions_in_period": 13,
+      "unique_regions_in_period": 13,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 313,
-        "A_new_red_before_blue": 18,
-        "red_region_multiple_flames": 38,
-        "flame_multiple_red_regions": 32
+        "flame_no_matching_complete_region": 302,
+        "correspondence_not_reciprocal": 36,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 16,
+        "adjacent_price_not_higher": 3,
+        "intervening_not_all_blue": 5
       }
     },
     {
@@ -1541,20 +1683,24 @@
           "ohlc": false
         }
       ],
-      "seconds": 1.24,
+      "seconds": 1.06,
       "complete_regions_in_period": 80,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 80,
+      "one_to_one_regions_in_period": 59,
+      "unique_regions_in_period": 60,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 1599,
-        "A_new_red_before_blue": 146,
-        "red_region_multiple_flames": 238,
-        "flame_multiple_red_regions": 194,
-        "no_prior_corresponding_larger_flame": 1
+        "flame_no_matching_complete_region": 1635,
+        "correspondence_not_reciprocal": 129,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 109,
+        "adjacent_price_not_higher": 38,
+        "red_region_tied_best_flames": 5,
+        "A_new_red_before_blue": 6,
+        "intervening_not_all_blue": 22,
+        "A_red_not_smaller": 2
       }
     },
     {
@@ -1571,7 +1717,7 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08,
+      "seconds": 0.07,
       "complete_regions_in_period": 0,
       "one_to_one_regions_in_period": 0,
       "unique_regions_in_period": 0,
@@ -1580,10 +1726,13 @@
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 157,
-        "A_new_red_before_blue": 2,
-        "red_region_multiple_flames": 16,
-        "flame_multiple_red_regions": 12
+        "flame_no_matching_complete_region": 153,
+        "correspondence_not_reciprocal": 12,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 5,
+        "adjacent_price_not_higher": 1,
+        "red_region_tied_best_flames": 2,
+        "intervening_not_all_blue": 2
       }
     },
     {
@@ -1616,19 +1765,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.1,
+      "seconds": 0.08,
       "complete_regions_in_period": 6,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 6,
+      "one_to_one_regions_in_period": 6,
+      "unique_regions_in_period": 6,
+      "ambiguous_regions_in_period": 0,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 142,
-        "A_new_red_before_blue": 4,
-        "red_region_multiple_flames": 17,
-        "flame_multiple_red_regions": 14
+        "flame_no_matching_complete_region": 135,
+        "correspondence_not_reciprocal": 12,
+        "no_previous_corresponding_block": 1,
+        "adjacent_flame_not_smaller": 7,
+        "intervening_not_all_blue": 1,
+        "adjacent_price_not_higher": 4
       }
     },
     {
@@ -1661,19 +1812,24 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.28,
+      "seconds": 0.31,
       "complete_regions_in_period": 40,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 1,
-      "ambiguous_regions_in_period": 39,
+      "one_to_one_regions_in_period": 26,
+      "unique_regions_in_period": 26,
+      "ambiguous_regions_in_period": 2,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 443,
-        "A_new_red_before_blue": 21,
-        "red_region_multiple_flames": 63,
-        "flame_multiple_red_regions": 57
+        "flame_no_matching_complete_region": 432,
+        "correspondence_not_reciprocal": 45,
+        "no_previous_corresponding_block": 1,
+        "adjacent_price_not_higher": 7,
+        "adjacent_flame_not_smaller": 26,
+        "intervening_not_all_blue": 8,
+        "red_region_tied_best_flames": 2,
+        "A_new_red_before_blue": 1,
+        "flame_tied_best_regions": 1
       }
     },
     {
@@ -1687,8 +1843,8 @@
       "period_bars": 618,
       "days": 104,
       "warmup": 658,
-      "passed": 0,
-      "verified_passed": 0,
+      "passed": 1,
+      "verified_passed": 1,
       "warnings": [
         {
           "date": "2026-04-10",
@@ -1706,27 +1862,30 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.2,
+      "seconds": 0.21,
       "complete_regions_in_period": 22,
-      "one_to_one_regions_in_period": 0,
-      "unique_regions_in_period": 0,
-      "ambiguous_regions_in_period": 22,
+      "one_to_one_regions_in_period": 16,
+      "unique_regions_in_period": 16,
+      "ambiguous_regions_in_period": 1,
       "pending_regions_in_period": 0,
       "pending_flames_in_period": 0,
       "open_red_region_overlaps_period": false,
       "rejection_counts": {
-        "flame_no_unique_red_region": 310,
-        "A_new_red_before_blue": 8,
-        "red_region_multiple_flames": 37,
-        "flame_multiple_red_regions": 34
+        "flame_no_matching_complete_region": 309,
+        "correspondence_not_reciprocal": 21,
+        "no_previous_corresponding_block": 1,
+        "adjacent_price_not_higher": 4,
+        "adjacent_flame_not_smaller": 13,
+        "red_region_tied_best_flames": 2,
+        "intervening_not_all_blue": 3
       }
     }
   ],
-  "passed": 0,
-  "verified_passed": 0,
-  "native_passed": 0,
+  "passed": 7,
+  "verified_passed": 7,
+  "native_passed": 7,
   "derived_passed": 0,
-  "native_verified": 0,
+  "native_verified": 7,
   "derived_verified": 0,
   "data_note": "复用此前全部加权品种归档；按A火苗结束交易日筛选，确认日期另列；不重新抓行情"
 }

@@ -19,15 +19,16 @@
       "after": "2026-04-02T14:30:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 3,
+    "best_flame_id": 1258,
+    "best_flame_count": 1,
+    "matching_score": [
+      2,
+      2
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-04-02T10:15:00+08:00",
-        "end": "2026-04-02T10:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
       {
         "start": "2026-04-02T11:15:00+08:00",
         "end": "2026-04-02T11:15:00+08:00",
@@ -69,6 +70,13 @@
     },
     "settled": true,
     "candidate_flame_count": 3,
+    "best_flame_id": 1259,
+    "best_flame_count": 1,
+    "matching_score": [
+      0,
+      0
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -112,6 +120,13 @@
     },
     "settled": true,
     "candidate_flame_count": 3,
+    "best_flame_id": 1263,
+    "best_flame_count": 1,
+    "matching_score": [
+      2,
+      1
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -154,7 +169,14 @@
       "after": "2026-04-03T11:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 3,
+    "best_flame_id": 1264,
+    "best_flame_count": 1,
+    "matching_score": [
+      0,
+      0
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -173,12 +195,6 @@
         "start": "2026-04-03T11:00:00+08:00",
         "end": "2026-04-03T11:00:00+08:00",
         "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-03T14:15:00+08:00",
-        "end": "2026-04-03T14:30:00+08:00",
-        "count": 2,
         "complete": true
       }
     ]
@@ -204,6 +220,13 @@
     },
     "settled": true,
     "candidate_flame_count": 2,
+    "best_flame_id": 1265,
+    "best_flame_count": 1,
+    "matching_score": [
+      2,
+      1
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -240,7 +263,14 @@
       "after": "2026-04-08T09:30:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 3,
+    "best_flame_id": 1272,
+    "best_flame_count": 1,
+    "matching_score": [
+      3,
+      3
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -258,12 +288,6 @@
       {
         "start": "2026-04-08T09:45:00+08:00",
         "end": "2026-04-08T10:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-04-08T10:45:00+08:00",
-        "end": "2026-04-08T11:00:00+08:00",
         "count": 2,
         "complete": true
       }
@@ -289,43 +313,20 @@
       "after": "2026-04-08T14:30:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 6,
-    "flame_candidate_region_count": null,
+    "candidate_flame_count": 1,
+    "best_flame_id": 1274,
+    "best_flame_count": 1,
+    "matching_score": [
+      7,
+      5
+    ],
+    "selected": true,
+    "flame_candidate_region_count": 1,
     "flames": [
-      {
-        "start": "2026-04-07T22:30:00+08:00",
-        "end": "2026-04-08T09:15:00+08:00",
-        "count": 4,
-        "complete": true
-      },
-      {
-        "start": "2026-04-08T09:45:00+08:00",
-        "end": "2026-04-08T10:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
       {
         "start": "2026-04-08T10:45:00+08:00",
         "end": "2026-04-08T11:00:00+08:00",
         "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-04-08T13:45:00+08:00",
-        "end": "2026-04-08T13:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-08T14:45:00+08:00",
-        "end": "2026-04-08T14:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-08T21:15:00+08:00",
-        "end": "2026-04-08T21:15:00+08:00",
-        "count": 1,
         "complete": true
       }
     ]
@@ -350,15 +351,16 @@
       "after": "2026-04-08T21:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1277,
+    "best_flame_count": 1,
+    "matching_score": [
+      3,
+      2
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-04-08T13:45:00+08:00",
-        "end": "2026-04-08T13:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
       {
         "start": "2026-04-08T14:45:00+08:00",
         "end": "2026-04-08T14:45:00+08:00",
@@ -369,12 +371,6 @@
         "start": "2026-04-08T21:15:00+08:00",
         "end": "2026-04-08T21:15:00+08:00",
         "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-08T22:30:00+08:00",
-        "end": "2026-04-08T22:45:00+08:00",
-        "count": 2,
         "complete": true
       }
     ]
@@ -399,31 +395,20 @@
       "after": "2026-04-09T14:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
-    "flame_candidate_region_count": null,
+    "candidate_flame_count": 1,
+    "best_flame_id": 1281,
+    "best_flame_count": 1,
+    "matching_score": [
+      3,
+      3
+    ],
+    "selected": true,
+    "flame_candidate_region_count": 1,
     "flames": [
-      {
-        "start": "2026-04-09T09:30:00+08:00",
-        "end": "2026-04-09T09:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-04-09T10:15:00+08:00",
-        "end": "2026-04-09T10:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
       {
         "start": "2026-04-09T11:00:00+08:00",
         "end": "2026-04-09T11:15:00+08:00",
         "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-04-09T14:30:00+08:00",
-        "end": "2026-04-09T14:30:00+08:00",
-        "count": 1,
         "complete": true
       }
     ]
@@ -448,15 +433,16 @@
       "after": "2026-04-09T14:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 3,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1282,
+    "best_flame_count": 1,
+    "matching_score": [
+      0,
+      0
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-04-09T11:00:00+08:00",
-        "end": "2026-04-09T11:15:00+08:00",
-        "count": 2,
-        "complete": true
-      },
       {
         "start": "2026-04-09T14:30:00+08:00",
         "end": "2026-04-09T14:30:00+08:00",
@@ -491,64 +477,13 @@
       "after": "2026-04-13T09:30:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 9,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-04-10T09:15:00+08:00",
-        "end": "2026-04-10T09:45:00+08:00",
-        "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-04-10T11:00:00+08:00",
-        "end": "2026-04-10T11:30:00+08:00",
-        "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-04-10T14:30:00+08:00",
-        "end": "2026-04-10T14:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-10T15:00:00+08:00",
-        "end": "2026-04-10T21:15:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-04-10T21:45:00+08:00",
-        "end": "2026-04-10T21:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-10T22:15:00+08:00",
-        "end": "2026-04-10T22:30:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-04-10T23:00:00+08:00",
-        "end": "2026-04-10T23:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-13T09:45:00+08:00",
-        "end": "2026-04-13T09:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-13T10:15:00+08:00",
-        "end": "2026-04-13T10:15:00+08:00",
-        "count": 1,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 164,
@@ -570,7 +505,14 @@
       "after": "2026-04-14T09:30:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 3,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1298,
+    "best_flame_count": 1,
+    "matching_score": [
+      0,
+      0
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -583,12 +525,6 @@
         "start": "2026-04-14T09:15:00+08:00",
         "end": "2026-04-14T09:15:00+08:00",
         "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-14T10:00:00+08:00",
-        "end": "2026-04-14T11:00:00+08:00",
-        "count": 4,
         "complete": true
       }
     ]
@@ -613,52 +549,13 @@
       "after": "2026-04-14T22:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 7,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-04-14T09:15:00+08:00",
-        "end": "2026-04-14T09:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-14T10:00:00+08:00",
-        "end": "2026-04-14T11:00:00+08:00",
-        "count": 4,
-        "complete": true
-      },
-      {
-        "start": "2026-04-14T11:30:00+08:00",
-        "end": "2026-04-14T11:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-14T14:30:00+08:00",
-        "end": "2026-04-14T14:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-14T21:15:00+08:00",
-        "end": "2026-04-14T21:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-14T22:15:00+08:00",
-        "end": "2026-04-14T22:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-14T23:00:00+08:00",
-        "end": "2026-04-14T23:00:00+08:00",
-        "count": 1,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 166,
@@ -680,31 +577,20 @@
       "after": "2026-04-15T14:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
-    "flame_candidate_region_count": null,
+    "candidate_flame_count": 1,
+    "best_flame_id": 1307,
+    "best_flame_count": 1,
+    "matching_score": [
+      1,
+      1
+    ],
+    "selected": true,
+    "flame_candidate_region_count": 1,
     "flames": [
-      {
-        "start": "2026-04-15T09:30:00+08:00",
-        "end": "2026-04-15T09:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-15T10:00:00+08:00",
-        "end": "2026-04-15T10:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
       {
         "start": "2026-04-15T10:45:00+08:00",
         "end": "2026-04-15T11:30:00+08:00",
         "count": 4,
-        "complete": true
-      },
-      {
-        "start": "2026-04-15T14:30:00+08:00",
-        "end": "2026-04-15T14:45:00+08:00",
-        "count": 2,
         "complete": true
       }
     ]
@@ -729,37 +615,20 @@
       "after": "2026-04-16T09:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 5,
-    "flame_candidate_region_count": null,
+    "candidate_flame_count": 1,
+    "best_flame_id": 1310,
+    "best_flame_count": 1,
+    "matching_score": [
+      5,
+      3
+    ],
+    "selected": true,
+    "flame_candidate_region_count": 1,
     "flames": [
-      {
-        "start": "2026-04-15T14:30:00+08:00",
-        "end": "2026-04-15T14:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-04-15T21:15:00+08:00",
-        "end": "2026-04-15T21:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
       {
         "start": "2026-04-15T21:45:00+08:00",
         "end": "2026-04-15T22:15:00+08:00",
         "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-04-15T23:00:00+08:00",
-        "end": "2026-04-15T23:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-16T09:30:00+08:00",
-        "end": "2026-04-16T09:45:00+08:00",
-        "count": 2,
         "complete": true
       }
     ]
@@ -785,6 +654,13 @@
     },
     "settled": true,
     "candidate_flame_count": 3,
+    "best_flame_id": 1312,
+    "best_flame_count": 1,
+    "matching_score": [
+      1,
+      1
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -827,7 +703,14 @@
       "after": "2026-04-17T14:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 3,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1319,
+    "best_flame_count": 1,
+    "matching_score": [
+      3,
+      2
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -840,12 +723,6 @@
         "start": "2026-04-17T11:00:00+08:00",
         "end": "2026-04-17T11:15:00+08:00",
         "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-04-17T14:45:00+08:00",
-        "end": "2026-04-17T14:45:00+08:00",
-        "count": 1,
         "complete": true
       }
     ]
@@ -870,7 +747,14 @@
       "after": "2026-04-20T14:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 3,
+    "best_flame_id": 1326,
+    "best_flame_count": 1,
+    "matching_score": [
+      2,
+      2
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -888,12 +772,6 @@
       {
         "start": "2026-04-20T14:30:00+08:00",
         "end": "2026-04-20T14:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-20T21:15:00+08:00",
-        "end": "2026-04-20T21:15:00+08:00",
         "count": 1,
         "complete": true
       }
@@ -919,55 +797,20 @@
       "after": "2026-04-21T09:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 8,
-    "flame_candidate_region_count": null,
+    "candidate_flame_count": 1,
+    "best_flame_id": 1329,
+    "best_flame_count": 1,
+    "matching_score": [
+      10,
+      5
+    ],
+    "selected": true,
+    "flame_candidate_region_count": 1,
     "flames": [
-      {
-        "start": "2026-04-20T11:00:00+08:00",
-        "end": "2026-04-20T11:30:00+08:00",
-        "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-04-20T14:00:00+08:00",
-        "end": "2026-04-20T14:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-20T14:30:00+08:00",
-        "end": "2026-04-20T14:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-20T21:15:00+08:00",
-        "end": "2026-04-20T21:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
       {
         "start": "2026-04-20T21:45:00+08:00",
         "end": "2026-04-20T21:45:00+08:00",
         "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-20T22:15:00+08:00",
-        "end": "2026-04-20T22:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-20T22:45:00+08:00",
-        "end": "2026-04-20T22:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-21T10:00:00+08:00",
-        "end": "2026-04-21T10:15:00+08:00",
-        "count": 2,
         "complete": true
       }
     ]
@@ -992,58 +835,13 @@
       "after": "2026-04-22T22:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 8,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-04-22T09:30:00+08:00",
-        "end": "2026-04-22T09:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-22T10:00:00+08:00",
-        "end": "2026-04-22T11:15:00+08:00",
-        "count": 5,
-        "complete": true
-      },
-      {
-        "start": "2026-04-22T14:00:00+08:00",
-        "end": "2026-04-22T14:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-22T14:30:00+08:00",
-        "end": "2026-04-22T14:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-22T15:00:00+08:00",
-        "end": "2026-04-22T15:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-22T21:45:00+08:00",
-        "end": "2026-04-22T21:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-22T23:00:00+08:00",
-        "end": "2026-04-22T23:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-23T09:30:00+08:00",
-        "end": "2026-04-23T09:30:00+08:00",
-        "count": 1,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 173,
@@ -1066,6 +864,13 @@
     },
     "settled": true,
     "candidate_flame_count": 2,
+    "best_flame_id": 1372,
+    "best_flame_count": 1,
+    "matching_score": [
+      2,
+      2
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -1102,64 +907,13 @@
       "after": "2026-05-06T22:30:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 9,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-04-30T14:30:00+08:00",
-        "end": "2026-04-30T14:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-04-30T15:00:00+08:00",
-        "end": "2026-05-06T09:45:00+08:00",
-        "count": 4,
-        "complete": true
-      },
-      {
-        "start": "2026-05-06T10:15:00+08:00",
-        "end": "2026-05-06T10:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-06T11:30:00+08:00",
-        "end": "2026-05-06T11:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-06T14:00:00+08:00",
-        "end": "2026-05-06T14:30:00+08:00",
-        "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-05-06T15:00:00+08:00",
-        "end": "2026-05-06T15:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-06T22:15:00+08:00",
-        "end": "2026-05-06T22:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-06T22:45:00+08:00",
-        "end": "2026-05-06T22:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-07T09:30:00+08:00",
-        "end": "2026-05-07T09:30:00+08:00",
-        "count": 1,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 175,
@@ -1182,6 +936,13 @@
     },
     "settled": true,
     "candidate_flame_count": 3,
+    "best_flame_id": 1380,
+    "best_flame_count": 1,
+    "matching_score": [
+      1,
+      1
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -1224,15 +985,16 @@
       "after": "2026-05-13T22:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 2,
-    "flame_candidate_region_count": null,
+    "candidate_flame_count": 1,
+    "best_flame_id": 1408,
+    "best_flame_count": 1,
+    "matching_score": [
+      3,
+      2
+    ],
+    "selected": true,
+    "flame_candidate_region_count": 1,
     "flames": [
-      {
-        "start": "2026-05-13T14:00:00+08:00",
-        "end": "2026-05-13T14:15:00+08:00",
-        "count": 2,
-        "complete": true
-      },
       {
         "start": "2026-05-13T14:45:00+08:00",
         "end": "2026-05-13T21:30:00+08:00",
@@ -1262,6 +1024,13 @@
     },
     "settled": true,
     "candidate_flame_count": 2,
+    "best_flame_id": 1420,
+    "best_flame_count": 1,
+    "matching_score": [
+      3,
+      2
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -1299,6 +1068,13 @@
     },
     "settled": true,
     "candidate_flame_count": 1,
+    "best_flame_id": 1424,
+    "best_flame_count": 1,
+    "matching_score": [
+      4,
+      3
+    ],
+    "selected": true,
     "flame_candidate_region_count": 1,
     "flames": [
       {
@@ -1329,37 +1105,20 @@
       "after": "2026-05-21T14:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 5,
-    "flame_candidate_region_count": null,
+    "candidate_flame_count": 1,
+    "best_flame_id": 1433,
+    "best_flame_count": 1,
+    "matching_score": [
+      9,
+      5
+    ],
+    "selected": true,
+    "flame_candidate_region_count": 1,
     "flames": [
-      {
-        "start": "2026-05-20T22:30:00+08:00",
-        "end": "2026-05-20T22:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-21T09:15:00+08:00",
-        "end": "2026-05-21T09:45:00+08:00",
-        "count": 3,
-        "complete": true
-      },
       {
         "start": "2026-05-21T10:15:00+08:00",
         "end": "2026-05-21T10:45:00+08:00",
         "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-05-21T11:30:00+08:00",
-        "end": "2026-05-21T11:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-21T15:00:00+08:00",
-        "end": "2026-05-21T15:00:00+08:00",
-        "count": 1,
         "complete": true
       }
     ]
@@ -1384,46 +1143,13 @@
       "after": "2026-05-25T21:30:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 6,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-05-22T22:45:00+08:00",
-        "end": "2026-05-22T22:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-25T09:15:00+08:00",
-        "end": "2026-05-25T09:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-25T10:15:00+08:00",
-        "end": "2026-05-25T10:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-05-25T13:45:00+08:00",
-        "end": "2026-05-25T14:30:00+08:00",
-        "count": 4,
-        "complete": true
-      },
-      {
-        "start": "2026-05-25T15:00:00+08:00",
-        "end": "2026-05-25T15:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-25T21:45:00+08:00",
-        "end": "2026-05-25T21:45:00+08:00",
-        "count": 1,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 181,
@@ -1446,6 +1172,13 @@
     },
     "settled": true,
     "candidate_flame_count": 3,
+    "best_flame_id": 1459,
+    "best_flame_count": 1,
+    "matching_score": [
+      2,
+      1
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -1488,7 +1221,14 @@
       "after": "2026-05-28T21:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 3,
+    "best_flame_id": 1467,
+    "best_flame_count": 1,
+    "matching_score": [
+      3,
+      2
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -1506,12 +1246,6 @@
       {
         "start": "2026-05-28T22:00:00+08:00",
         "end": "2026-05-28T22:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-28T22:45:00+08:00",
-        "end": "2026-05-28T22:45:00+08:00",
         "count": 1,
         "complete": true
       }
@@ -1537,43 +1271,20 @@
       "after": "2026-05-29T11:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 6,
-    "flame_candidate_region_count": null,
+    "candidate_flame_count": 1,
+    "best_flame_id": 1470,
+    "best_flame_count": 1,
+    "matching_score": [
+      9,
+      5
+    ],
+    "selected": true,
+    "flame_candidate_region_count": 1,
     "flames": [
-      {
-        "start": "2026-05-28T15:00:00+08:00",
-        "end": "2026-05-28T15:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-28T22:00:00+08:00",
-        "end": "2026-05-28T22:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-28T22:45:00+08:00",
-        "end": "2026-05-28T22:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
       {
         "start": "2026-05-29T09:15:00+08:00",
         "end": "2026-05-29T09:45:00+08:00",
         "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-05-29T10:45:00+08:00",
-        "end": "2026-05-29T10:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-29T11:30:00+08:00",
-        "end": "2026-05-29T13:45:00+08:00",
-        "count": 2,
         "complete": true
       }
     ]
@@ -1598,15 +1309,16 @@
       "after": "2026-05-29T21:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 3,
+    "best_flame_id": 1473,
+    "best_flame_count": 1,
+    "matching_score": [
+      2,
+      2
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-05-29T11:30:00+08:00",
-        "end": "2026-05-29T13:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
       {
         "start": "2026-05-29T14:30:00+08:00",
         "end": "2026-05-29T15:00:00+08:00",
@@ -1647,7 +1359,14 @@
       "after": "2026-05-29T21:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 3,
+    "best_flame_id": 1474,
+    "best_flame_count": 1,
+    "matching_score": [
+      0,
+      0
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -1666,12 +1385,6 @@
         "start": "2026-05-29T22:00:00+08:00",
         "end": "2026-05-29T22:00:00+08:00",
         "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-29T22:45:00+08:00",
-        "end": "2026-06-01T09:45:00+08:00",
-        "count": 5,
         "complete": true
       }
     ]
@@ -1696,15 +1409,16 @@
       "after": "2026-05-29T22:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1475,
+    "best_flame_count": 1,
+    "matching_score": [
+      0,
+      0
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-05-29T14:30:00+08:00",
-        "end": "2026-05-29T15:00:00+08:00",
-        "count": 3,
-        "complete": true
-      },
       {
         "start": "2026-05-29T21:30:00+08:00",
         "end": "2026-05-29T21:30:00+08:00",
@@ -1715,12 +1429,6 @@
         "start": "2026-05-29T22:00:00+08:00",
         "end": "2026-05-29T22:00:00+08:00",
         "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-05-29T22:45:00+08:00",
-        "end": "2026-06-01T09:45:00+08:00",
-        "count": 5,
         "complete": true
       }
     ]
@@ -1745,34 +1453,13 @@
       "after": "2026-06-01T14:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-05-29T22:45:00+08:00",
-        "end": "2026-06-01T09:45:00+08:00",
-        "count": 5,
-        "complete": true
-      },
-      {
-        "start": "2026-06-01T11:15:00+08:00",
-        "end": "2026-06-01T11:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-01T14:00:00+08:00",
-        "end": "2026-06-01T14:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-01T15:00:00+08:00",
-        "end": "2026-06-01T15:00:00+08:00",
-        "count": 1,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 188,
@@ -1794,7 +1481,14 @@
       "after": "2026-06-10T14:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 3,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1510,
+    "best_flame_count": 1,
+    "matching_score": [
+      5,
+      3
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -1807,12 +1501,6 @@
         "start": "2026-06-10T11:00:00+08:00",
         "end": "2026-06-10T11:00:00+08:00",
         "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-10T14:15:00+08:00",
-        "end": "2026-06-10T14:45:00+08:00",
-        "count": 3,
         "complete": true
       }
     ]
@@ -1837,46 +1525,13 @@
       "after": "2026-06-11T09:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 6,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-06-10T11:00:00+08:00",
-        "end": "2026-06-10T11:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-10T14:15:00+08:00",
-        "end": "2026-06-10T14:45:00+08:00",
-        "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-06-10T21:15:00+08:00",
-        "end": "2026-06-10T21:30:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-06-10T22:15:00+08:00",
-        "end": "2026-06-10T22:45:00+08:00",
-        "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-06-11T10:00:00+08:00",
-        "end": "2026-06-11T10:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-11T11:00:00+08:00",
-        "end": "2026-06-11T13:45:00+08:00",
-        "count": 4,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 190,
@@ -1898,25 +1553,20 @@
       "after": "2026-06-11T10:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 3,
-    "flame_candidate_region_count": null,
+    "candidate_flame_count": 1,
+    "best_flame_id": 1514,
+    "best_flame_count": 1,
+    "matching_score": [
+      0,
+      0
+    ],
+    "selected": true,
+    "flame_candidate_region_count": 1,
     "flames": [
-      {
-        "start": "2026-06-10T22:15:00+08:00",
-        "end": "2026-06-10T22:45:00+08:00",
-        "count": 3,
-        "complete": true
-      },
       {
         "start": "2026-06-11T10:00:00+08:00",
         "end": "2026-06-11T10:00:00+08:00",
         "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-11T11:00:00+08:00",
-        "end": "2026-06-11T13:45:00+08:00",
-        "count": 4,
         "complete": true
       }
     ]
@@ -1941,46 +1591,13 @@
       "after": "2026-06-11T21:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 6,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-06-11T10:00:00+08:00",
-        "end": "2026-06-11T10:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-11T11:00:00+08:00",
-        "end": "2026-06-11T13:45:00+08:00",
-        "count": 4,
-        "complete": true
-      },
-      {
-        "start": "2026-06-11T14:30:00+08:00",
-        "end": "2026-06-11T14:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-11T21:15:00+08:00",
-        "end": "2026-06-11T21:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-11T22:00:00+08:00",
-        "end": "2026-06-11T22:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-11T22:45:00+08:00",
-        "end": "2026-06-11T22:45:00+08:00",
-        "count": 1,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 192,
@@ -2003,6 +1620,13 @@
     },
     "settled": true,
     "candidate_flame_count": 3,
+    "best_flame_id": 1518,
+    "best_flame_count": 1,
+    "matching_score": [
+      0,
+      0
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -2045,64 +1669,13 @@
       "after": "2026-06-15T14:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 9,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-06-12T14:00:00+08:00",
-        "end": "2026-06-12T14:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-12T21:15:00+08:00",
-        "end": "2026-06-12T21:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-12T22:00:00+08:00",
-        "end": "2026-06-12T22:15:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-06-12T22:45:00+08:00",
-        "end": "2026-06-12T22:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-15T09:30:00+08:00",
-        "end": "2026-06-15T10:00:00+08:00",
-        "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-06-15T10:45:00+08:00",
-        "end": "2026-06-15T11:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-06-15T11:30:00+08:00",
-        "end": "2026-06-15T11:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-15T14:00:00+08:00",
-        "end": "2026-06-15T14:15:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-06-15T21:45:00+08:00",
-        "end": "2026-06-15T22:00:00+08:00",
-        "count": 2,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 194,
@@ -2124,7 +1697,14 @@
       "after": "2026-06-23T11:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 3,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1550,
+    "best_flame_count": 1,
+    "matching_score": [
+      2,
+      2
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -2136,12 +1716,6 @@
       {
         "start": "2026-06-23T10:00:00+08:00",
         "end": "2026-06-23T10:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-23T13:45:00+08:00",
-        "end": "2026-06-23T13:45:00+08:00",
         "count": 1,
         "complete": true
       }
@@ -2167,15 +1741,16 @@
       "after": "2026-06-23T21:30:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 3,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1552,
+    "best_flame_count": 1,
+    "matching_score": [
+      2,
+      1
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-06-23T13:45:00+08:00",
-        "end": "2026-06-23T13:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
       {
         "start": "2026-06-23T14:45:00+08:00",
         "end": "2026-06-23T15:00:00+08:00",
@@ -2210,15 +1785,16 @@
       "after": "2026-06-24T09:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 5,
+    "candidate_flame_count": 2,
+    "best_flame_id": null,
+    "best_flame_count": 2,
+    "matching_score": [
+      4,
+      3
+    ],
+    "selected": false,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-06-23T14:45:00+08:00",
-        "end": "2026-06-23T15:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
       {
         "start": "2026-06-23T21:45:00+08:00",
         "end": "2026-06-23T22:15:00+08:00",
@@ -2229,18 +1805,6 @@
         "start": "2026-06-23T22:45:00+08:00",
         "end": "2026-06-23T22:45:00+08:00",
         "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-24T09:30:00+08:00",
-        "end": "2026-06-24T09:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-24T10:00:00+08:00",
-        "end": "2026-06-24T10:15:00+08:00",
-        "count": 2,
         "complete": true
       }
     ]
@@ -2265,15 +1829,16 @@
       "after": "2026-06-24T14:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 3,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1557,
+    "best_flame_count": 1,
+    "matching_score": [
+      5,
+      3
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-06-24T09:30:00+08:00",
-        "end": "2026-06-24T09:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
       {
         "start": "2026-06-24T10:00:00+08:00",
         "end": "2026-06-24T10:15:00+08:00",
@@ -2308,21 +1873,16 @@
       "after": "2026-06-29T21:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 5,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1576,
+    "best_flame_count": 1,
+    "matching_score": [
+      7,
+      4
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-06-29T10:15:00+08:00",
-        "end": "2026-06-29T10:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-06-29T11:15:00+08:00",
-        "end": "2026-06-29T11:30:00+08:00",
-        "count": 2,
-        "complete": true
-      },
       {
         "start": "2026-06-29T14:00:00+08:00",
         "end": "2026-06-29T14:00:00+08:00",
@@ -2332,12 +1892,6 @@
       {
         "start": "2026-06-29T14:30:00+08:00",
         "end": "2026-06-29T14:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-06-29T21:30:00+08:00",
-        "end": "2026-06-29T21:30:00+08:00",
         "count": 1,
         "complete": true
       }
@@ -2363,82 +1917,13 @@
       "after": "2026-07-02T10:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 12,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-06-30T15:00:00+08:00",
-        "end": "2026-06-30T21:15:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-06-30T22:15:00+08:00",
-        "end": "2026-06-30T22:30:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-01T09:30:00+08:00",
-        "end": "2026-07-01T09:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-01T10:00:00+08:00",
-        "end": "2026-07-01T10:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-01T10:45:00+08:00",
-        "end": "2026-07-01T11:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-01T13:45:00+08:00",
-        "end": "2026-07-01T14:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-01T21:15:00+08:00",
-        "end": "2026-07-01T21:30:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-01T22:00:00+08:00",
-        "end": "2026-07-01T22:15:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-02T09:15:00+08:00",
-        "end": "2026-07-02T09:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-02T09:45:00+08:00",
-        "end": "2026-07-02T10:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-02T11:00:00+08:00",
-        "end": "2026-07-02T11:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-02T13:45:00+08:00",
-        "end": "2026-07-02T14:00:00+08:00",
-        "count": 2,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 200,
@@ -2461,6 +1946,13 @@
     },
     "settled": true,
     "candidate_flame_count": 3,
+    "best_flame_id": 1592,
+    "best_flame_count": 1,
+    "matching_score": [
+      1,
+      1
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -2503,46 +1995,13 @@
       "after": "2026-07-03T09:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 6,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-07-02T11:00:00+08:00",
-        "end": "2026-07-02T11:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-02T13:45:00+08:00",
-        "end": "2026-07-02T14:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-02T21:45:00+08:00",
-        "end": "2026-07-02T21:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-02T22:30:00+08:00",
-        "end": "2026-07-02T22:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-03T09:30:00+08:00",
-        "end": "2026-07-03T09:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-03T10:15:00+08:00",
-        "end": "2026-07-03T10:45:00+08:00",
-        "count": 2,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 202,
@@ -2564,7 +2023,14 @@
       "after": "2026-07-03T10:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 3,
+    "best_flame_id": 1596,
+    "best_flame_count": 1,
+    "matching_score": [
+      0,
+      0
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -2583,12 +2049,6 @@
         "start": "2026-07-03T10:15:00+08:00",
         "end": "2026-07-03T10:45:00+08:00",
         "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-03T11:15:00+08:00",
-        "end": "2026-07-03T13:45:00+08:00",
-        "count": 3,
         "complete": true
       }
     ]
@@ -2613,15 +2073,16 @@
       "after": "2026-07-03T14:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1598,
+    "best_flame_count": 1,
+    "matching_score": [
+      3,
+      3
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-07-03T09:30:00+08:00",
-        "end": "2026-07-03T09:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
       {
         "start": "2026-07-03T10:15:00+08:00",
         "end": "2026-07-03T10:45:00+08:00",
@@ -2632,12 +2093,6 @@
         "start": "2026-07-03T11:15:00+08:00",
         "end": "2026-07-03T13:45:00+08:00",
         "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-07-03T15:00:00+08:00",
-        "end": "2026-07-03T21:45:00+08:00",
-        "count": 4,
         "complete": true
       }
     ]
@@ -2662,15 +2117,16 @@
       "after": "2026-07-06T09:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 5,
+    "candidate_flame_count": 4,
+    "best_flame_id": 1601,
+    "best_flame_count": 1,
+    "matching_score": [
+      1,
+      1
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-07-03T15:00:00+08:00",
-        "end": "2026-07-03T21:45:00+08:00",
-        "count": 4,
-        "complete": true
-      },
       {
         "start": "2026-07-03T22:15:00+08:00",
         "end": "2026-07-03T22:15:00+08:00",
@@ -2717,15 +2173,16 @@
       "after": "2026-07-09T14:30:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 5,
+    "candidate_flame_count": 2,
+    "best_flame_id": null,
+    "best_flame_count": 2,
+    "matching_score": [
+      4,
+      4
+    ],
+    "selected": false,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-07-09T09:30:00+08:00",
-        "end": "2026-07-09T10:45:00+08:00",
-        "count": 5,
-        "complete": true
-      },
       {
         "start": "2026-07-09T11:15:00+08:00",
         "end": "2026-07-09T11:15:00+08:00",
@@ -2735,18 +2192,6 @@
       {
         "start": "2026-07-09T14:15:00+08:00",
         "end": "2026-07-09T14:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-09T14:45:00+08:00",
-        "end": "2026-07-09T14:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-09T21:15:00+08:00",
-        "end": "2026-07-09T21:15:00+08:00",
         "count": 1,
         "complete": true
       }
@@ -2772,94 +2217,13 @@
       "after": "2026-07-13T09:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 14,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-07-09T14:15:00+08:00",
-        "end": "2026-07-09T14:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-09T14:45:00+08:00",
-        "end": "2026-07-09T14:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-09T21:15:00+08:00",
-        "end": "2026-07-09T21:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-09T21:45:00+08:00",
-        "end": "2026-07-09T22:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-09T22:30:00+08:00",
-        "end": "2026-07-09T22:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-10T09:30:00+08:00",
-        "end": "2026-07-10T09:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-10T10:00:00+08:00",
-        "end": "2026-07-10T10:15:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-10T11:00:00+08:00",
-        "end": "2026-07-10T11:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-10T11:30:00+08:00",
-        "end": "2026-07-10T11:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-10T14:15:00+08:00",
-        "end": "2026-07-10T14:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-10T21:15:00+08:00",
-        "end": "2026-07-10T21:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-10T21:45:00+08:00",
-        "end": "2026-07-10T21:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-10T22:45:00+08:00",
-        "end": "2026-07-10T23:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-13T09:30:00+08:00",
-        "end": "2026-07-13T09:30:00+08:00",
-        "count": 1,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 207,
@@ -2881,21 +2245,16 @@
       "after": "2026-07-20T13:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 6,
+    "candidate_flame_count": 2,
+    "best_flame_id": null,
+    "best_flame_count": 2,
+    "matching_score": [
+      6,
+      4
+    ],
+    "selected": false,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-07-17T22:30:00+08:00",
-        "end": "2026-07-17T22:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-20T09:30:00+08:00",
-        "end": "2026-07-20T09:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
       {
         "start": "2026-07-20T10:15:00+08:00",
         "end": "2026-07-20T10:15:00+08:00",
@@ -2906,18 +2265,6 @@
         "start": "2026-07-20T11:00:00+08:00",
         "end": "2026-07-20T11:00:00+08:00",
         "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-20T11:30:00+08:00",
-        "end": "2026-07-20T11:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-20T14:00:00+08:00",
-        "end": "2026-07-20T14:15:00+08:00",
-        "count": 2,
         "complete": true
       }
     ]
@@ -2943,6 +2290,13 @@
     },
     "settled": true,
     "candidate_flame_count": 5,
+    "best_flame_id": 1669,
+    "best_flame_count": 1,
+    "matching_score": [
+      0,
+      0
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -2997,21 +2351,16 @@
       "after": "2026-07-21T21:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 5,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1672,
+    "best_flame_count": 1,
+    "matching_score": [
+      5,
+      4
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-07-21T10:45:00+08:00",
-        "end": "2026-07-21T10:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-21T11:15:00+08:00",
-        "end": "2026-07-21T11:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
       {
         "start": "2026-07-21T13:45:00+08:00",
         "end": "2026-07-21T14:00:00+08:00",
@@ -3021,12 +2370,6 @@
       {
         "start": "2026-07-21T14:30:00+08:00",
         "end": "2026-07-21T14:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-21T21:45:00+08:00",
-        "end": "2026-07-21T21:45:00+08:00",
         "count": 1,
         "complete": true
       }
@@ -3052,34 +2395,13 @@
       "after": "2026-07-23T09:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-07-22T10:15:00+08:00",
-        "end": "2026-07-22T11:15:00+08:00",
-        "count": 4,
-        "complete": true
-      },
-      {
-        "start": "2026-07-22T14:00:00+08:00",
-        "end": "2026-07-22T14:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-22T21:15:00+08:00",
-        "end": "2026-07-22T21:30:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-23T09:30:00+08:00",
-        "end": "2026-07-23T10:00:00+08:00",
-        "count": 3,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 211,
@@ -3102,6 +2424,13 @@
     },
     "settled": true,
     "candidate_flame_count": 2,
+    "best_flame_id": 1679,
+    "best_flame_count": 1,
+    "matching_score": [
+      4,
+      3
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -3138,52 +2467,13 @@
       "after": "2026-07-27T10:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 7,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-07-24T14:00:00+08:00",
-        "end": "2026-07-24T14:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-24T14:30:00+08:00",
-        "end": "2026-07-24T14:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-24T21:30:00+08:00",
-        "end": "2026-07-24T21:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-24T22:45:00+08:00",
-        "end": "2026-07-24T22:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-27T09:15:00+08:00",
-        "end": "2026-07-27T09:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-27T09:45:00+08:00",
-        "end": "2026-07-27T10:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-07-27T11:00:00+08:00",
-        "end": "2026-07-27T11:15:00+08:00",
-        "count": 2,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 213,
@@ -3205,15 +2495,16 @@
       "after": "2026-07-31T11:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1708,
+    "best_flame_count": 1,
+    "matching_score": [
+      5,
+      5
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-07-30T22:45:00+08:00",
-        "end": "2026-07-30T22:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
       {
         "start": "2026-07-31T09:15:00+08:00",
         "end": "2026-07-31T09:30:00+08:00",
@@ -3223,12 +2514,6 @@
       {
         "start": "2026-07-31T10:00:00+08:00",
         "end": "2026-07-31T10:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-07-31T11:30:00+08:00",
-        "end": "2026-07-31T11:30:00+08:00",
         "count": 1,
         "complete": true
       }
@@ -3254,118 +2539,13 @@
       "after": "2026-08-06T09:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 18,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-08-03T22:00:00+08:00",
-        "end": "2026-08-03T22:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-03T22:30:00+08:00",
-        "end": "2026-08-03T22:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-04T09:15:00+08:00",
-        "end": "2026-08-04T09:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-04T10:00:00+08:00",
-        "end": "2026-08-04T10:15:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-08-04T11:00:00+08:00",
-        "end": "2026-08-04T11:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-04T11:30:00+08:00",
-        "end": "2026-08-04T13:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-08-04T21:15:00+08:00",
-        "end": "2026-08-04T21:30:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-08-04T22:30:00+08:00",
-        "end": "2026-08-04T22:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-04T23:00:00+08:00",
-        "end": "2026-08-04T23:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-05T09:30:00+08:00",
-        "end": "2026-08-05T09:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-05T10:00:00+08:00",
-        "end": "2026-08-05T10:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-05T10:45:00+08:00",
-        "end": "2026-08-05T11:15:00+08:00",
-        "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-08-05T13:45:00+08:00",
-        "end": "2026-08-05T13:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-05T14:45:00+08:00",
-        "end": "2026-08-05T15:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-08-05T21:30:00+08:00",
-        "end": "2026-08-05T21:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-05T22:15:00+08:00",
-        "end": "2026-08-05T22:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-05T23:00:00+08:00",
-        "end": "2026-08-05T23:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-06T09:45:00+08:00",
-        "end": "2026-08-06T10:00:00+08:00",
-        "count": 2,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 215,
@@ -3387,7 +2567,14 @@
       "after": "2026-08-07T14:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 3,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1741,
+    "best_flame_count": 1,
+    "matching_score": [
+      3,
+      3
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -3399,12 +2586,6 @@
       {
         "start": "2026-08-07T13:45:00+08:00",
         "end": "2026-08-07T13:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-07T14:45:00+08:00",
-        "end": "2026-08-07T14:45:00+08:00",
         "count": 1,
         "complete": true
       }
@@ -3430,70 +2611,13 @@
       "after": "2026-08-10T15:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 10,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-08-07T14:45:00+08:00",
-        "end": "2026-08-07T14:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-07T21:15:00+08:00",
-        "end": "2026-08-07T21:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-07T21:45:00+08:00",
-        "end": "2026-08-07T23:00:00+08:00",
-        "count": 6,
-        "complete": true
-      },
-      {
-        "start": "2026-08-10T09:30:00+08:00",
-        "end": "2026-08-10T09:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-10T10:00:00+08:00",
-        "end": "2026-08-10T10:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-10T10:45:00+08:00",
-        "end": "2026-08-10T10:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-10T11:15:00+08:00",
-        "end": "2026-08-10T11:30:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-08-10T14:00:00+08:00",
-        "end": "2026-08-10T14:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-10T14:30:00+08:00",
-        "end": "2026-08-10T14:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-10T21:30:00+08:00",
-        "end": "2026-08-10T21:30:00+08:00",
-        "count": 1,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 217,
@@ -3516,6 +2640,13 @@
     },
     "settled": true,
     "candidate_flame_count": 2,
+    "best_flame_id": 1751,
+    "best_flame_count": 1,
+    "matching_score": [
+      0,
+      0
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -3552,46 +2683,13 @@
       "after": "2026-08-11T21:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 6,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-08-11T09:30:00+08:00",
-        "end": "2026-08-11T09:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-11T10:15:00+08:00",
-        "end": "2026-08-11T10:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-08-11T11:15:00+08:00",
-        "end": "2026-08-11T14:00:00+08:00",
-        "count": 4,
-        "complete": true
-      },
-      {
-        "start": "2026-08-11T15:00:00+08:00",
-        "end": "2026-08-11T21:30:00+08:00",
-        "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-08-11T22:15:00+08:00",
-        "end": "2026-08-11T22:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-11T22:45:00+08:00",
-        "end": "2026-08-11T22:45:00+08:00",
-        "count": 1,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 219,
@@ -3613,15 +2711,16 @@
       "after": "2026-08-17T10:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 3,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1773,
+    "best_flame_count": 1,
+    "matching_score": [
+      4,
+      3
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-08-14T22:00:00+08:00",
-        "end": "2026-08-14T22:15:00+08:00",
-        "count": 2,
-        "complete": true
-      },
       {
         "start": "2026-08-14T22:45:00+08:00",
         "end": "2026-08-17T09:30:00+08:00",
@@ -3656,15 +2755,16 @@
       "after": "2026-08-17T11:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 4,
+    "candidate_flame_count": 2,
+    "best_flame_id": 1774,
+    "best_flame_count": 1,
+    "matching_score": [
+      2,
+      2
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
-      {
-        "start": "2026-08-14T22:45:00+08:00",
-        "end": "2026-08-17T09:30:00+08:00",
-        "count": 4,
-        "complete": true
-      },
       {
         "start": "2026-08-17T10:15:00+08:00",
         "end": "2026-08-17T11:00:00+08:00",
@@ -3675,12 +2775,6 @@
         "start": "2026-08-17T13:45:00+08:00",
         "end": "2026-08-17T13:45:00+08:00",
         "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-17T14:15:00+08:00",
-        "end": "2026-08-17T14:30:00+08:00",
-        "count": 2,
         "complete": true
       }
     ]
@@ -3705,25 +2799,20 @@
       "after": "2026-08-18T09:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 3,
-    "flame_candidate_region_count": null,
+    "candidate_flame_count": 1,
+    "best_flame_id": 1778,
+    "best_flame_count": 1,
+    "matching_score": [
+      4,
+      2
+    ],
+    "selected": true,
+    "flame_candidate_region_count": 1,
     "flames": [
-      {
-        "start": "2026-08-17T21:15:00+08:00",
-        "end": "2026-08-17T21:30:00+08:00",
-        "count": 2,
-        "complete": true
-      },
       {
         "start": "2026-08-17T22:00:00+08:00",
         "end": "2026-08-17T22:30:00+08:00",
         "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-08-18T10:00:00+08:00",
-        "end": "2026-08-18T10:00:00+08:00",
-        "count": 1,
         "complete": true
       }
     ]
@@ -3748,49 +2837,20 @@
       "after": "2026-08-18T21:15:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 7,
-    "flame_candidate_region_count": null,
+    "candidate_flame_count": 1,
+    "best_flame_id": 1782,
+    "best_flame_count": 1,
+    "matching_score": [
+      7,
+      4
+    ],
+    "selected": true,
+    "flame_candidate_region_count": 1,
     "flames": [
-      {
-        "start": "2026-08-18T10:00:00+08:00",
-        "end": "2026-08-18T10:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-18T10:45:00+08:00",
-        "end": "2026-08-18T10:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-18T11:15:00+08:00",
-        "end": "2026-08-18T11:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
       {
         "start": "2026-08-18T14:15:00+08:00",
         "end": "2026-08-18T14:15:00+08:00",
         "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-18T15:00:00+08:00",
-        "end": "2026-08-18T15:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-18T21:30:00+08:00",
-        "end": "2026-08-18T21:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-18T22:00:00+08:00",
-        "end": "2026-08-18T22:15:00+08:00",
-        "count": 2,
         "complete": true
       }
     ]
@@ -3815,52 +2875,13 @@
       "after": "2026-08-20T11:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 7,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-08-19T15:00:00+08:00",
-        "end": "2026-08-19T21:30:00+08:00",
-        "count": 3,
-        "complete": true
-      },
-      {
-        "start": "2026-08-19T22:00:00+08:00",
-        "end": "2026-08-19T22:00:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-19T22:30:00+08:00",
-        "end": "2026-08-19T22:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-20T09:15:00+08:00",
-        "end": "2026-08-20T09:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-20T09:45:00+08:00",
-        "end": "2026-08-20T09:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-20T10:45:00+08:00",
-        "end": "2026-08-20T10:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-20T11:30:00+08:00",
-        "end": "2026-08-20T13:45:00+08:00",
-        "count": 2,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 224,
@@ -3882,46 +2903,13 @@
       "after": "2026-08-24T10:45:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 6,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-08-21T10:15:00+08:00",
-        "end": "2026-08-21T11:30:00+08:00",
-        "count": 5,
-        "complete": true
-      },
-      {
-        "start": "2026-08-21T14:15:00+08:00",
-        "end": "2026-08-21T14:30:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-08-21T21:15:00+08:00",
-        "end": "2026-08-21T22:15:00+08:00",
-        "count": 5,
-        "complete": true
-      },
-      {
-        "start": "2026-08-24T09:45:00+08:00",
-        "end": "2026-08-24T10:00:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-08-24T11:00:00+08:00",
-        "end": "2026-08-24T11:15:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-08-24T13:45:00+08:00",
-        "end": "2026-08-24T13:45:00+08:00",
-        "count": 1,
-        "complete": true
-      }
-    ]
+    "flames": []
   },
   {
     "region_id": 225,
@@ -3944,6 +2932,13 @@
     },
     "settled": true,
     "candidate_flame_count": 3,
+    "best_flame_id": 1807,
+    "best_flame_count": 1,
+    "matching_score": [
+      1,
+      1
+    ],
+    "selected": true,
     "flame_candidate_region_count": null,
     "flames": [
       {
@@ -3986,75 +2981,12 @@
       "after": "2026-08-31T15:00:00+08:00"
     },
     "settled": true,
-    "candidate_flame_count": 11,
+    "candidate_flame_count": 0,
+    "best_flame_id": null,
+    "best_flame_count": 0,
+    "matching_score": null,
+    "selected": false,
     "flame_candidate_region_count": null,
-    "flames": [
-      {
-        "start": "2026-08-28T09:15:00+08:00",
-        "end": "2026-08-28T09:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-28T09:45:00+08:00",
-        "end": "2026-08-28T09:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-28T10:15:00+08:00",
-        "end": "2026-08-28T10:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-08-28T11:15:00+08:00",
-        "end": "2026-08-28T14:30:00+08:00",
-        "count": 6,
-        "complete": true
-      },
-      {
-        "start": "2026-08-28T21:30:00+08:00",
-        "end": "2026-08-28T21:30:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-28T22:45:00+08:00",
-        "end": "2026-08-28T22:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-31T09:15:00+08:00",
-        "end": "2026-08-31T09:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-31T09:45:00+08:00",
-        "end": "2026-08-31T09:45:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-31T10:15:00+08:00",
-        "end": "2026-08-31T10:45:00+08:00",
-        "count": 2,
-        "complete": true
-      },
-      {
-        "start": "2026-08-31T11:15:00+08:00",
-        "end": "2026-08-31T11:15:00+08:00",
-        "count": 1,
-        "complete": true
-      },
-      {
-        "start": "2026-08-31T13:45:00+08:00",
-        "end": "2026-08-31T14:15:00+08:00",
-        "count": 3,
-        "complete": true
-      }
-    ]
+    "flames": []
   }
 ]
