@@ -1,0 +1,4586 @@
+[
+  {
+    "symbol": "APL9",
+    "name": "苹果加权",
+    "interval": "15m",
+    "derived": false,
+    "period_start": "2026-04-01",
+    "period_end": "2026-08-31",
+    "date": "2026-07-23",
+    "time": "2026-07-23T10:15:00+08:00",
+    "point_date": "2026-07-23",
+    "source_time": "2026-07-23 10:15",
+    "confirmation_time": "2026-07-23T11:00:00+08:00",
+    "confirmation_date": "2026-07-23",
+    "A_end_time": "2026-07-23T10:00:00+08:00",
+    "center": 4869,
+    "passed": true,
+    "verified": false,
+    "source_warning_dates": [
+      "2026-07-23"
+    ],
+    "segments": {
+      "B": {
+        "start": "2026-07-23T09:15:00+08:00",
+        "end": "2026-07-23T09:30:00+08:00",
+        "count": 2,
+        "high": 7610.0,
+        "high_time": "2026-07-23T09:30:00+08:00"
+      },
+      "C": {
+        "start": "2026-07-23T09:45:00+08:00",
+        "end": "2026-07-23T09:45:00+08:00",
+        "count": 1,
+        "high": 7601.0,
+        "high_time": "2026-07-23T09:45:00+08:00"
+      },
+      "A": {
+        "start": "2026-07-23T10:00:00+08:00",
+        "end": "2026-07-23T10:00:00+08:00",
+        "count": 1,
+        "high": 7621.0,
+        "high_time": "2026-07-23T10:00:00+08:00"
+      }
+    },
+    "evidence": {
+      "B": {
+        "ready": true,
+        "points": [
+          {
+            "time": "2026-07-23T09:15:00+08:00",
+            "aa": 2399654.375774518,
+            "ma35": 889067.3658222178,
+            "var28": 168.6586736835221,
+            "ready": true,
+            "history_bars": 4866,
+            "history_start": "2025-03-21T14:00:00+08:00"
+          },
+          {
+            "time": "2026-07-23T09:30:00+08:00",
+            "aa": 3889228.661999265,
+            "ma35": 1000188.1847364826,
+            "var28": 198.11967841448188,
+            "ready": true,
+            "history_bars": 4867,
+            "history_start": "2025-03-21T14:00:00+08:00"
+          }
+        ],
+        "red_area": 4399627.487215083,
+        "blue_area": 0.0,
+        "red_bars": 2,
+        "blue_bars": 0,
+        "neutral_bars": 0,
+        "strength": 0.6995880605171054,
+        "aa_peak": 3889228.661999265,
+        "thickness_peak": 2889040.477262783,
+        "peak_aa": 3889228.661999265,
+        "peak_gap": 2889040.477262783
+      },
+      "A": {
+        "ready": true,
+        "points": [
+          {
+            "time": "2026-07-23T10:00:00+08:00",
+            "aa": 4694535.141840562,
+            "ma35": 1246808.6766828264,
+            "var28": 210.94780052131858,
+            "ready": true,
+            "history_bars": 4869,
+            "history_start": "2025-03-21T14:00:00+08:00"
+          }
+        ],
+        "red_area": 3447726.465157736,
+        "blue_area": 0.0,
+        "red_bars": 1,
+        "blue_bars": 0,
+        "neutral_bars": 0,
+        "strength": 0.734412750355087,
+        "aa_peak": 4694535.141840562,
+        "thickness_peak": 3447726.465157736,
+        "peak_aa": 4694535.141840562,
+        "peak_gap": 3447726.465157736
+      },
+      "C": {
+        "ready": true,
+        "points": [
+          {
+            "time": "2026-07-23T09:45:00+08:00",
+            "aa": 3937182.076281473,
+            "ma35": 1112679.1012016675,
+            "var28": 198.93075075965615,
+            "ready": true,
+            "history_bars": 4868,
+            "history_start": "2025-03-21T14:00:00+08:00"
+          }
+        ],
+        "red_area": 2824502.9750798056,
+        "blue_area": 0.0,
+        "red_bars": 1,
+        "blue_bars": 0,
+        "neutral_bars": 0,
+        "strength": 0.7173920129564968,
+        "aa_peak": 3937182.076281473,
+        "thickness_peak": 2824502.9750798056,
+        "peak_aa": 3937182.076281473,
+        "peak_gap": 2824502.9750798056
+      },
+      "parameters": {
+        "b_strength": 0.2,
+        "warmup_bars": 150,
+        "formula_version": "s10103-v1",
+        "area_version": "linear-half-edge-v1",
+        "separation_version": "flame-offset2-blue-gap-first-blue-point-v8",
+        "flame_offset_bars": 2,
+        "candle_gap_rule": "all_blue",
+        "red_region_policy": "nearest_endpoint_all_red_interval",
+        "peak_rule": "aa_A_strictly_greater",
+        "divergence_point_policy": "first_blue_after_A_before_new_red",
+        "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later"
+      },
+      "passed": true,
+      "separator": {
+        "required": false,
+        "rule": "C_unrestricted"
+      },
+      "kind": "red_shrink",
+      "area_ratio": 0.7836405411995709,
+      "reason": null,
+      "matches": {
+        "B": {
+          "start_index": 4865,
+          "end_index": 4866,
+          "start_offset": 0,
+          "end_offset": 0,
+          "start_clipped": true,
+          "end_clipped": true,
+          "window_start_index": 4863,
+          "window_end_index": 4868,
+          "start": "2026-07-23T09:15:00+08:00",
+          "end": "2026-07-23T09:30:00+08:00"
+        },
+        "A": {
+          "start_index": 4868,
+          "end_index": 4868,
+          "start_offset": 0,
+          "end_offset": 0,
+          "start_clipped": true,
+          "end_clipped": true,
+          "window_start_index": 4866,
+          "window_end_index": 4870,
+          "start": "2026-07-23T10:00:00+08:00",
+          "end": "2026-07-23T10:00:00+08:00"
+        }
+      }
+    },
+    "evidence_all": {
+      "rule_version": "pv3",
+      "direction": "short",
+      "segments": {
+        "B": {
+          "start": "2026-07-23T09:15:00+08:00",
+          "end": "2026-07-23T09:30:00+08:00",
+          "count": 2,
+          "high": 7610.0,
+          "high_time": "2026-07-23T09:30:00+08:00"
+        },
+        "C": {
+          "start": "2026-07-23T09:45:00+08:00",
+          "end": "2026-07-23T09:45:00+08:00",
+          "count": 1,
+          "high": 7601.0,
+          "high_time": "2026-07-23T09:45:00+08:00"
+        },
+        "A": {
+          "start": "2026-07-23T10:00:00+08:00",
+          "end": "2026-07-23T10:00:00+08:00",
+          "count": 1,
+          "high": 7621.0,
+          "high_time": "2026-07-23T10:00:00+08:00"
+        }
+      },
+      "comparisons": [],
+      "checks": {
+        "structure": true,
+        "fewer_red": true,
+        "higher_high": true,
+        "s10103_area": true,
+        "s10103_peak": true,
+        "offset_match": true,
+        "intervening_all_blue": true
+      },
+      "observation_start": "2026-07-23T10:00:00+08:00",
+      "observation_end": "2026-07-23T10:00:00+08:00",
+      "divergence_time": "2026-07-23T10:15:00+08:00",
+      "divergence_open": 7607.0,
+      "divergence_close": 7570.0,
+      "divergence_policy": "first_blue_after_A_before_new_red",
+      "confirmation_time": "2026-07-23T11:00:00+08:00",
+      "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later",
+      "previous_time": "2026-07-23T09:30:00+08:00",
+      "previous_close": 7598.0,
+      "previous_volume": 13316,
+      "observation_close": 7606.0,
+      "observation_volume": 8514,
+      "trigger_time": "2026-07-23T11:00:00+08:00",
+      "trigger_open": 7572.0,
+      "trigger_close": 7580.0,
+      "coverage_start": "2025-03-21T14:00:00+08:00",
+      "wait_bars": 3,
+      "s10103": {
+        "B": {
+          "ready": true,
+          "points": [
+            {
+              "time": "2026-07-23T09:15:00+08:00",
+              "aa": 2399654.375774518,
+              "ma35": 889067.3658222178,
+              "var28": 168.6586736835221,
+              "ready": true,
+              "history_bars": 4866,
+              "history_start": "2025-03-21T14:00:00+08:00"
+            },
+            {
+              "time": "2026-07-23T09:30:00+08:00",
+              "aa": 3889228.661999265,
+              "ma35": 1000188.1847364826,
+              "var28": 198.11967841448188,
+              "ready": true,
+              "history_bars": 4867,
+              "history_start": "2025-03-21T14:00:00+08:00"
+            }
+          ],
+          "red_area": 4399627.487215083,
+          "blue_area": 0.0,
+          "red_bars": 2,
+          "blue_bars": 0,
+          "neutral_bars": 0,
+          "strength": 0.6995880605171054,
+          "aa_peak": 3889228.661999265,
+          "thickness_peak": 2889040.477262783,
+          "peak_aa": 3889228.661999265,
+          "peak_gap": 2889040.477262783
+        },
+        "A": {
+          "ready": true,
+          "points": [
+            {
+              "time": "2026-07-23T10:00:00+08:00",
+              "aa": 4694535.141840562,
+              "ma35": 1246808.6766828264,
+              "var28": 210.94780052131858,
+              "ready": true,
+              "history_bars": 4869,
+              "history_start": "2025-03-21T14:00:00+08:00"
+            }
+          ],
+          "red_area": 3447726.465157736,
+          "blue_area": 0.0,
+          "red_bars": 1,
+          "blue_bars": 0,
+          "neutral_bars": 0,
+          "strength": 0.734412750355087,
+          "aa_peak": 4694535.141840562,
+          "thickness_peak": 3447726.465157736,
+          "peak_aa": 4694535.141840562,
+          "peak_gap": 3447726.465157736
+        },
+        "C": {
+          "ready": true,
+          "points": [
+            {
+              "time": "2026-07-23T09:45:00+08:00",
+              "aa": 3937182.076281473,
+              "ma35": 1112679.1012016675,
+              "var28": 198.93075075965615,
+              "ready": true,
+              "history_bars": 4868,
+              "history_start": "2025-03-21T14:00:00+08:00"
+            }
+          ],
+          "red_area": 2824502.9750798056,
+          "blue_area": 0.0,
+          "red_bars": 1,
+          "blue_bars": 0,
+          "neutral_bars": 0,
+          "strength": 0.7173920129564968,
+          "aa_peak": 3937182.076281473,
+          "thickness_peak": 2824502.9750798056,
+          "peak_aa": 3937182.076281473,
+          "peak_gap": 2824502.9750798056
+        },
+        "parameters": {
+          "b_strength": 0.2,
+          "warmup_bars": 150,
+          "formula_version": "s10103-v1",
+          "area_version": "linear-half-edge-v1",
+          "separation_version": "flame-offset2-blue-gap-first-blue-point-v8",
+          "flame_offset_bars": 2,
+          "candle_gap_rule": "all_blue",
+          "red_region_policy": "nearest_endpoint_all_red_interval",
+          "peak_rule": "aa_A_strictly_greater",
+          "divergence_point_policy": "first_blue_after_A_before_new_red",
+          "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later"
+        },
+        "passed": true,
+        "separator": {
+          "required": false,
+          "rule": "C_unrestricted"
+        },
+        "kind": "red_shrink",
+        "area_ratio": 0.7836405411995709,
+        "reason": null,
+        "matches": {
+          "B": {
+            "start_index": 4865,
+            "end_index": 4866,
+            "start_offset": 0,
+            "end_offset": 0,
+            "start_clipped": true,
+            "end_clipped": true,
+            "window_start_index": 4863,
+            "window_end_index": 4868,
+            "start": "2026-07-23T09:15:00+08:00",
+            "end": "2026-07-23T09:30:00+08:00"
+          },
+          "A": {
+            "start_index": 4868,
+            "end_index": 4868,
+            "start_offset": 0,
+            "end_offset": 0,
+            "start_clipped": true,
+            "end_clipped": true,
+            "window_start_index": 4866,
+            "window_end_index": 4870,
+            "start": "2026-07-23T10:00:00+08:00",
+            "end": "2026-07-23T10:00:00+08:00"
+          }
+        }
+      }
+    },
+    "before": 50,
+    "after": 50,
+    "window": [
+      {
+        "time": "2026-07-17T15:00:00+08:00",
+        "date": "2026-07-17",
+        "source_time": "2026-07-17 15:00",
+        "open": 7476.0,
+        "high": 7476.0,
+        "low": 7449.0,
+        "close": 7457.0,
+        "volume": 10698,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -93.59786809794848,
+          "ready": true,
+          "history_bars": 4820,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T09:15:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 09:15",
+        "open": 7453.0,
+        "high": 7468.0,
+        "low": 7429.0,
+        "close": 7455.0,
+        "volume": 15168,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -100.52521088633007,
+          "ready": true,
+          "history_bars": 4821,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T09:30:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 09:30",
+        "open": 7457.0,
+        "high": 7469.0,
+        "low": 7427.0,
+        "close": 7432.0,
+        "volume": 5924,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -128.99340792386334,
+          "ready": true,
+          "history_bars": 4822,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T09:45:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 09:45",
+        "open": 7433.0,
+        "high": 7433.0,
+        "low": 7404.0,
+        "close": 7408.0,
+        "volume": 9184,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -165.04019268111105,
+          "ready": true,
+          "history_bars": 4823,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T10:00:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 10:00",
+        "open": 7405.0,
+        "high": 7436.0,
+        "low": 7404.0,
+        "close": 7429.0,
+        "volume": 4209,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -145.06705424241397,
+          "ready": true,
+          "history_bars": 4824,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T10:15:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 10:15",
+        "open": 7430.0,
+        "high": 7432.0,
+        "low": 7413.0,
+        "close": 7425.0,
+        "volume": 3405,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -139.46986071432417,
+          "ready": true,
+          "history_bars": 4825,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T10:45:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 10:45",
+        "open": 7424.0,
+        "high": 7425.0,
+        "low": 7394.0,
+        "close": 7401.0,
+        "volume": 5531,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -164.2252863979345,
+          "ready": true,
+          "history_bars": 4826,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T11:00:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 11:00",
+        "open": 7401.0,
+        "high": 7412.0,
+        "low": 7394.0,
+        "close": 7399.0,
+        "volume": 4303,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -170.01337084302855,
+          "ready": true,
+          "history_bars": 4827,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T11:15:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 11:15",
+        "open": 7399.0,
+        "high": 7413.0,
+        "low": 7389.0,
+        "close": 7413.0,
+        "volume": 4758,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -149.03410463660407,
+          "ready": true,
+          "history_bars": 4828,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T11:30:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 11:30",
+        "open": 7411.0,
+        "high": 7426.0,
+        "low": 7411.0,
+        "close": 7417.0,
+        "volume": 3638,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -132.66886856970365,
+          "ready": true,
+          "history_bars": 4829,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T13:45:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 13:45",
+        "open": 7417.0,
+        "high": 7417.0,
+        "low": 7388.0,
+        "close": 7395.0,
+        "volume": 5949,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -151.43223400763776,
+          "ready": true,
+          "history_bars": 4830,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T14:00:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 14:00",
+        "open": 7395.0,
+        "high": 7398.0,
+        "low": 7386.0,
+        "close": 7393.0,
+        "volume": 3167,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -155.46371572267037,
+          "ready": true,
+          "history_bars": 4831,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T14:15:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 14:15",
+        "open": 7392.0,
+        "high": 7394.0,
+        "low": 7383.0,
+        "close": 7390.0,
+        "volume": 2676,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -155.91087872277313,
+          "ready": true,
+          "history_bars": 4832,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T14:30:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 14:30",
+        "open": 7390.0,
+        "high": 7395.0,
+        "low": 7377.0,
+        "close": 7383.0,
+        "volume": 3927,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -160.28922603765773,
+          "ready": true,
+          "history_bars": 4833,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T14:45:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 14:45",
+        "open": 7382.0,
+        "high": 7394.0,
+        "low": 7379.0,
+        "close": 7386.0,
+        "volume": 3416,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -153.00125038606583,
+          "ready": true,
+          "history_bars": 4834,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-20T15:00:00+08:00",
+        "date": "2026-07-20",
+        "source_time": "2026-07-20 15:00",
+        "open": 7386.0,
+        "high": 7414.0,
+        "low": 7381.0,
+        "close": 7401.0,
+        "volume": 6895,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2618.5013239550003,
+          "var28": -126.71358482283341,
+          "ready": true,
+          "history_bars": 4835,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T09:15:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 09:15",
+        "open": 7412.0,
+        "high": 7522.0,
+        "low": 7412.0,
+        "close": 7493.0,
+        "volume": 41373,
+        "duration": null,
+        "s10103": {
+          "aa": 45.88653065236181,
+          "ma35": 2619.8123676879254,
+          "var28": 3.779298285473544,
+          "ready": true,
+          "history_bars": 4836,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T09:30:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 09:30",
+        "open": 7493.0,
+        "high": 7501.0,
+        "low": 7480.0,
+        "close": 7486.0,
+        "volume": 9144,
+        "duration": null,
+        "s10103": {
+          "aa": 28037.77733401568,
+          "ma35": 3420.891720088373,
+          "var28": 38.188734952679965,
+          "ready": true,
+          "history_bars": 4837,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T09:45:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 09:45",
+        "open": 7487.0,
+        "high": 7510.0,
+        "low": 7486.0,
+        "close": 7492.0,
+        "volume": 8831,
+        "duration": null,
+        "s10103": {
+          "aa": 95397.65927152793,
+          "ma35": 6146.539127846314,
+          "var28": 57.51117180028584,
+          "ready": true,
+          "history_bars": 4838,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T10:00:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 10:00",
+        "open": 7494.0,
+        "high": 7516.0,
+        "low": 7493.0,
+        "close": 7513.0,
+        "volume": 7885,
+        "duration": null,
+        "s10103": {
+          "aa": 374141.10087333067,
+          "ma35": 16836.284867084334,
+          "var28": 90.74989500488931,
+          "ready": true,
+          "history_bars": 4839,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T10:15:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 10:15",
+        "open": 7512.0,
+        "high": 7516.0,
+        "low": 7476.0,
+        "close": 7493.0,
+        "volume": 8090,
+        "duration": null,
+        "s10103": {
+          "aa": 213094.39555993833,
+          "ma35": 22924.696168796858,
+          "var28": 75.21047170094923,
+          "ready": true,
+          "history_bars": 4840,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T10:45:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 10:45",
+        "open": 7493.0,
+        "high": 7497.0,
+        "low": 7469.0,
+        "close": 7496.0,
+        "volume": 4882,
+        "duration": null,
+        "s10103": {
+          "aa": 200809.87445021252,
+          "ma35": 28222.19611333041,
+          "var28": 73.73477007812306,
+          "ready": true,
+          "history_bars": 4841,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T11:00:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 11:00",
+        "open": 7497.0,
+        "high": 7509.0,
+        "low": 7494.0,
+        "close": 7496.0,
+        "volume": 4816,
+        "duration": null,
+        "s10103": {
+          "aa": 194632.67126279828,
+          "ma35": 32378.729066423566,
+          "var28": 72.9698783428837,
+          "ready": true,
+          "history_bars": 4842,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T11:15:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 11:15",
+        "open": 7496.0,
+        "high": 7508.0,
+        "low": 7489.0,
+        "close": 7499.0,
+        "volume": 3236,
+        "duration": null,
+        "s10103": {
+          "aa": 222313.67128018432,
+          "ma35": 38018.37102600833,
+          "var28": 76.28107667665125,
+          "ready": true,
+          "history_bars": 4843,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T11:30:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 11:30",
+        "open": 7499.0,
+        "high": 7508.0,
+        "low": 7495.0,
+        "close": 7508.0,
+        "volume": 2293,
+        "duration": null,
+        "s10103": {
+          "aa": 347092.67048350396,
+          "ma35": 47935.304468394155,
+          "var28": 88.50621973245475,
+          "ready": true,
+          "history_bars": 4844,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T13:45:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 13:45",
+        "open": 7506.0,
+        "high": 7509.0,
+        "low": 7467.0,
+        "close": 7469.0,
+        "volume": 7256,
+        "duration": null,
+        "s10103": {
+          "aa": 36818.80335816949,
+          "ma35": 48987.27027862756,
+          "var28": 41.83519215920688,
+          "ready": true,
+          "history_bars": 4845,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T14:00:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 14:00",
+        "open": 7469.0,
+        "high": 7475.0,
+        "low": 7448.0,
+        "close": 7472.0,
+        "volume": 10200,
+        "duration": null,
+        "s10103": {
+          "aa": 15040.531956439281,
+          "ma35": 49400.713008090854,
+          "var28": 30.993107326261168,
+          "ready": true,
+          "history_bars": 4846,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T14:15:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 14:15",
+        "open": 7472.0,
+        "high": 7489.0,
+        "low": 7459.0,
+        "close": 7487.0,
+        "volume": 5201,
+        "duration": null,
+        "s10103": {
+          "aa": 53170.38104205657,
+          "ma35": 50879.56785178419,
+          "var28": 47.30653672573547,
+          "ready": true,
+          "history_bars": 4847,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T14:30:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 14:30",
+        "open": 7487.0,
+        "high": 7497.0,
+        "low": 7482.0,
+        "close": 7491.0,
+        "volume": 4024,
+        "duration": null,
+        "s10103": {
+          "aa": 97433.27361875918,
+          "ma35": 53657.96277204539,
+          "var28": 57.9181729101532,
+          "ready": true,
+          "history_bars": 4848,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T14:45:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 14:45",
+        "open": 7491.0,
+        "high": 7502.0,
+        "low": 7486.0,
+        "close": 7500.0,
+        "volume": 4254,
+        "duration": null,
+        "s10103": {
+          "aa": 193702.95222679514,
+          "ma35": 59192.33283566811,
+          "var28": 72.8533599037466,
+          "ready": true,
+          "history_bars": 4849,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-21T15:00:00+08:00",
+        "date": "2026-07-21",
+        "source_time": "2026-07-21 15:00",
+        "open": 7500.0,
+        "high": 7505.0,
+        "low": 7490.0,
+        "close": 7491.0,
+        "volume": 5980,
+        "duration": null,
+        "s10103": {
+          "aa": 142674.30436295192,
+          "ma35": 63268.74153175245,
+          "var28": 65.78463334774585,
+          "ready": true,
+          "history_bars": 4850,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T09:15:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 09:15",
+        "open": 7523.0,
+        "high": 7550.0,
+        "low": 7487.0,
+        "close": 7513.0,
+        "volume": 18924,
+        "duration": null,
+        "s10103": {
+          "aa": 383177.28820868855,
+          "ma35": 74216.66405200069,
+          "var28": 91.47526673809614,
+          "ready": true,
+          "history_bars": 4851,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T09:30:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 09:30",
+        "open": 7515.0,
+        "high": 7515.0,
+        "low": 7493.0,
+        "close": 7509.0,
+        "volume": 4384,
+        "duration": null,
+        "s10103": {
+          "aa": 413681.72237396595,
+          "ma35": 86036.141834114,
+          "var28": 93.84284197948864,
+          "ready": true,
+          "history_bars": 4852,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T09:45:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 09:45",
+        "open": 7507.0,
+        "high": 7534.0,
+        "low": 7506.0,
+        "close": 7525.0,
+        "volume": 5989,
+        "duration": null,
+        "s10103": {
+          "aa": 746068.5428853072,
+          "ma35": 107352.38591655134,
+          "var28": 114.24188577958867,
+          "ready": true,
+          "history_bars": 4853,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T10:00:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 10:00",
+        "open": 7525.0,
+        "high": 7530.0,
+        "low": 7519.0,
+        "close": 7525.0,
+        "volume": 3277,
+        "duration": null,
+        "s10103": {
+          "aa": 853656.3405080134,
+          "ma35": 131742.56707392316,
+          "var28": 119.49131354681668,
+          "ready": true,
+          "history_bars": 4854,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T10:15:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 10:15",
+        "open": 7523.0,
+        "high": 7536.0,
+        "low": 7519.0,
+        "close": 7534.0,
+        "volume": 3733,
+        "duration": null,
+        "s10103": {
+          "aa": 1131124.302759137,
+          "ma35": 164060.4042956128,
+          "var28": 131.24902837527415,
+          "ready": true,
+          "history_bars": 4855,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T10:45:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 10:45",
+        "open": 7533.0,
+        "high": 7545.0,
+        "low": 7523.0,
+        "close": 7541.0,
+        "volume": 5382,
+        "duration": null,
+        "s10103": {
+          "aa": 1440299.197011973,
+          "ma35": 205211.8099245263,
+          "var28": 142.26215824811024,
+          "ready": true,
+          "history_bars": 4856,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T11:00:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 11:00",
+        "open": 7541.0,
+        "high": 7579.0,
+        "low": 7541.0,
+        "close": 7556.0,
+        "volume": 16552,
+        "duration": null,
+        "s10103": {
+          "aa": 2166842.46810356,
+          "ma35": 267121.59472748515,
+          "var28": 163.01640559217677,
+          "ready": true,
+          "history_bars": 4857,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T11:15:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 11:15",
+        "open": 7556.0,
+        "high": 7589.0,
+        "low": 7556.0,
+        "close": 7568.0,
+        "volume": 13454,
+        "duration": null,
+        "s10103": {
+          "aa": 3044327.257599543,
+          "ma35": 354102.37351604353,
+          "var28": 182.58441002845723,
+          "ready": true,
+          "history_bars": 4858,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T11:30:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 11:30",
+        "open": 7567.0,
+        "high": 7578.0,
+        "low": 7559.0,
+        "close": 7576.0,
+        "volume": 5352,
+        "duration": null,
+        "s10103": {
+          "aa": 3776406.6760127014,
+          "ma35": 461999.7071164064,
+          "var28": 196.18477909947126,
+          "ready": true,
+          "history_bars": 4859,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T13:45:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 13:45",
+        "open": 7575.0,
+        "high": 7575.0,
+        "low": 7554.0,
+        "close": 7557.0,
+        "volume": 5592,
+        "duration": null,
+        "s10103": {
+          "aa": 2587135.676144952,
+          "ma35": 535917.8692919766,
+          "var28": 172.94234358820097,
+          "ready": true,
+          "history_bars": 4860,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T14:00:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 14:00",
+        "open": 7558.0,
+        "high": 7564.0,
+        "low": 7544.0,
+        "close": 7561.0,
+        "volume": 5164,
+        "duration": null,
+        "s10103": {
+          "aa": 2361660.257551687,
+          "ma35": 603393.876650596,
+          "var28": 167.76359037342502,
+          "ready": true,
+          "history_bars": 4861,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T14:15:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 14:15",
+        "open": 7562.0,
+        "high": 7570.0,
+        "low": 7560.0,
+        "close": 7561.0,
+        "volume": 2700,
+        "duration": null,
+        "s10103": {
+          "aa": 2180933.9213147606,
+          "ma35": 665706.2744024465,
+          "var28": 163.36910785259474,
+          "ready": true,
+          "history_bars": 4862,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T14:30:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 14:30",
+        "open": 7561.0,
+        "high": 7567.0,
+        "low": 7559.0,
+        "close": 7563.0,
+        "volume": 1748,
+        "duration": null,
+        "s10103": {
+          "aa": 2120959.7348888116,
+          "ma35": 726305.1239706981,
+          "var28": 161.85727531306736,
+          "ready": true,
+          "history_bars": 4863,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T14:45:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 14:45",
+        "open": 7562.0,
+        "high": 7568.0,
+        "low": 7558.0,
+        "close": 7566.0,
+        "volume": 3214,
+        "duration": null,
+        "s10103": {
+          "aa": 2148724.354222352,
+          "ma35": 787697.2483770511,
+          "var28": 162.56066344849745,
+          "ready": true,
+          "history_bars": 4864,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-22T15:00:00+08:00",
+        "date": "2026-07-22",
+        "source_time": "2026-07-22 15:00",
+        "open": 7566.0,
+        "high": 7568.0,
+        "low": 7541.0,
+        "close": 7544.0,
+        "volume": 6163,
+        "duration": null,
+        "s10103": {
+          "aa": 1148299.7348063188,
+          "ma35": 820505.8122286602,
+          "var28": 131.91026130090273,
+          "ready": true,
+          "history_bars": 4865,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T09:15:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 09:15",
+        "open": 7560.0,
+        "high": 7595.0,
+        "low": 7558.0,
+        "close": 7582.0,
+        "volume": 19855,
+        "duration": null,
+        "s10103": {
+          "aa": 2399654.375774518,
+          "ma35": 889067.3658222178,
+          "var28": 168.6586736835221,
+          "ready": true,
+          "history_bars": 4866,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T09:30:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 09:30",
+        "open": 7582.0,
+        "high": 7610.0,
+        "low": 7579.0,
+        "close": 7598.0,
+        "volume": 13316,
+        "duration": null,
+        "s10103": {
+          "aa": 3889228.661999265,
+          "ma35": 1000188.1847364826,
+          "var28": 198.11967841448188,
+          "ready": true,
+          "history_bars": 4867,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T09:45:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 09:45",
+        "open": 7598.0,
+        "high": 7601.0,
+        "low": 7586.0,
+        "close": 7594.0,
+        "volume": 5122,
+        "duration": null,
+        "s10103": {
+          "aa": 3937182.076281473,
+          "ma35": 1112679.1012016675,
+          "var28": 198.93075075965615,
+          "ready": true,
+          "history_bars": 4868,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T10:00:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 10:00",
+        "open": 7594.0,
+        "high": 7621.0,
+        "low": 7593.0,
+        "close": 7606.0,
+        "volume": 8514,
+        "duration": null,
+        "s10103": {
+          "aa": 4694535.141840562,
+          "ma35": 1246808.6766828264,
+          "var28": 210.94780052131858,
+          "ready": true,
+          "history_bars": 4869,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T10:15:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 10:15",
+        "open": 7607.0,
+        "high": 7612.0,
+        "low": 7568.0,
+        "close": 7570.0,
+        "volume": 7910,
+        "duration": null,
+        "s10103": {
+          "aa": 2238354.071810289,
+          "ma35": 1310761.6501631204,
+          "var28": 164.79079989296918,
+          "ready": true,
+          "history_bars": 4870,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T10:45:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 10:45",
+        "open": 7570.0,
+        "high": 7575.0,
+        "low": 7558.0,
+        "close": 7572.0,
+        "volume": 7448,
+        "duration": null,
+        "s10103": {
+          "aa": 1672733.9530974755,
+          "ma35": 1358552.7377793156,
+          "var28": 149.538917725237,
+          "ready": true,
+          "history_bars": 4871,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T11:00:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 11:00",
+        "open": 7572.0,
+        "high": 7581.0,
+        "low": 7570.0,
+        "close": 7580.0,
+        "volume": 3253,
+        "duration": null,
+        "s10103": {
+          "aa": 1765181.215813452,
+          "ma35": 1408185.4074501563,
+          "var28": 152.2453329536802,
+          "ready": true,
+          "history_bars": 4872,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T11:15:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 11:15",
+        "open": 7579.0,
+        "high": 7589.0,
+        "low": 7575.0,
+        "close": 7584.0,
+        "volume": 2757,
+        "duration": null,
+        "s10103": {
+          "aa": 1881942.9783993878,
+          "ma35": 1459229.5594252383,
+          "var28": 155.53172416922718,
+          "ready": true,
+          "history_bars": 4873,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T11:30:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 11:30",
+        "open": 7584.0,
+        "high": 7593.0,
+        "low": 7582.0,
+        "close": 7589.0,
+        "volume": 2458,
+        "duration": null,
+        "s10103": {
+          "aa": 2055980.7558989725,
+          "ma35": 1507282.1209973993,
+          "var28": 160.18675646212353,
+          "ready": true,
+          "history_bars": 4874,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T13:45:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 13:45",
+        "open": 7590.0,
+        "high": 7614.0,
+        "low": 7590.0,
+        "close": 7598.0,
+        "volume": 8045,
+        "duration": null,
+        "s10103": {
+          "aa": 2469367.9387774137,
+          "ma35": 1571747.0793750414,
+          "var28": 170.2767477316613,
+          "ready": true,
+          "history_bars": 4875,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T14:00:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 14:00",
+        "open": 7599.0,
+        "high": 7604.0,
+        "low": 7586.0,
+        "close": 7590.0,
+        "volume": 3330,
+        "duration": null,
+        "s10103": {
+          "aa": 2052312.3063426334,
+          "ma35": 1624647.148857682,
+          "var28": 160.09140218499073,
+          "ready": true,
+          "history_bars": 4876,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T14:15:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 14:15",
+        "open": 7590.0,
+        "high": 7603.0,
+        "low": 7585.0,
+        "close": 7600.0,
+        "volume": 2775,
+        "duration": null,
+        "s10103": {
+          "aa": 2313790.321652174,
+          "ma35": 1685194.5102973785,
+          "var28": 166.62207225118598,
+          "ready": true,
+          "history_bars": 4877,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T14:30:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 14:30",
+        "open": 7600.0,
+        "high": 7603.0,
+        "low": 7596.0,
+        "close": 7601.0,
+        "volume": 1792,
+        "duration": null,
+        "s10103": {
+          "aa": 2322918.0662849206,
+          "ma35": 1745211.778726085,
+          "var28": 166.8409414951584,
+          "ready": true,
+          "history_bars": 4878,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T14:45:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 14:45",
+        "open": 7599.0,
+        "high": 7602.0,
+        "low": 7590.0,
+        "close": 7595.0,
+        "volume": 2322,
+        "duration": null,
+        "s10103": {
+          "aa": 1899868.822785609,
+          "ma35": 1789576.8116490026,
+          "var28": 156.02412245242806,
+          "ready": true,
+          "history_bars": 4879,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-23T15:00:00+08:00",
+        "date": "2026-07-23",
+        "source_time": "2026-07-23 15:00",
+        "open": 7595.0,
+        "high": 7608.0,
+        "low": 7591.0,
+        "close": 7593.0,
+        "volume": 5840,
+        "duration": null,
+        "s10103": {
+          "aa": 1588454.6649265871,
+          "ma35": 1833909.2648366715,
+          "var28": 146.98328433821055,
+          "ready": true,
+          "history_bars": 4880,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T09:15:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 09:15",
+        "open": 7618.0,
+        "high": 7621.0,
+        "low": 7567.0,
+        "close": 7570.0,
+        "volume": 18920,
+        "duration": null,
+        "s10103": {
+          "aa": 699031.2519979548,
+          "ma35": 1853451.8568378577,
+          "var28": 111.7874537616045,
+          "ready": true,
+          "history_bars": 4881,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T09:30:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 09:30",
+        "open": 7570.0,
+        "high": 7581.0,
+        "low": 7563.0,
+        "close": 7567.0,
+        "volume": 5810,
+        "duration": null,
+        "s10103": {
+          "aa": 422845.2070392531,
+          "ma35": 1864013.994723492,
+          "var28": 94.53121229295257,
+          "ready": true,
+          "history_bars": 4882,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T09:45:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 09:45",
+        "open": 7566.0,
+        "high": 7589.0,
+        "low": 7566.0,
+        "close": 7581.0,
+        "volume": 5213,
+        "duration": null,
+        "s10103": {
+          "aa": 582608.0395217184,
+          "ma35": 1877876.130892148,
+          "var28": 105.19733429046656,
+          "ready": true,
+          "history_bars": 4883,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T10:00:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 10:00",
+        "open": 7580.0,
+        "high": 7591.0,
+        "low": 7579.0,
+        "close": 7584.0,
+        "volume": 4205,
+        "duration": null,
+        "s10103": {
+          "aa": 675584.786760907,
+          "ma35": 1891644.1833074081,
+          "var28": 110.52270089116811,
+          "ready": true,
+          "history_bars": 4884,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T10:15:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 10:15",
+        "open": 7585.0,
+        "high": 7592.0,
+        "low": 7579.0,
+        "close": 7587.0,
+        "volume": 3621,
+        "duration": null,
+        "s10103": {
+          "aa": 741146.9544157711,
+          "ma35": 1908743.401880346,
+          "var28": 113.98999627178412,
+          "ready": true,
+          "history_bars": 4885,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T10:45:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 10:45",
+        "open": 7587.0,
+        "high": 7601.0,
+        "low": 7571.0,
+        "close": 7596.0,
+        "volume": 8021,
+        "duration": null,
+        "s10103": {
+          "aa": 964304.6067708044,
+          "ma35": 1925347.0395535494,
+          "var28": 124.44801372308756,
+          "ready": true,
+          "history_bars": 4886,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T11:00:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 11:00",
+        "open": 7596.0,
+        "high": 7624.0,
+        "low": 7587.0,
+        "close": 7603.0,
+        "volume": 12735,
+        "duration": null,
+        "s10103": {
+          "aa": 1213085.8063679475,
+          "ma35": 1948187.1562390914,
+          "var28": 134.346695341414,
+          "ready": true,
+          "history_bars": 4887,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T11:15:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 11:15",
+        "open": 7603.0,
+        "high": 7620.0,
+        "low": 7592.0,
+        "close": 7613.0,
+        "volume": 8181,
+        "duration": null,
+        "s10103": {
+          "aa": 1610725.5136936172,
+          "ma35": 1972891.641119329,
+          "var28": 147.66723317070583,
+          "ready": true,
+          "history_bars": 4888,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T11:30:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 11:30",
+        "open": 7614.0,
+        "high": 7615.0,
+        "low": 7595.0,
+        "close": 7605.0,
+        "volume": 4556,
+        "duration": null,
+        "s10103": {
+          "aa": 1335274.6157996485,
+          "ma35": 1986652.1632705186,
+          "var28": 138.71549690041655,
+          "ready": true,
+          "history_bars": 4889,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T13:45:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 13:45",
+        "open": 7606.0,
+        "high": 7635.0,
+        "low": 7606.0,
+        "close": 7630.0,
+        "volume": 9660,
+        "duration": null,
+        "s10103": {
+          "aa": 2247994.4579906263,
+          "ma35": 2018562.7391342756,
+          "var28": 165.02709864069132,
+          "ready": true,
+          "history_bars": 4890,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T14:00:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 14:00",
+        "open": 7630.0,
+        "high": 7656.0,
+        "low": 7624.0,
+        "close": 7649.0,
+        "volume": 13211,
+        "duration": null,
+        "s10103": {
+          "aa": 3675185.390556068,
+          "ma35": 2082416.6303783923,
+          "var28": 194.41575399619376,
+          "ready": true,
+          "history_bars": 4891,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T14:15:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 14:15",
+        "open": 7648.0,
+        "high": 7675.0,
+        "low": 7644.0,
+        "close": 7661.0,
+        "volume": 16857,
+        "duration": null,
+        "s10103": {
+          "aa": 4980727.702252596,
+          "ma35": 2162813.3513540793,
+          "var28": 215.15081465559348,
+          "ready": true,
+          "history_bars": 4892,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T14:30:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 14:30",
+        "open": 7662.0,
+        "high": 7704.0,
+        "low": 7653.0,
+        "close": 7674.0,
+        "volume": 26639,
+        "duration": null,
+        "s10103": {
+          "aa": 6398119.077282854,
+          "ma35": 2258635.9747736026,
+          "var28": 233.88424956845435,
+          "ready": true,
+          "history_bars": 4893,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T14:45:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 14:45",
+        "open": 7673.0,
+        "high": 7681.0,
+        "low": 7646.0,
+        "close": 7657.0,
+        "volume": 9275,
+        "duration": null,
+        "s10103": {
+          "aa": 4839087.713623543,
+          "ma35": 2288998.290133912,
+          "var28": 213.09141464029085,
+          "ready": true,
+          "history_bars": 4894,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-24T15:00:00+08:00",
+        "date": "2026-07-24",
+        "source_time": "2026-07-24 15:00",
+        "open": 7656.0,
+        "high": 7684.0,
+        "low": 7654.0,
+        "close": 7677.0,
+        "volume": 11031,
+        "duration": null,
+        "s10103": {
+          "aa": 5878311.001373363,
+          "ma35": 2383031.8708547237,
+          "var28": 227.3698377394902,
+          "ready": true,
+          "history_bars": 4895,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T09:15:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 09:15",
+        "open": 7741.0,
+        "high": 7810.0,
+        "low": 7710.0,
+        "close": 7725.0,
+        "volume": 56514,
+        "duration": null,
+        "s10103": {
+          "aa": 12003869.13870129,
+          "ma35": 2658523.553173284,
+          "var28": 288.4693574152663,
+          "ready": true,
+          "history_bars": 4896,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T09:30:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 09:30",
+        "open": 7725.0,
+        "high": 7733.0,
+        "low": 7692.0,
+        "close": 7704.0,
+        "volume": 15559,
+        "duration": null,
+        "s10103": {
+          "aa": 10386934.959549753,
+          "ma35": 2892980.725694284,
+          "var28": 274.88643709775675,
+          "ready": true,
+          "history_bars": 4897,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T09:45:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 09:45",
+        "open": 7703.0,
+        "high": 7713.0,
+        "low": 7671.0,
+        "close": 7690.0,
+        "volume": 11826,
+        "duration": null,
+        "s10103": {
+          "aa": 7484919.272215109,
+          "ma35": 3046236.712475035,
+          "var28": 246.44227245006294,
+          "ready": true,
+          "history_bars": 4898,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T10:00:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 10:00",
+        "open": 7687.0,
+        "high": 7688.0,
+        "low": 7654.0,
+        "close": 7658.0,
+        "volume": 11775,
+        "duration": null,
+        "s10103": {
+          "aa": 3470161.3712798543,
+          "ma35": 3083992.055819535,
+          "var28": 190.73047918811645,
+          "ready": true,
+          "history_bars": 4899,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T10:15:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 10:15",
+        "open": 7658.0,
+        "high": 7660.0,
+        "low": 7635.0,
+        "close": 7645.0,
+        "volume": 10894,
+        "duration": null,
+        "s10103": {
+          "aa": 1748185.302238935,
+          "ma35": 3101131.643460467,
+          "var28": 151.7549875219711,
+          "ready": true,
+          "history_bars": 4900,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T10:45:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 10:45",
+        "open": 7643.0,
+        "high": 7647.0,
+        "low": 7595.0,
+        "close": 7596.0,
+        "volume": 18180,
+        "duration": null,
+        "s10103": {
+          "aa": 193989.87251613315,
+          "ma35": 3038112.657653085,
+          "var28": 72.88935834729642,
+          "ready": true,
+          "history_bars": 4901,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T11:00:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 11:00",
+        "open": 7597.0,
+        "high": 7629.0,
+        "low": 7595.0,
+        "close": 7622.0,
+        "volume": 10993,
+        "duration": null,
+        "s10103": {
+          "aa": 246476.50537370145,
+          "ma35": 2934034.02460664,
+          "var28": 78.95321048393201,
+          "ready": true,
+          "history_bars": 4902,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T11:15:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 11:15",
+        "open": 7622.0,
+        "high": 7625.0,
+        "low": 7607.0,
+        "close": 7615.0,
+        "volume": 5055,
+        "duration": null,
+        "s10103": {
+          "aa": 171703.2266379008,
+          "ma35": 2826448.9146168237,
+          "var28": 69.98003872254995,
+          "ready": true,
+          "history_bars": 4903,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T11:30:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 11:30",
+        "open": 7615.0,
+        "high": 7619.0,
+        "low": 7590.0,
+        "close": 7593.0,
+        "volume": 6805,
+        "duration": null,
+        "s10103": {
+          "aa": 25778.067725530836,
+          "ma35": 2693055.855356394,
+          "var28": 37.129046591334046,
+          "ready": true,
+          "history_bars": 4904,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T13:45:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 13:45",
+        "open": 7589.0,
+        "high": 7610.0,
+        "low": 7582.0,
+        "close": 7589.0,
+        "volume": 8398,
+        "duration": null,
+        "s10103": {
+          "aa": 4316.375949122618,
+          "ma35": 2629226.206903218,
+          "var28": 20.351484299728252,
+          "ready": true,
+          "history_bars": 4905,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T14:00:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 14:00",
+        "open": 7591.0,
+        "high": 7612.0,
+        "low": 7586.0,
+        "close": 7610.0,
+        "volume": 6888,
+        "duration": null,
+        "s10103": {
+          "aa": 35032.66397448718,
+          "ma35": 2582434.7414997043,
+          "var28": 41.14481406395185,
+          "ready": true,
+          "history_bars": 4906,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T14:15:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 14:15",
+        "open": 7611.0,
+        "high": 7615.0,
+        "low": 7601.0,
+        "close": 7614.0,
+        "volume": 3783,
+        "duration": null,
+        "s10103": {
+          "aa": 69800.4679919574,
+          "ma35": 2533995.291561947,
+          "var28": 51.81130115381092,
+          "ready": true,
+          "history_bars": 4907,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T14:30:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 14:30",
+        "open": 7614.0,
+        "high": 7633.0,
+        "low": 7613.0,
+        "close": 7626.0,
+        "volume": 6960,
+        "duration": null,
+        "s10103": {
+          "aa": 166158.3357111832,
+          "ma35": 2484972.8731994266,
+          "var28": 69.21744029409211,
+          "ready": true,
+          "history_bars": 4908,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T14:45:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 14:45",
+        "open": 7626.0,
+        "high": 7670.0,
+        "low": 7625.0,
+        "close": 7645.0,
+        "volume": 12587,
+        "duration": null,
+        "s10103": {
+          "aa": 462053.51227651315,
+          "ma35": 2439432.094810214,
+          "var28": 97.36917216439254,
+          "ready": true,
+          "history_bars": 4909,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-27T15:00:00+08:00",
+        "date": "2026-07-27",
+        "source_time": "2026-07-27 15:00",
+        "open": 7646.0,
+        "high": 7661.0,
+        "low": 7641.0,
+        "close": 7655.0,
+        "volume": 7287,
+        "duration": null,
+        "s10103": {
+          "aa": 797738.4758736584,
+          "ma35": 2391671.2530129636,
+          "var28": 116.82186672971713,
+          "ready": true,
+          "history_bars": 4910,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-28T09:15:00+08:00",
+        "date": "2026-07-28",
+        "source_time": "2026-07-28 09:15",
+        "open": 7656.0,
+        "high": 7678.0,
+        "low": 7638.0,
+        "close": 7657.0,
+        "volume": 18862,
+        "duration": null,
+        "s10103": {
+          "aa": 925949.1142776142,
+          "ma35": 2359489.447525392,
+          "var28": 122.77493111640518,
+          "ready": true,
+          "history_bars": 4911,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-28T09:30:00+08:00",
+        "date": "2026-07-28",
+        "source_time": "2026-07-28 09:30",
+        "open": 7658.0,
+        "high": 7667.0,
+        "low": 7624.0,
+        "close": 7632.0,
+        "volume": 11846,
+        "duration": null,
+        "s10103": {
+          "aa": 360561.34929777816,
+          "ma35": 2303682.9054581234,
+          "var28": 89.63748513528816,
+          "ready": true,
+          "history_bars": 4912,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-28T09:45:00+08:00",
+        "date": "2026-07-28",
+        "source_time": "2026-07-28 09:45",
+        "open": 7631.0,
+        "high": 7644.0,
+        "low": 7627.0,
+        "close": 7635.0,
+        "volume": 5181,
+        "duration": null,
+        "s10103": {
+          "aa": 260995.11049228007,
+          "ma35": 2244770.821006905,
+          "var28": 80.47557687734684,
+          "ready": true,
+          "history_bars": 4913,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-28T10:00:00+08:00",
+        "date": "2026-07-28",
+        "source_time": "2026-07-28 10:00",
+        "open": 7636.0,
+        "high": 7636.0,
+        "low": 7606.0,
+        "close": 7615.0,
+        "volume": 5738,
+        "duration": null,
+        "s10103": {
+          "aa": 61883.91823643783,
+          "ma35": 2192256.9665912143,
+          "var28": 49.76828161157071,
+          "ready": true,
+          "history_bars": 4914,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-28T10:15:00+08:00",
+        "date": "2026-07-28",
+        "source_time": "2026-07-28 10:15",
+        "open": 7617.0,
+        "high": 7618.0,
+        "low": 7597.0,
+        "close": 7603.0,
+        "volume": 5139,
+        "duration": null,
+        "s10103": {
+          "aa": 6220.4861669241245,
+          "ma35": 2147050.2757695094,
+          "var28": 23.02750164405652,
+          "ready": true,
+          "history_bars": 4915,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-28T10:45:00+08:00",
+        "date": "2026-07-28",
+        "source_time": "2026-07-28 10:45",
+        "open": 7601.0,
+        "high": 7615.0,
+        "low": 7591.0,
+        "close": 7609.0,
+        "volume": 4635,
+        "duration": null,
+        "s10103": {
+          "aa": 4873.929933270976,
+          "ma35": 2127217.2094248044,
+          "var28": 21.205690711115928,
+          "ready": true,
+          "history_bars": 4916,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-28T11:00:00+08:00",
+        "date": "2026-07-28",
+        "source_time": "2026-07-28 11:00",
+        "open": 7608.0,
+        "high": 7610.0,
+        "low": 7590.0,
+        "close": 7598.0,
+        "volume": 4254,
+        "duration": null,
+        "s10103": {
+          "aa": 119.9047977267025,
+          "ma35": 2115139.343646475,
+          "var28": 5.67774389375343,
+          "ready": true,
+          "history_bars": 4917,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-28T11:15:00+08:00",
+        "date": "2026-07-28",
+        "source_time": "2026-07-28 11:15",
+        "open": 7598.0,
+        "high": 7603.0,
+        "low": 7585.0,
+        "close": 7602.0,
+        "volume": 3624,
+        "duration": null,
+        "s10103": {
+          "aa": 100.23786116987075,
+          "ma35": 2098496.2635990307,
+          "var28": 5.28509806697798,
+          "ready": true,
+          "history_bars": 4918,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-28T11:30:00+08:00",
+        "date": "2026-07-28",
+        "source_time": "2026-07-28 11:30",
+        "open": 7602.0,
+        "high": 7602.0,
+        "low": 7564.0,
+        "close": 7571.0,
+        "volume": 7049,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2079193.8411201476,
+          "var28": -35.05393902293436,
+          "ready": true,
+          "history_bars": 4919,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-28T13:45:00+08:00",
+        "date": "2026-07-28",
+        "source_time": "2026-07-28 13:45",
+        "open": 7570.0,
+        "high": 7598.0,
+        "low": 7508.0,
+        "close": 7587.0,
+        "volume": 29000,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 2058018.2138511257,
+          "var28": -27.17520662826753,
+          "ready": true,
+          "history_bars": 4920,
+          "history_start": "2025-03-21T14:00:00+08:00"
+        }
+      }
+    ],
+    "B_visible": true
+  },
+  {
+    "symbol": "TAL9",
+    "name": "PTA加权",
+    "interval": "30m",
+    "derived": false,
+    "period_start": "2026-04-01",
+    "period_end": "2026-08-31",
+    "date": "2026-07-07",
+    "time": "2026-07-06T22:00:00+08:00",
+    "point_date": "2026-07-07",
+    "source_time": "2026-07-07 22:00",
+    "confirmation_time": "2026-07-06T23:00:00+08:00",
+    "confirmation_date": "2026-07-07",
+    "A_end_time": "2026-07-06T21:30:00+08:00",
+    "center": 1373,
+    "passed": true,
+    "verified": false,
+    "source_warning_dates": [
+      "2026-07-07"
+    ],
+    "segments": {
+      "B": {
+        "start": "2026-07-06T13:45:00+08:00",
+        "end": "2026-07-06T14:15:00+08:00",
+        "count": 2,
+        "high": 5418.0,
+        "high_time": "2026-07-06T13:45:00+08:00"
+      },
+      "C": {
+        "start": "2026-07-06T14:45:00+08:00",
+        "end": "2026-07-06T15:00:00+08:00",
+        "count": 2,
+        "high": 5426.0,
+        "high_time": "2026-07-06T14:45:00+08:00"
+      },
+      "A": {
+        "start": "2026-07-06T21:30:00+08:00",
+        "end": "2026-07-06T21:30:00+08:00",
+        "count": 1,
+        "high": 5438.0,
+        "high_time": "2026-07-06T21:30:00+08:00"
+      }
+    },
+    "evidence": {
+      "B": {
+        "ready": true,
+        "points": [
+          {
+            "time": "2026-07-06T13:45:00+08:00",
+            "aa": 6022677.30691759,
+            "ma35": 1445168.0182770493,
+            "var28": 229.2163782466273,
+            "ready": true,
+            "history_bars": 1369,
+            "history_start": "2026-01-09T09:30:00+08:00"
+          },
+          {
+            "time": "2026-07-06T14:15:00+08:00",
+            "aa": 6847562.012363969,
+            "ma35": 1639615.5977256626,
+            "var28": 239.23792792392135,
+            "ready": true,
+            "history_bars": 1370,
+            "history_start": "2026-01-09T09:30:00+08:00"
+          }
+        ],
+        "red_area": 9785455.703278847,
+        "blue_area": 0.0,
+        "red_bars": 2,
+        "blue_bars": 0,
+        "neutral_bars": 0,
+        "strength": 0.760316530293167,
+        "aa_peak": 6847562.012363969,
+        "thickness_peak": 5207946.414638307,
+        "peak_aa": 6847562.012363969,
+        "peak_gap": 5207946.414638307
+      },
+      "A": {
+        "ready": true,
+        "points": [
+          {
+            "time": "2026-07-06T21:30:00+08:00",
+            "aa": 8236250.532369597,
+            "ma35": 2118379.861342664,
+            "var28": 254.4275601479951,
+            "ready": true,
+            "history_bars": 1373,
+            "history_start": "2026-01-09T09:30:00+08:00"
+          }
+        ],
+        "red_area": 6117870.671026933,
+        "blue_area": 0.0,
+        "red_bars": 1,
+        "blue_bars": 0,
+        "neutral_bars": 0,
+        "strength": 0.7427980301209707,
+        "aa_peak": 8236250.532369597,
+        "thickness_peak": 6117870.671026933,
+        "peak_aa": 8236250.532369597,
+        "peak_gap": 6117870.671026933
+      },
+      "C": {
+        "ready": true,
+        "points": [
+          {
+            "time": "2026-07-06T14:45:00+08:00",
+            "aa": 5418444.535353994,
+            "ma35": 1793195.8443447542,
+            "var28": 221.27820854672768,
+            "ready": true,
+            "history_bars": 1371,
+            "history_start": "2026-01-09T09:30:00+08:00"
+          },
+          {
+            "time": "2026-07-06T15:00:00+08:00",
+            "aa": 3987601.589918753,
+            "ma35": 1899366.2771006934,
+            "var28": 199.77646204046255,
+            "ready": true,
+            "history_bars": 1372,
+            "history_start": "2026-01-09T09:30:00+08:00"
+          }
+        ],
+        "red_area": 5713484.0038273,
+        "blue_area": 0.0,
+        "red_bars": 2,
+        "blue_bars": 0,
+        "neutral_bars": 0,
+        "strength": 0.6074267474062196,
+        "aa_peak": 5418444.535353994,
+        "thickness_peak": 3625248.6910092398,
+        "peak_aa": 5418444.535353994,
+        "peak_gap": 3625248.6910092398
+      },
+      "parameters": {
+        "b_strength": 0.2,
+        "warmup_bars": 150,
+        "formula_version": "s10103-v1",
+        "area_version": "linear-half-edge-v1",
+        "separation_version": "flame-offset2-blue-gap-first-blue-point-v8",
+        "flame_offset_bars": 2,
+        "candle_gap_rule": "all_blue",
+        "red_region_policy": "nearest_endpoint_all_red_interval",
+        "peak_rule": "aa_A_strictly_greater",
+        "divergence_point_policy": "first_blue_after_A_before_new_red",
+        "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later"
+      },
+      "passed": true,
+      "separator": {
+        "required": false,
+        "rule": "C_unrestricted"
+      },
+      "kind": "red_shrink",
+      "area_ratio": 0.6252003847891311,
+      "reason": null,
+      "matches": {
+        "B": {
+          "start_index": 1368,
+          "end_index": 1369,
+          "start_offset": 0,
+          "end_offset": 0,
+          "start_clipped": true,
+          "end_clipped": true,
+          "window_start_index": 1366,
+          "window_end_index": 1371,
+          "start": "2026-07-06T13:45:00+08:00",
+          "end": "2026-07-06T14:15:00+08:00"
+        },
+        "A": {
+          "start_index": 1372,
+          "end_index": 1372,
+          "start_offset": 0,
+          "end_offset": 0,
+          "start_clipped": true,
+          "end_clipped": true,
+          "window_start_index": 1370,
+          "window_end_index": 1374,
+          "start": "2026-07-06T21:30:00+08:00",
+          "end": "2026-07-06T21:30:00+08:00"
+        }
+      }
+    },
+    "evidence_all": {
+      "rule_version": "pv3",
+      "direction": "short",
+      "segments": {
+        "B": {
+          "start": "2026-07-06T13:45:00+08:00",
+          "end": "2026-07-06T14:15:00+08:00",
+          "count": 2,
+          "high": 5418.0,
+          "high_time": "2026-07-06T13:45:00+08:00"
+        },
+        "C": {
+          "start": "2026-07-06T14:45:00+08:00",
+          "end": "2026-07-06T15:00:00+08:00",
+          "count": 2,
+          "high": 5426.0,
+          "high_time": "2026-07-06T14:45:00+08:00"
+        },
+        "A": {
+          "start": "2026-07-06T21:30:00+08:00",
+          "end": "2026-07-06T21:30:00+08:00",
+          "count": 1,
+          "high": 5438.0,
+          "high_time": "2026-07-06T21:30:00+08:00"
+        }
+      },
+      "comparisons": [],
+      "checks": {
+        "structure": true,
+        "fewer_red": true,
+        "higher_high": true,
+        "s10103_area": true,
+        "s10103_peak": true,
+        "offset_match": true,
+        "intervening_all_blue": true
+      },
+      "observation_start": "2026-07-06T21:30:00+08:00",
+      "observation_end": "2026-07-06T21:30:00+08:00",
+      "divergence_time": "2026-07-06T22:00:00+08:00",
+      "divergence_open": 5430.0,
+      "divergence_close": 5428.0,
+      "divergence_policy": "first_blue_after_A_before_new_red",
+      "confirmation_time": "2026-07-06T23:00:00+08:00",
+      "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later",
+      "previous_time": "2026-07-06T14:15:00+08:00",
+      "previous_close": 5410.0,
+      "previous_volume": 41675,
+      "observation_close": 5430.0,
+      "observation_volume": 169735,
+      "trigger_time": "2026-07-06T23:00:00+08:00",
+      "trigger_open": 5454.0,
+      "trigger_close": 5456.0,
+      "coverage_start": "2026-01-09T09:30:00+08:00",
+      "wait_bars": 3,
+      "s10103": {
+        "B": {
+          "ready": true,
+          "points": [
+            {
+              "time": "2026-07-06T13:45:00+08:00",
+              "aa": 6022677.30691759,
+              "ma35": 1445168.0182770493,
+              "var28": 229.2163782466273,
+              "ready": true,
+              "history_bars": 1369,
+              "history_start": "2026-01-09T09:30:00+08:00"
+            },
+            {
+              "time": "2026-07-06T14:15:00+08:00",
+              "aa": 6847562.012363969,
+              "ma35": 1639615.5977256626,
+              "var28": 239.23792792392135,
+              "ready": true,
+              "history_bars": 1370,
+              "history_start": "2026-01-09T09:30:00+08:00"
+            }
+          ],
+          "red_area": 9785455.703278847,
+          "blue_area": 0.0,
+          "red_bars": 2,
+          "blue_bars": 0,
+          "neutral_bars": 0,
+          "strength": 0.760316530293167,
+          "aa_peak": 6847562.012363969,
+          "thickness_peak": 5207946.414638307,
+          "peak_aa": 6847562.012363969,
+          "peak_gap": 5207946.414638307
+        },
+        "A": {
+          "ready": true,
+          "points": [
+            {
+              "time": "2026-07-06T21:30:00+08:00",
+              "aa": 8236250.532369597,
+              "ma35": 2118379.861342664,
+              "var28": 254.4275601479951,
+              "ready": true,
+              "history_bars": 1373,
+              "history_start": "2026-01-09T09:30:00+08:00"
+            }
+          ],
+          "red_area": 6117870.671026933,
+          "blue_area": 0.0,
+          "red_bars": 1,
+          "blue_bars": 0,
+          "neutral_bars": 0,
+          "strength": 0.7427980301209707,
+          "aa_peak": 8236250.532369597,
+          "thickness_peak": 6117870.671026933,
+          "peak_aa": 8236250.532369597,
+          "peak_gap": 6117870.671026933
+        },
+        "C": {
+          "ready": true,
+          "points": [
+            {
+              "time": "2026-07-06T14:45:00+08:00",
+              "aa": 5418444.535353994,
+              "ma35": 1793195.8443447542,
+              "var28": 221.27820854672768,
+              "ready": true,
+              "history_bars": 1371,
+              "history_start": "2026-01-09T09:30:00+08:00"
+            },
+            {
+              "time": "2026-07-06T15:00:00+08:00",
+              "aa": 3987601.589918753,
+              "ma35": 1899366.2771006934,
+              "var28": 199.77646204046255,
+              "ready": true,
+              "history_bars": 1372,
+              "history_start": "2026-01-09T09:30:00+08:00"
+            }
+          ],
+          "red_area": 5713484.0038273,
+          "blue_area": 0.0,
+          "red_bars": 2,
+          "blue_bars": 0,
+          "neutral_bars": 0,
+          "strength": 0.6074267474062196,
+          "aa_peak": 5418444.535353994,
+          "thickness_peak": 3625248.6910092398,
+          "peak_aa": 5418444.535353994,
+          "peak_gap": 3625248.6910092398
+        },
+        "parameters": {
+          "b_strength": 0.2,
+          "warmup_bars": 150,
+          "formula_version": "s10103-v1",
+          "area_version": "linear-half-edge-v1",
+          "separation_version": "flame-offset2-blue-gap-first-blue-point-v8",
+          "flame_offset_bars": 2,
+          "candle_gap_rule": "all_blue",
+          "red_region_policy": "nearest_endpoint_all_red_interval",
+          "peak_rule": "aa_A_strictly_greater",
+          "divergence_point_policy": "first_blue_after_A_before_new_red",
+          "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later"
+        },
+        "passed": true,
+        "separator": {
+          "required": false,
+          "rule": "C_unrestricted"
+        },
+        "kind": "red_shrink",
+        "area_ratio": 0.6252003847891311,
+        "reason": null,
+        "matches": {
+          "B": {
+            "start_index": 1368,
+            "end_index": 1369,
+            "start_offset": 0,
+            "end_offset": 0,
+            "start_clipped": true,
+            "end_clipped": true,
+            "window_start_index": 1366,
+            "window_end_index": 1371,
+            "start": "2026-07-06T13:45:00+08:00",
+            "end": "2026-07-06T14:15:00+08:00"
+          },
+          "A": {
+            "start_index": 1372,
+            "end_index": 1372,
+            "start_offset": 0,
+            "end_offset": 0,
+            "start_clipped": true,
+            "end_clipped": true,
+            "window_start_index": 1370,
+            "window_end_index": 1374,
+            "start": "2026-07-06T21:30:00+08:00",
+            "end": "2026-07-06T21:30:00+08:00"
+          }
+        }
+      }
+    },
+    "before": 50,
+    "after": 50,
+    "window": [
+      {
+        "time": "2026-06-30T15:00:00+08:00",
+        "date": "2026-06-30",
+        "source_time": "2026-06-30 15:00",
+        "open": 5472.0,
+        "high": 5482.0,
+        "low": 5468.0,
+        "close": 5480.0,
+        "volume": 42925,
+        "duration": null,
+        "s10103": {
+          "aa": 1558454.795803061,
+          "ma35": 641205.5349970639,
+          "var28": 146.0517904975021,
+          "ready": true,
+          "history_bars": 1324,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-06-30T21:30:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 21:30",
+        "open": 5506.0,
+        "high": 5538.0,
+        "low": 5484.0,
+        "close": 5516.0,
+        "volume": 194034,
+        "duration": null,
+        "s10103": {
+          "aa": 3881311.9108207067,
+          "ma35": 752100.1610205127,
+          "var28": 197.98513620250299,
+          "ready": true,
+          "history_bars": 1325,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-06-30T22:00:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 22:00",
+        "open": 5516.0,
+        "high": 5516.0,
+        "low": 5486.0,
+        "close": 5490.0,
+        "volume": 74246,
+        "duration": null,
+        "s10103": {
+          "aa": 3026264.43113447,
+          "ma35": 838564.8590529261,
+          "var28": 182.22251330830238,
+          "ready": true,
+          "history_bars": 1326,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-06-30T22:30:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 22:30",
+        "open": 5492.0,
+        "high": 5494.0,
+        "low": 5468.0,
+        "close": 5478.0,
+        "volume": 102381,
+        "duration": null,
+        "s10103": {
+          "aa": 2161485.017097021,
+          "ma35": 900321.5738271268,
+          "var28": 162.88190996412777,
+          "ready": true,
+          "history_bars": 1327,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-06-30T23:00:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 23:00",
+        "open": 5478.0,
+        "high": 5478.0,
+        "low": 5462.0,
+        "close": 5462.0,
+        "volume": 46069,
+        "duration": null,
+        "s10103": {
+          "aa": 1305030.5142460389,
+          "ma35": 937608.1599484421,
+          "var28": 137.6598151518607,
+          "ready": true,
+          "history_bars": 1328,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-01T09:30:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 09:30",
+        "open": 5458.0,
+        "high": 5474.0,
+        "low": 5426.0,
+        "close": 5438.0,
+        "volume": 150853,
+        "duration": null,
+        "s10103": {
+          "aa": 512953.70132313203,
+          "ma35": 952263.9799862459,
+          "var28": 100.82317755604777,
+          "ready": true,
+          "history_bars": 1329,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-01T10:00:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 10:00",
+        "open": 5438.0,
+        "high": 5442.0,
+        "low": 5382.0,
+        "close": 5402.0,
+        "volume": 236958,
+        "duration": null,
+        "s10103": {
+          "aa": 47828.48292632497,
+          "ma35": 953630.5080698552,
+          "var28": 45.661081042256455,
+          "ready": true,
+          "history_bars": 1330,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-01T10:45:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 10:45",
+        "open": 5402.0,
+        "high": 5422.0,
+        "low": 5392.0,
+        "close": 5416.0,
+        "volume": 75087,
+        "duration": null,
+        "s10103": {
+          "aa": 62156.75556677522,
+          "ma35": 955406.4153717629,
+          "var28": 49.84151095847653,
+          "ready": true,
+          "history_bars": 1331,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-01T11:15:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 11:15",
+        "open": 5416.0,
+        "high": 5430.0,
+        "low": 5400.0,
+        "close": 5428.0,
+        "volume": 63663,
+        "duration": null,
+        "s10103": {
+          "aa": 175493.3388511672,
+          "ma35": 960420.5107675107,
+          "var28": 70.49189308866255,
+          "ready": true,
+          "history_bars": 1332,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-01T13:45:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 13:45",
+        "open": 5428.0,
+        "high": 5452.0,
+        "low": 5422.0,
+        "close": 5432.0,
+        "volume": 167729,
+        "duration": null,
+        "s10103": {
+          "aa": 315570.7588844696,
+          "ma35": 969436.8181642098,
+          "var28": 85.73907425508173,
+          "ready": true,
+          "history_bars": 1333,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-01T14:15:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 14:15",
+        "open": 5432.0,
+        "high": 5440.0,
+        "low": 5408.0,
+        "close": 5414.0,
+        "volume": 58077,
+        "duration": null,
+        "s10103": {
+          "aa": 177150.88293831423,
+          "ma35": 974498.2719624472,
+          "var28": 70.71342741237379,
+          "ready": true,
+          "history_bars": 1334,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-01T14:45:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 14:45",
+        "open": 5414.0,
+        "high": 5414.0,
+        "low": 5386.0,
+        "close": 5394.0,
+        "volume": 66886,
+        "duration": null,
+        "s10103": {
+          "aa": 41896.731662501,
+          "ma35": 975695.3214385188,
+          "var28": 43.683093577513205,
+          "ready": true,
+          "history_bars": 1335,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-01T15:00:00+08:00",
+        "date": "2026-07-01",
+        "source_time": "2026-07-01 15:00",
+        "open": 5396.0,
+        "high": 5400.0,
+        "low": 5386.0,
+        "close": 5398.0,
+        "volume": 50418,
+        "duration": null,
+        "s10103": {
+          "aa": 43135.90368578326,
+          "ma35": 976927.7758295413,
+          "var28": 44.111065265797606,
+          "ready": true,
+          "history_bars": 1336,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-01T21:30:00+08:00",
+        "date": "2026-07-02",
+        "source_time": "2026-07-02 21:30",
+        "open": 5382.0,
+        "high": 5446.0,
+        "low": 5380.0,
+        "close": 5424.0,
+        "volume": 234506,
+        "duration": null,
+        "s10103": {
+          "aa": 271636.44346088136,
+          "ma35": 984688.8170712806,
+          "var28": 81.55586410584635,
+          "ready": true,
+          "history_bars": 1337,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-01T22:00:00+08:00",
+        "date": "2026-07-02",
+        "source_time": "2026-07-02 22:00",
+        "open": 5424.0,
+        "high": 5436.0,
+        "low": 5412.0,
+        "close": 5430.0,
+        "volume": 79847,
+        "duration": null,
+        "s10103": {
+          "aa": 570775.0839006416,
+          "ma35": 1000996.6766112989,
+          "var28": 104.4798269868869,
+          "ready": true,
+          "history_bars": 1338,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-01T22:30:00+08:00",
+        "date": "2026-07-02",
+        "source_time": "2026-07-02 22:30",
+        "open": 5430.0,
+        "high": 5430.0,
+        "low": 5392.0,
+        "close": 5406.0,
+        "volume": 87306,
+        "duration": null,
+        "s10103": {
+          "aa": 294363.5461401164,
+          "ma35": 1009407.0636438738,
+          "var28": 83.77193297155236,
+          "ready": true,
+          "history_bars": 1339,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-01T23:00:00+08:00",
+        "date": "2026-07-02",
+        "source_time": "2026-07-02 23:00",
+        "open": 5406.0,
+        "high": 5410.0,
+        "low": 5386.0,
+        "close": 5398.0,
+        "volume": 61019,
+        "duration": null,
+        "s10103": {
+          "aa": 171351.18085463878,
+          "ma35": 1014302.8116682919,
+          "var28": 69.932113815771,
+          "ready": true,
+          "history_bars": 1340,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-02T09:30:00+08:00",
+        "date": "2026-07-02",
+        "source_time": "2026-07-02 09:30",
+        "open": 5390.0,
+        "high": 5390.0,
+        "low": 5274.0,
+        "close": 5280.0,
+        "volume": 378198,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 1014302.8116682919,
+          "var28": -82.30810107853574,
+          "ready": true,
+          "history_bars": 1341,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-02T10:00:00+08:00",
+        "date": "2026-07-02",
+        "source_time": "2026-07-02 10:00",
+        "open": 5280.0,
+        "high": 5314.0,
+        "low": 5266.0,
+        "close": 5302.0,
+        "volume": 174696,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 1014267.9608551798,
+          "var28": -96.47904394645082,
+          "ready": true,
+          "history_bars": 1342,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-02T10:45:00+08:00",
+        "date": "2026-07-02",
+        "source_time": "2026-07-02 10:45",
+        "open": 5300.0,
+        "high": 5338.0,
+        "low": 5296.0,
+        "close": 5312.0,
+        "volume": 138044,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 1013037.2226018539,
+          "var28": -81.17949765185733,
+          "ready": true,
+          "history_bars": 1343,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-02T11:15:00+08:00",
+        "date": "2026-07-02",
+        "source_time": "2026-07-02 11:15",
+        "open": 5312.0,
+        "high": 5314.0,
+        "low": 5260.0,
+        "close": 5268.0,
+        "volume": 128852,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 1012518.9607255068,
+          "var28": -125.87217313206293,
+          "ready": true,
+          "history_bars": 1344,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-02T13:45:00+08:00",
+        "date": "2026-07-02",
+        "source_time": "2026-07-02 13:45",
+        "open": 5268.0,
+        "high": 5284.0,
+        "low": 5250.0,
+        "close": 5260.0,
+        "volume": 288385,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 1010482.1752678867,
+          "var28": -142.7891582713704,
+          "ready": true,
+          "history_bars": 1345,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-02T14:15:00+08:00",
+        "date": "2026-07-02",
+        "source_time": "2026-07-02 14:15",
+        "open": 5260.0,
+        "high": 5276.0,
+        "low": 5244.0,
+        "close": 5250.0,
+        "volume": 222218,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 1000612.9634011196,
+          "var28": -152.91685801814265,
+          "ready": true,
+          "history_bars": 1346,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-02T14:45:00+08:00",
+        "date": "2026-07-02",
+        "source_time": "2026-07-02 14:45",
+        "open": 5252.0,
+        "high": 5292.0,
+        "low": 5250.0,
+        "close": 5278.0,
+        "volume": 139349,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 969766.3593968749,
+          "var28": -111.9300014683854,
+          "ready": true,
+          "history_bars": 1347,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-02T15:00:00+08:00",
+        "date": "2026-07-02",
+        "source_time": "2026-07-02 15:00",
+        "open": 5278.0,
+        "high": 5278.0,
+        "low": 5258.0,
+        "close": 5268.0,
+        "volume": 47901,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 932714.5023823747,
+          "var28": -104.02006979861562,
+          "ready": true,
+          "history_bars": 1348,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-02T21:30:00+08:00",
+        "date": "2026-07-03",
+        "source_time": "2026-07-03 21:30",
+        "open": 5270.0,
+        "high": 5286.0,
+        "low": 5256.0,
+        "close": 5262.0,
+        "volume": 184445,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 891400.0884386541,
+          "var28": -101.80583305033099,
+          "ready": true,
+          "history_bars": 1349,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-02T22:00:00+08:00",
+        "date": "2026-07-03",
+        "source_time": "2026-07-03 22:00",
+        "open": 5262.0,
+        "high": 5336.0,
+        "low": 5258.0,
+        "close": 5318.0,
+        "volume": 206065,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 827972.328603706,
+          "var28": -22.03886408378355,
+          "ready": true,
+          "history_bars": 1350,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-02T22:30:00+08:00",
+        "date": "2026-07-03",
+        "source_time": "2026-07-03 22:30",
+        "open": 5318.0,
+        "high": 5326.0,
+        "low": 5300.0,
+        "close": 5302.0,
+        "volume": 104239,
+        "duration": null,
+        "s10103": {
+          "aa": 0.0,
+          "ma35": 766131.4921635954,
+          "var28": -11.244538943390921,
+          "ready": true,
+          "history_bars": 1351,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-02T23:00:00+08:00",
+        "date": "2026-07-03",
+        "source_time": "2026-07-03 23:00",
+        "open": 5302.0,
+        "high": 5340.0,
+        "low": 5298.0,
+        "close": 5326.0,
+        "volume": 118993,
+        "duration": null,
+        "s10103": {
+          "aa": 11493.838751314042,
+          "ma35": 723937.9329795323,
+          "var28": 28.316358548343487,
+          "ready": true,
+          "history_bars": 1352,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-03T09:30:00+08:00",
+        "date": "2026-07-03",
+        "source_time": "2026-07-03 09:30",
+        "open": 5336.0,
+        "high": 5358.0,
+        "low": 5318.0,
+        "close": 5328.0,
+        "volume": 128694,
+        "duration": null,
+        "s10103": {
+          "aa": 55873.92087889879,
+          "ma35": 697954.8548794367,
+          "var28": 48.09743912762724,
+          "ready": true,
+          "history_bars": 1353,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-03T10:00:00+08:00",
+        "date": "2026-07-03",
+        "source_time": "2026-07-03 10:00",
+        "open": 5328.0,
+        "high": 5378.0,
+        "low": 5328.0,
+        "close": 5362.0,
+        "volume": 132728,
+        "duration": null,
+        "s10103": {
+          "aa": 531891.9265240292,
+          "ma35": 660782.777779145,
+          "var28": 102.04980762922673,
+          "ready": true,
+          "history_bars": 1354,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-03T10:45:00+08:00",
+        "date": "2026-07-03",
+        "source_time": "2026-07-03 10:45",
+        "open": 5364.0,
+        "high": 5374.0,
+        "low": 5354.0,
+        "close": 5366.0,
+        "volume": 242769,
+        "duration": null,
+        "s10103": {
+          "aa": 1034255.1304049358,
+          "ma35": 598139.5622728941,
+          "var28": 127.38844788799065,
+          "ready": true,
+          "history_bars": 1355,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-03T11:15:00+08:00",
+        "date": "2026-07-03",
+        "source_time": "2026-07-03 11:15",
+        "open": 5366.0,
+        "high": 5366.0,
+        "low": 5338.0,
+        "close": 5354.0,
+        "volume": 348339,
+        "duration": null,
+        "s10103": {
+          "aa": 918128.1652871588,
+          "ma35": 560912.0067114879,
+          "var28": 122.4281305327612,
+          "ready": true,
+          "history_bars": 1356,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-03T13:45:00+08:00",
+        "date": "2026-07-03",
+        "source_time": "2026-07-03 13:45",
+        "open": 5354.0,
+        "high": 5382.0,
+        "low": 5350.0,
+        "close": 5376.0,
+        "volume": 77486,
+        "duration": null,
+        "s10103": {
+          "aa": 1733870.8762546547,
+          "ma35": 574555.6765449654,
+          "var28": 151.33953327930237,
+          "ready": true,
+          "history_bars": 1357,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-03T14:15:00+08:00",
+        "date": "2026-07-03",
+        "source_time": "2026-07-03 14:15",
+        "open": 5376.0,
+        "high": 5380.0,
+        "low": 5356.0,
+        "close": 5358.0,
+        "volume": 55475,
+        "duration": null,
+        "s10103": {
+          "aa": 1351399.9633058403,
+          "ma35": 578679.2371629393,
+          "var28": 139.27185221926538,
+          "ready": true,
+          "history_bars": 1358,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-03T14:45:00+08:00",
+        "date": "2026-07-03",
+        "source_time": "2026-07-03 14:45",
+        "open": 5358.0,
+        "high": 5358.0,
+        "low": 5340.0,
+        "close": 5348.0,
+        "volume": 65179,
+        "duration": null,
+        "s10103": {
+          "aa": 965059.3682752537,
+          "ma35": 561725.0820907162,
+          "var28": 124.48048772285267,
+          "ready": true,
+          "history_bars": 1359,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-03T15:00:00+08:00",
+        "date": "2026-07-03",
+        "source_time": "2026-07-03 15:00",
+        "open": 5348.0,
+        "high": 5358.0,
+        "low": 5340.0,
+        "close": 5350.0,
+        "volume": 33299,
+        "duration": null,
+        "s10103": {
+          "aa": 965173.3606379733,
+          "ma35": 478406.837799781,
+          "var28": 124.48539083037292,
+          "ready": true,
+          "history_bars": 1360,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-03T21:30:00+08:00",
+        "date": "2026-07-06",
+        "source_time": "2026-07-06 21:30",
+        "open": 5338.0,
+        "high": 5382.0,
+        "low": 5308.0,
+        "close": 5370.0,
+        "volume": 181000,
+        "duration": null,
+        "s10103": {
+          "aa": 1766950.0856038507,
+          "ma35": 442426.4279274776,
+          "var28": 152.29618508337091,
+          "ready": true,
+          "history_bars": 1361,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-03T22:00:00+08:00",
+        "date": "2026-07-06",
+        "source_time": "2026-07-06 22:00",
+        "open": 5370.0,
+        "high": 5390.0,
+        "low": 5360.0,
+        "close": 5384.0,
+        "volume": 104814,
+        "duration": null,
+        "s10103": {
+          "aa": 2953458.8841483183,
+          "ma35": 465054.2527003718,
+          "var28": 180.74904200714752,
+          "ready": true,
+          "history_bars": 1362,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-03T22:30:00+08:00",
+        "date": "2026-07-06",
+        "source_time": "2026-07-06 22:30",
+        "open": 5384.0,
+        "high": 5392.0,
+        "low": 5378.0,
+        "close": 5384.0,
+        "volume": 54815,
+        "duration": null,
+        "s10103": {
+          "aa": 3475017.2855772474,
+          "ma35": 527053.8747384063,
+          "var28": 190.8194192196329,
+          "ready": true,
+          "history_bars": 1363,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-03T23:00:00+08:00",
+        "date": "2026-07-06",
+        "source_time": "2026-07-06 23:00",
+        "open": 5384.0,
+        "high": 5398.0,
+        "low": 5382.0,
+        "close": 5396.0,
+        "volume": 46225,
+        "duration": null,
+        "s10103": {
+          "aa": 4636872.551929461,
+          "ma35": 644880.1276128729,
+          "var28": 210.0804249745862,
+          "ready": true,
+          "history_bars": 1364,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-06T09:30:00+08:00",
+        "date": "2026-07-06",
+        "source_time": "2026-07-06 09:30",
+        "open": 5392.0,
+        "high": 5424.0,
+        "low": 5370.0,
+        "close": 5400.0,
+        "volume": 243597,
+        "duration": null,
+        "s10103": {
+          "aa": 5441924.78101618,
+          "ma35": 798997.1647011545,
+          "var28": 221.59741981117827,
+          "ready": true,
+          "history_bars": 1365,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-06T10:00:00+08:00",
+        "date": "2026-07-06",
+        "source_time": "2026-07-06 10:00",
+        "open": 5400.0,
+        "high": 5418.0,
+        "low": 5376.0,
+        "close": 5410.0,
+        "volume": 95997,
+        "duration": null,
+        "s10103": {
+          "aa": 6742847.616760283,
+          "ma35": 989874.0464495403,
+          "var28": 238.01202251542668,
+          "ready": true,
+          "history_bars": 1366,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-06T10:45:00+08:00",
+        "date": "2026-07-06",
+        "source_time": "2026-07-06 10:45",
+        "open": 5410.0,
+        "high": 5428.0,
+        "low": 5400.0,
+        "close": 5402.0,
+        "volume": 88013,
+        "duration": null,
+        "s10103": {
+          "aa": 6288968.762558828,
+          "ma35": 1164544.772841188,
+          "var28": 232.54644810255752,
+          "ready": true,
+          "history_bars": 1367,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-06T11:15:00+08:00",
+        "date": "2026-07-06",
+        "source_time": "2026-07-06 11:15",
+        "open": 5400.0,
+        "high": 5404.0,
+        "low": 5378.0,
+        "close": 5382.0,
+        "volume": 75609,
+        "duration": null,
+        "s10103": {
+          "aa": 4291857.925160342,
+          "ma35": 1278152.977591927,
+          "var28": 204.73428597896213,
+          "ready": true,
+          "history_bars": 1368,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-06T13:45:00+08:00",
+        "date": "2026-07-06",
+        "source_time": "2026-07-06 13:45",
+        "open": 5380.0,
+        "high": 5418.0,
+        "low": 5380.0,
+        "close": 5408.0,
+        "volume": 177003,
+        "duration": null,
+        "s10103": {
+          "aa": 6022677.30691759,
+          "ma35": 1445168.0182770493,
+          "var28": 229.2163782466273,
+          "ready": true,
+          "history_bars": 1369,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-06T14:15:00+08:00",
+        "date": "2026-07-06",
+        "source_time": "2026-07-06 14:15",
+        "open": 5408.0,
+        "high": 5418.0,
+        "low": 5402.0,
+        "close": 5410.0,
+        "volume": 41675,
+        "duration": null,
+        "s10103": {
+          "aa": 6847562.012363969,
+          "ma35": 1639615.5977256626,
+          "var28": 239.23792792392135,
+          "ready": true,
+          "history_bars": 1370,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-06T14:45:00+08:00",
+        "date": "2026-07-06",
+        "source_time": "2026-07-06 14:45",
+        "open": 5410.0,
+        "high": 5426.0,
+        "low": 5394.0,
+        "close": 5394.0,
+        "volume": 60652,
+        "duration": null,
+        "s10103": {
+          "aa": 5418444.535353994,
+          "ma35": 1793195.8443447542,
+          "var28": 221.27820854672768,
+          "ready": true,
+          "history_bars": 1371,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-06T15:00:00+08:00",
+        "date": "2026-07-06",
+        "source_time": "2026-07-06 15:00",
+        "open": 5394.0,
+        "high": 5398.0,
+        "low": 5376.0,
+        "close": 5382.0,
+        "volume": 60970,
+        "duration": null,
+        "s10103": {
+          "aa": 3987601.589918753,
+          "ma35": 1899366.2771006934,
+          "var28": 199.77646204046255,
+          "ready": true,
+          "history_bars": 1372,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-06T21:30:00+08:00",
+        "date": "2026-07-07",
+        "source_time": "2026-07-07 21:30",
+        "open": 5372.0,
+        "high": 5438.0,
+        "low": 5372.0,
+        "close": 5430.0,
+        "volume": 169735,
+        "duration": null,
+        "s10103": {
+          "aa": 8236250.532369597,
+          "ma35": 2118379.861342664,
+          "var28": 254.4275601479951,
+          "ready": true,
+          "history_bars": 1373,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-06T22:00:00+08:00",
+        "date": "2026-07-07",
+        "source_time": "2026-07-07 22:00",
+        "open": 5430.0,
+        "high": 5430.0,
+        "low": 5410.0,
+        "close": 5428.0,
+        "volume": 61211,
+        "duration": null,
+        "s10103": {
+          "aa": 9662295.896511579,
+          "ma35": 2386035.0713532767,
+          "var28": 268.3387174410871,
+          "ready": true,
+          "history_bars": 1374,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-06T22:30:00+08:00",
+        "date": "2026-07-07",
+        "source_time": "2026-07-07 22:30",
+        "open": 5428.0,
+        "high": 5460.0,
+        "low": 5418.0,
+        "close": 5456.0,
+        "volume": 110670,
+        "duration": null,
+        "s10103": {
+          "aa": 14495901.333256725,
+          "ma35": 2795307.932850479,
+          "var28": 307.19188119024614,
+          "ready": true,
+          "history_bars": 1375,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-06T23:00:00+08:00",
+        "date": "2026-07-07",
+        "source_time": "2026-07-07 23:00",
+        "open": 5454.0,
+        "high": 5462.0,
+        "low": 5442.0,
+        "close": 5456.0,
+        "volume": 80931,
+        "duration": null,
+        "s10103": {
+          "aa": 15976341.294650156,
+          "ma35": 3251774.8269833406,
+          "var28": 317.31314595528966,
+          "ready": true,
+          "history_bars": 1376,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-07T09:30:00+08:00",
+        "date": "2026-07-07",
+        "source_time": "2026-07-07 09:30",
+        "open": 5456.0,
+        "high": 5460.0,
+        "low": 5408.0,
+        "close": 5426.0,
+        "volume": 120088,
+        "duration": null,
+        "s10103": {
+          "aa": 10914550.127152462,
+          "ma35": 3563619.1163305542,
+          "var28": 279.46456181629634,
+          "ready": true,
+          "history_bars": 1377,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-07T10:00:00+08:00",
+        "date": "2026-07-07",
+        "source_time": "2026-07-07 10:00",
+        "open": 5426.0,
+        "high": 5444.0,
+        "low": 5416.0,
+        "close": 5442.0,
+        "volume": 77320,
+        "duration": null,
+        "s10103": {
+          "aa": 11680639.173057387,
+          "ma35": 3897351.664132194,
+          "var28": 285.85633395552566,
+          "ready": true,
+          "history_bars": 1378,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-07T10:45:00+08:00",
+        "date": "2026-07-07",
+        "source_time": "2026-07-07 10:45",
+        "open": 5442.0,
+        "high": 5452.0,
+        "low": 5420.0,
+        "close": 5426.0,
+        "volume": 76319,
+        "duration": null,
+        "s10103": {
+          "aa": 9340974.791682905,
+          "ma35": 4164236.658180277,
+          "var28": 265.3302931767083,
+          "ready": true,
+          "history_bars": 1379,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-07T11:15:00+08:00",
+        "date": "2026-07-07",
+        "source_time": "2026-07-07 11:15",
+        "open": 5426.0,
+        "high": 5436.0,
+        "low": 5412.0,
+        "close": 5426.0,
+        "volume": 52863,
+        "duration": null,
+        "s10103": {
+          "aa": 8491086.8155163,
+          "ma35": 4406839.1386236,
+          "var28": 257.0252836798273,
+          "ready": true,
+          "history_bars": 1380,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-07T13:45:00+08:00",
+        "date": "2026-07-07",
+        "source_time": "2026-07-07 13:45",
+        "open": 5426.0,
+        "high": 5432.0,
+        "low": 5406.0,
+        "close": 5410.0,
+        "volume": 84890,
+        "duration": null,
+        "s10103": {
+          "aa": 6269180.339059964,
+          "ma35": 4585958.576882456,
+          "var28": 232.3022569973026,
+          "ready": true,
+          "history_bars": 1381,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-07T14:15:00+08:00",
+        "date": "2026-07-07",
+        "source_time": "2026-07-07 14:15",
+        "open": 5410.0,
+        "high": 5468.0,
+        "low": 5406.0,
+        "close": 5452.0,
+        "volume": 231827,
+        "duration": null,
+        "s10103": {
+          "aa": 10638006.600732652,
+          "ma35": 4889901.622617675,
+          "var28": 277.0838601582398,
+          "ready": true,
+          "history_bars": 1382,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-07T14:45:00+08:00",
+        "date": "2026-07-07",
+        "source_time": "2026-07-07 14:45",
+        "open": 5452.0,
+        "high": 5490.0,
+        "low": 5448.0,
+        "close": 5456.0,
+        "volume": 155410,
+        "duration": null,
+        "s10103": {
+          "aa": 12781129.4483021,
+          "ma35": 5255076.74971202,
+          "var28": 294.5663002996169,
+          "ready": true,
+          "history_bars": 1383,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-07T15:00:00+08:00",
+        "date": "2026-07-07",
+        "source_time": "2026-07-07 15:00",
+        "open": 5456.0,
+        "high": 5460.0,
+        "low": 5450.0,
+        "close": 5452.0,
+        "volume": 38821,
+        "duration": null,
+        "s10103": {
+          "aa": 12522342.652004667,
+          "ma35": 5612857.968340725,
+          "var28": 292.56449123316224,
+          "ready": true,
+          "history_bars": 1384,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-07T21:30:00+08:00",
+        "date": "2026-07-08",
+        "source_time": "2026-07-08 21:30",
+        "open": 5454.0,
+        "high": 5492.0,
+        "low": 5454.0,
+        "close": 5476.0,
+        "volume": 192695,
+        "duration": null,
+        "s10103": {
+          "aa": 16407215.310472565,
+          "ma35": 6081635.548639941,
+          "var28": 320.14065826244365,
+          "ready": true,
+          "history_bars": 1385,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-07T22:00:00+08:00",
+        "date": "2026-07-08",
+        "source_time": "2026-07-08 22:00",
+        "open": 5476.0,
+        "high": 5498.0,
+        "low": 5466.0,
+        "close": 5486.0,
+        "volume": 78916,
+        "duration": null,
+        "s10103": {
+          "aa": 19421958.76859354,
+          "ma35": 6636548.656314041,
+          "var28": 338.65829641765424,
+          "ready": true,
+          "history_bars": 1386,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-07T22:30:00+08:00",
+        "date": "2026-07-08",
+        "source_time": "2026-07-08 22:30",
+        "open": 5486.0,
+        "high": 5504.0,
+        "low": 5474.0,
+        "close": 5498.0,
+        "volume": 77252,
+        "duration": null,
+        "s10103": {
+          "aa": 22627731.520775117,
+          "ma35": 7282726.875800436,
+          "var28": 356.3517845826887,
+          "ready": true,
+          "history_bars": 1387,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-07T23:00:00+08:00",
+        "date": "2026-07-08",
+        "source_time": "2026-07-08 23:00",
+        "open": 5498.0,
+        "high": 5502.0,
+        "low": 5476.0,
+        "close": 5484.0,
+        "volume": 57588,
+        "duration": null,
+        "s10103": {
+          "aa": 19657843.73996548,
+          "ma35": 7842783.156345768,
+          "var28": 340.0238946326368,
+          "ready": true,
+          "history_bars": 1388,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-08T09:30:00+08:00",
+        "date": "2026-07-08",
+        "source_time": "2026-07-08 09:30",
+        "open": 5524.0,
+        "high": 5568.0,
+        "low": 5506.0,
+        "close": 5518.0,
+        "volume": 275145,
+        "duration": null,
+        "s10103": {
+          "aa": 26266364.19111537,
+          "ma35": 8578053.792476948,
+          "var28": 374.51251205428065,
+          "ready": true,
+          "history_bars": 1389,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-08T10:00:00+08:00",
+        "date": "2026-07-08",
+        "source_time": "2026-07-08 10:00",
+        "open": 5518.0,
+        "high": 5572.0,
+        "low": 5518.0,
+        "close": 5568.0,
+        "volume": 128237,
+        "duration": null,
+        "s10103": {
+          "aa": 44079950.87539219,
+          "ma35": 9807930.813762298,
+          "var28": 445.057773373639,
+          "ready": true,
+          "history_bars": 1390,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-08T10:45:00+08:00",
+        "date": "2026-07-08",
+        "source_time": "2026-07-08 10:45",
+        "open": 5568.0,
+        "high": 5568.0,
+        "low": 5530.0,
+        "close": 5540.0,
+        "volume": 129490,
+        "duration": null,
+        "s10103": {
+          "aa": 38571304.65800069,
+          "ma35": 10883735.856411256,
+          "var28": 425.68673739191416,
+          "ready": true,
+          "history_bars": 1391,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-08T11:15:00+08:00",
+        "date": "2026-07-08",
+        "source_time": "2026-07-08 11:15",
+        "open": 5540.0,
+        "high": 5572.0,
+        "low": 5538.0,
+        "close": 5554.0,
+        "volume": 91860,
+        "duration": null,
+        "s10103": {
+          "aa": 40166826.9676521,
+          "ma35": 11981820.31616547,
+          "var28": 431.4774115655508,
+          "ready": true,
+          "history_bars": 1392,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-08T13:45:00+08:00",
+        "date": "2026-07-08",
+        "source_time": "2026-07-08 13:45",
+        "open": 5554.0,
+        "high": 5592.0,
+        "low": 5548.0,
+        "close": 5556.0,
+        "volume": 174224,
+        "duration": null,
+        "s10103": {
+          "aa": 39701937.28899851,
+          "ma35": 13077549.954042403,
+          "var28": 429.80625220562433,
+          "ready": true,
+          "history_bars": 1393,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-08T14:15:00+08:00",
+        "date": "2026-07-08",
+        "source_time": "2026-07-08 14:15",
+        "open": 5556.0,
+        "high": 5564.0,
+        "low": 5534.0,
+        "close": 5546.0,
+        "volume": 113915,
+        "duration": null,
+        "s10103": {
+          "aa": 34543125.02251117,
+          "ma35": 14036923.258449143,
+          "var28": 410.3192968875333,
+          "ready": true,
+          "history_bars": 1394,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-08T14:45:00+08:00",
+        "date": "2026-07-08",
+        "source_time": "2026-07-08 14:45",
+        "open": 5546.0,
+        "high": 5552.0,
+        "low": 5534.0,
+        "close": 5536.0,
+        "volume": 63136,
+        "duration": null,
+        "s10103": {
+          "aa": 28634141.280511558,
+          "ma35": 14827465.199016958,
+          "var28": 385.44431329993813,
+          "ready": true,
+          "history_bars": 1395,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-08T15:00:00+08:00",
+        "date": "2026-07-08",
+        "source_time": "2026-07-08 15:00",
+        "open": 5534.0,
+        "high": 5542.0,
+        "low": 5530.0,
+        "close": 5536.0,
+        "volume": 42375,
+        "duration": null,
+        "s10103": {
+          "aa": 25766266.705755997,
+          "ma35": 15513159.959592734,
+          "var28": 372.1203126864005,
+          "ready": true,
+          "history_bars": 1396,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-08T21:30:00+08:00",
+        "date": "2026-07-09",
+        "source_time": "2026-07-09 21:30",
+        "open": 5572.0,
+        "high": 5604.0,
+        "low": 5548.0,
+        "close": 5590.0,
+        "volume": 269581,
+        "duration": null,
+        "s10103": {
+          "aa": 40290508.770146884,
+          "ma35": 16579932.813478408,
+          "var28": 431.9198424198327,
+          "ready": true,
+          "history_bars": 1397,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-08T22:00:00+08:00",
+        "date": "2026-07-09",
+        "source_time": "2026-07-09 22:00",
+        "open": 5590.0,
+        "high": 5594.0,
+        "low": 5562.0,
+        "close": 5582.0,
+        "volume": 102532,
+        "duration": null,
+        "s10103": {
+          "aa": 41013221.425663665,
+          "ma35": 17652452.931766592,
+          "var28": 434.4871711949986,
+          "ready": true,
+          "history_bars": 1398,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-08T22:30:00+08:00",
+        "date": "2026-07-09",
+        "source_time": "2026-07-09 22:30",
+        "open": 5582.0,
+        "high": 5648.0,
+        "low": 5582.0,
+        "close": 5648.0,
+        "volume": 163027,
+        "duration": null,
+        "s10103": {
+          "aa": 67608759.698963,
+          "ma35": 19451649.707396124,
+          "var28": 513.2616625213572,
+          "ready": true,
+          "history_bars": 1399,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-08T23:00:00+08:00",
+        "date": "2026-07-09",
+        "source_time": "2026-07-09 23:00",
+        "open": 5648.0,
+        "high": 5658.0,
+        "low": 5638.0,
+        "close": 5656.0,
+        "volume": 139908,
+        "duration": null,
+        "s10103": {
+          "aa": 78949829.71802431,
+          "ma35": 21551875.562739212,
+          "var28": 540.4913845910735,
+          "ready": true,
+          "history_bars": 1400,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-09T09:30:00+08:00",
+        "date": "2026-07-09",
+        "source_time": "2026-07-09 09:30",
+        "open": 5644.0,
+        "high": 5644.0,
+        "low": 5580.0,
+        "close": 5602.0,
+        "volume": 202121,
+        "duration": null,
+        "s10103": {
+          "aa": 52242894.616334796,
+          "ma35": 22851876.905584197,
+          "var28": 470.9909367628702,
+          "ready": true,
+          "history_bars": 1401,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-09T10:00:00+08:00",
+        "date": "2026-07-09",
+        "source_time": "2026-07-09 10:00",
+        "open": 5602.0,
+        "high": 5606.0,
+        "low": 5578.0,
+        "close": 5588.0,
+        "volume": 81337,
+        "duration": null,
+        "s10103": {
+          "aa": 37841721.78191076,
+          "ma35": 23753384.13470854,
+          "var28": 422.98555561797133,
+          "ready": true,
+          "history_bars": 1402,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-09T10:45:00+08:00",
+        "date": "2026-07-09",
+        "source_time": "2026-07-09 10:45",
+        "open": 5588.0,
+        "high": 5606.0,
+        "low": 5568.0,
+        "close": 5580.0,
+        "volume": 109112,
+        "duration": null,
+        "s10103": {
+          "aa": 29792958.643367082,
+          "ma35": 24481987.01237159,
+          "var28": 390.5755506641421,
+          "ready": true,
+          "history_bars": 1403,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-09T11:15:00+08:00",
+        "date": "2026-07-09",
+        "source_time": "2026-07-09 11:15",
+        "open": 5582.0,
+        "high": 5614.0,
+        "low": 5572.0,
+        "close": 5572.0,
+        "volume": 96092,
+        "duration": null,
+        "s10103": {
+          "aa": 24083607.934140384,
+          "ma35": 24998013.60172081,
+          "var28": 363.8364838949747,
+          "ready": true,
+          "history_bars": 1404,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-09T13:45:00+08:00",
+        "date": "2026-07-09",
+        "source_time": "2026-07-09 13:45",
+        "open": 5572.0,
+        "high": 5596.0,
+        "low": 5558.0,
+        "close": 5568.0,
+        "volume": 100146,
+        "duration": null,
+        "s10103": {
+          "aa": 20457351.338260114,
+          "ma35": 25386864.725317843,
+          "var28": 344.5727595148748,
+          "ready": true,
+          "history_bars": 1405,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-09T14:15:00+08:00",
+        "date": "2026-07-09",
+        "source_time": "2026-07-09 14:15",
+        "open": 5568.0,
+        "high": 5574.0,
+        "low": 5542.0,
+        "close": 5560.0,
+        "volume": 146067,
+        "duration": null,
+        "s10103": {
+          "aa": 16844134.983177293,
+          "ma35": 25713313.02382708,
+          "var28": 322.95773517155163,
+          "ready": true,
+          "history_bars": 1406,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-09T14:45:00+08:00",
+        "date": "2026-07-09",
+        "source_time": "2026-07-09 14:45",
+        "open": 5560.0,
+        "high": 5562.0,
+        "low": 5538.0,
+        "close": 5552.0,
+        "volume": 74766,
+        "duration": null,
+        "s10103": {
+          "aa": 13637293.673401859,
+          "ma35": 25989018.511926595,
+          "var28": 301.00248825925485,
+          "ready": true,
+          "history_bars": 1407,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-09T15:00:00+08:00",
+        "date": "2026-07-09",
+        "source_time": "2026-07-09 15:00",
+        "open": 5552.0,
+        "high": 5572.0,
+        "low": 5546.0,
+        "close": 5556.0,
+        "volume": 69521,
+        "duration": null,
+        "s10103": {
+          "aa": 12803528.167548673,
+          "ma35": 26119512.158646002,
+          "var28": 294.7382872866547,
+          "ready": true,
+          "history_bars": 1408,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-09T21:30:00+08:00",
+        "date": "2026-07-10",
+        "source_time": "2026-07-10 21:30",
+        "open": 5580.0,
+        "high": 5586.0,
+        "low": 5536.0,
+        "close": 5548.0,
+        "volume": 193324,
+        "duration": null,
+        "s10103": {
+          "aa": 10772561.562125813,
+          "ma35": 26151234.034806408,
+          "var28": 278.24730271810756,
+          "ready": true,
+          "history_bars": 1409,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-09T22:00:00+08:00",
+        "date": "2026-07-10",
+        "source_time": "2026-07-10 22:00",
+        "open": 5548.0,
+        "high": 5556.0,
+        "low": 5528.0,
+        "close": 5542.0,
+        "volume": 82411,
+        "duration": null,
+        "s10103": {
+          "aa": 8925300.848974701,
+          "ma35": 25992074.02096978,
+          "var28": 261.334306156061,
+          "ready": true,
+          "history_bars": 1410,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-09T22:30:00+08:00",
+        "date": "2026-07-10",
+        "source_time": "2026-07-10 22:30",
+        "open": 5542.0,
+        "high": 5542.0,
+        "low": 5506.0,
+        "close": 5526.0,
+        "volume": 111071,
+        "duration": null,
+        "s10103": {
+          "aa": 6228693.665483858,
+          "ma35": 25713569.802993596,
+          "var28": 231.8010415281568,
+          "ready": true,
+          "history_bars": 1411,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-09T23:00:00+08:00",
+        "date": "2026-07-10",
+        "source_time": "2026-07-10 23:00",
+        "open": 5526.0,
+        "high": 5532.0,
+        "low": 5510.0,
+        "close": 5520.0,
+        "volume": 59518,
+        "duration": null,
+        "s10103": {
+          "aa": 4739290.248475731,
+          "ma35": 25537133.806459974,
+          "var28": 211.61613471536242,
+          "ready": true,
+          "history_bars": 1412,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-10T09:30:00+08:00",
+        "date": "2026-07-10",
+        "source_time": "2026-07-10 09:30",
+        "open": 5512.0,
+        "high": 5532.0,
+        "low": 5468.0,
+        "close": 5522.0,
+        "volume": 173877,
+        "duration": null,
+        "s10103": {
+          "aa": 4314821.745523183,
+          "ma35": 25326681.879959002,
+          "var28": 205.09884190586874,
+          "ready": true,
+          "history_bars": 1413,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-10T10:00:00+08:00",
+        "date": "2026-07-10",
+        "source_time": "2026-07-10 10:00",
+        "open": 5522.0,
+        "high": 5566.0,
+        "low": 5516.0,
+        "close": 5554.0,
+        "volume": 154262,
+        "duration": null,
+        "s10103": {
+          "aa": 7045733.63206876,
+          "ma35": 25261103.56111288,
+          "var28": 241.52416587359778,
+          "ready": true,
+          "history_bars": 1414,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-10T10:45:00+08:00",
+        "date": "2026-07-10",
+        "source_time": "2026-07-10 10:45",
+        "open": 5554.0,
+        "high": 5576.0,
+        "low": 5548.0,
+        "close": 5552.0,
+        "volume": 84423,
+        "duration": null,
+        "s10103": {
+          "aa": 7572517.486794605,
+          "ma35": 25234858.723149404,
+          "var28": 247.40004655870263,
+          "ready": true,
+          "history_bars": 1415,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-10T11:15:00+08:00",
+        "date": "2026-07-10",
+        "source_time": "2026-07-10 11:15",
+        "open": 5552.0,
+        "high": 5558.0,
+        "low": 5528.0,
+        "close": 5540.0,
+        "volume": 69149,
+        "duration": null,
+        "s10103": {
+          "aa": 6120013.91193359,
+          "ma35": 25230596.825231507,
+          "var28": 230.44478125464335,
+          "ready": true,
+          "history_bars": 1416,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-10T13:45:00+08:00",
+        "date": "2026-07-10",
+        "source_time": "2026-07-10 13:45",
+        "open": 5542.0,
+        "high": 5542.0,
+        "low": 5522.0,
+        "close": 5522.0,
+        "volume": 71333,
+        "duration": null,
+        "s10103": {
+          "aa": 3927920.526753178,
+          "ma35": 25038880.080260664,
+          "var28": 198.7746184275599,
+          "ready": true,
+          "history_bars": 1417,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-10T14:15:00+08:00",
+        "date": "2026-07-10",
+        "source_time": "2026-07-10 14:15",
+        "open": 5522.0,
+        "high": 5522.0,
+        "low": 5474.0,
+        "close": 5480.0,
+        "volume": 146059,
+        "duration": null,
+        "s10103": {
+          "aa": 1157909.3076120075,
+          "ma35": 24706788.07624095,
+          "var28": 132.27734466062086,
+          "ready": true,
+          "history_bars": 1418,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-10T14:45:00+08:00",
+        "date": "2026-07-10",
+        "source_time": "2026-07-10 14:45",
+        "open": 5480.0,
+        "high": 5504.0,
+        "low": 5472.0,
+        "close": 5504.0,
+        "volume": 90697,
+        "duration": null,
+        "s10103": {
+          "aa": 1388385.6917353903,
+          "ma35": 24388675.020233255,
+          "var28": 140.53141683014337,
+          "ready": true,
+          "history_bars": 1419,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-10T15:00:00+08:00",
+        "date": "2026-07-10",
+        "source_time": "2026-07-10 15:00",
+        "open": 5502.0,
+        "high": 5506.0,
+        "low": 5476.0,
+        "close": 5484.0,
+        "volume": 50541,
+        "duration": null,
+        "s10103": {
+          "aa": 787456.302435221,
+          "ma35": 23942396.191432185,
+          "var28": 116.31753638707158,
+          "ready": true,
+          "history_bars": 1420,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-10T21:30:00+08:00",
+        "date": "2026-07-13",
+        "source_time": "2026-07-13 21:30",
+        "open": 5482.0,
+        "high": 5504.0,
+        "low": 5470.0,
+        "close": 5494.0,
+        "volume": 141741,
+        "duration": null,
+        "s10103": {
+          "aa": 877099.6560044356,
+          "ma35": 23412543.073929645,
+          "var28": 120.5757873164853,
+          "ready": true,
+          "history_bars": 1421,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-10T22:00:00+08:00",
+        "date": "2026-07-13",
+        "source_time": "2026-07-13 22:00",
+        "open": 5494.0,
+        "high": 5498.0,
+        "low": 5474.0,
+        "close": 5480.0,
+        "volume": 53621,
+        "duration": null,
+        "s10103": {
+          "aa": 549364.083332866,
+          "ma35": 22781732.575717006,
+          "var28": 103.1559082794235,
+          "ready": true,
+          "history_bars": 1422,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-10T22:30:00+08:00",
+        "date": "2026-07-13",
+        "source_time": "2026-07-13 22:30",
+        "open": 5480.0,
+        "high": 5500.0,
+        "low": 5478.0,
+        "close": 5494.0,
+        "volume": 36974,
+        "duration": null,
+        "s10103": {
+          "aa": 760578.7918457271,
+          "ma35": 22241810.72005644,
+          "var28": 114.97813830955883,
+          "ready": true,
+          "history_bars": 1423,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      },
+      {
+        "time": "2026-07-10T23:00:00+08:00",
+        "date": "2026-07-13",
+        "source_time": "2026-07-13 23:00",
+        "open": 5492.0,
+        "high": 5512.0,
+        "low": 5482.0,
+        "close": 5492.0,
+        "volume": 72776,
+        "duration": null,
+        "s10103": {
+          "aa": 770040.5972876884,
+          "ma35": 21513344.331661362,
+          "var28": 115.45319999649286,
+          "ready": true,
+          "history_bars": 1424,
+          "history_start": "2026-01-09T09:30:00+08:00"
+        }
+      }
+    ],
+    "B_visible": true
+  }
+]

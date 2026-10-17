@@ -1,0 +1,1037 @@
+{
+  "parameters": {
+    "b_strength": 0.2,
+    "warmup_bars": 150,
+    "formula_version": "s10103-v1",
+    "area_version": "linear-half-edge-v1",
+    "separation_version": "flame-offset2-blue-gap-first-blue-point-v8",
+    "flame_offset_bars": 2,
+    "candle_gap_rule": "all_blue",
+    "red_region_policy": "nearest_endpoint_all_red_interval",
+    "peak_rule": "aa_A_strictly_greater",
+    "divergence_point_policy": "first_blue_after_A_before_new_red",
+    "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later"
+  },
+  "groups": 52,
+  "coverage": [
+    {
+      "symbol": "APL9",
+      "name": "苹果加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 5600,
+      "period_bars": 1560,
+      "days": 104,
+      "warmup": 3725,
+      "passed": 5,
+      "verified_passed": 4,
+      "warnings": [
+        {
+          "date": "2026-07-23",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 3.04
+    },
+    {
+      "symbol": "APL9",
+      "name": "苹果加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.08
+    },
+    {
+      "symbol": "APL9",
+      "name": "苹果加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 373,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 248,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-07-23",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.03
+    },
+    {
+      "symbol": "APL9",
+      "name": "苹果加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 832,
+      "days": 104,
+      "warmup": 400,
+      "passed": 3,
+      "verified_passed": 3,
+      "warnings": [
+        {
+          "date": "2026-07-23",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.24
+    },
+    {
+      "symbol": "APL9",
+      "name": "苹果加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 416,
+      "days": 104,
+      "warmup": 200,
+      "passed": 2,
+      "verified_passed": 2,
+      "warnings": [
+        {
+          "date": "2026-07-23",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.08
+    },
+    {
+      "symbol": "BUL9",
+      "name": "沥青加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-09-01",
+      "period_end": "2026-09-30",
+      "source_bars": 2100,
+      "period_bars": 475,
+      "days": 21,
+      "warmup": 1601,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.74
+    },
+    {
+      "symbol": "BUL9",
+      "name": "沥青加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-09-01",
+      "period_end": "2026-09-30",
+      "source_bars": 700,
+      "period_bars": 124,
+      "days": 21,
+      "warmup": 569,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 0.1
+    },
+    {
+      "symbol": "CFL9",
+      "name": "郑棉加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "days": 104,
+      "warmup": 4857,
+      "passed": 4,
+      "verified_passed": 4,
+      "warnings": [],
+      "seconds": 5.57
+    },
+    {
+      "symbol": "CFL9",
+      "name": "郑棉加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 0.08
+    },
+    {
+      "symbol": "CFL9",
+      "name": "郑棉加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "days": 104,
+      "warmup": 420,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.08
+    },
+    {
+      "symbol": "CFL9",
+      "name": "郑棉加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "days": 104,
+      "warmup": 616,
+      "passed": 2,
+      "verified_passed": 2,
+      "warnings": [],
+      "seconds": 0.47
+    },
+    {
+      "symbol": "CFL9",
+      "name": "郑棉加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "days": 104,
+      "warmup": 658,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 0.25
+    },
+    {
+      "symbol": "FGL9",
+      "name": "玻璃加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "days": 104,
+      "warmup": 4857,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 6.41
+    },
+    {
+      "symbol": "FGL9",
+      "name": "玻璃加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.08
+    },
+    {
+      "symbol": "FGL9",
+      "name": "玻璃加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "days": 104,
+      "warmup": 420,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.07
+    },
+    {
+      "symbol": "FGL9",
+      "name": "玻璃加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "days": 104,
+      "warmup": 616,
+      "passed": 2,
+      "verified_passed": 2,
+      "warnings": [],
+      "seconds": 0.48
+    },
+    {
+      "symbol": "FGL9",
+      "name": "玻璃加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "days": 104,
+      "warmup": 658,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 0.24
+    },
+    {
+      "symbol": "IL9",
+      "name": "铁矿加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "days": 104,
+      "warmup": 4857,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 6.76
+    },
+    {
+      "symbol": "IL9",
+      "name": "铁矿加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 0.08
+    },
+    {
+      "symbol": "IL9",
+      "name": "铁矿加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "days": 104,
+      "warmup": 420,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.07
+    },
+    {
+      "symbol": "IL9",
+      "name": "铁矿加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "days": 104,
+      "warmup": 616,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 0.48
+    },
+    {
+      "symbol": "IL9",
+      "name": "铁矿加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "days": 104,
+      "warmup": 658,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 0.24
+    },
+    {
+      "symbol": "JDL9",
+      "name": "鸡蛋加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 5600,
+      "period_bars": 1560,
+      "days": 104,
+      "warmup": 3725,
+      "passed": 3,
+      "verified_passed": 3,
+      "warnings": [
+        {
+          "date": "2026-06-24",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 3.07
+    },
+    {
+      "symbol": "JDL9",
+      "name": "鸡蛋加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 0.08
+    },
+    {
+      "symbol": "JDL9",
+      "name": "鸡蛋加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 373,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 248,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [
+        {
+          "date": "2026-06-24",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.03
+    },
+    {
+      "symbol": "JDL9",
+      "name": "鸡蛋加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 832,
+      "days": 104,
+      "warmup": 400,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-06-24",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.23
+    },
+    {
+      "symbol": "JDL9",
+      "name": "鸡蛋加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 416,
+      "days": 104,
+      "warmup": 200,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [
+        {
+          "date": "2026-06-24",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.08
+    },
+    {
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "days": 104,
+      "warmup": 4857,
+      "passed": 6,
+      "verified_passed": 6,
+      "warnings": [
+        {
+          "date": "2026-04-10",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-04-20",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 5.64
+    },
+    {
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.08
+    },
+    {
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "days": 104,
+      "warmup": 420,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [
+        {
+          "date": "2026-04-10",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-04-20",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.07
+    },
+    {
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "days": 104,
+      "warmup": 616,
+      "passed": 2,
+      "verified_passed": 2,
+      "warnings": [
+        {
+          "date": "2026-04-10",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-04-20",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.47
+    },
+    {
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "days": 104,
+      "warmup": 658,
+      "passed": 2,
+      "verified_passed": 2,
+      "warnings": [
+        {
+          "date": "2026-04-10",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-04-20",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.24
+    },
+    {
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "days": 104,
+      "warmup": 4857,
+      "passed": 3,
+      "verified_passed": 3,
+      "warnings": [],
+      "seconds": 6.22
+    },
+    {
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.08
+    },
+    {
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "days": 104,
+      "warmup": 420,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.07
+    },
+    {
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "days": 104,
+      "warmup": 616,
+      "passed": 2,
+      "verified_passed": 2,
+      "warnings": [],
+      "seconds": 0.48
+    },
+    {
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "days": 104,
+      "warmup": 658,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.24
+    },
+    {
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "days": 104,
+      "warmup": 4857,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-08-10",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 5.58
+    },
+    {
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.08
+    },
+    {
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "days": 104,
+      "warmup": 420,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-08-10",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.07
+    },
+    {
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "days": 104,
+      "warmup": 616,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [
+        {
+          "date": "2026-08-10",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.62
+    },
+    {
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "days": 104,
+      "warmup": 658,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-08-10",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.59
+    },
+    {
+      "symbol": "SRL9",
+      "name": "白糖加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "days": 104,
+      "warmup": 4857,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 5.79
+    },
+    {
+      "symbol": "SRL9",
+      "name": "白糖加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 0.08
+    },
+    {
+      "symbol": "SRL9",
+      "name": "白糖加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "days": 104,
+      "warmup": 420,
+      "passed": 1,
+      "verified_passed": 1,
+      "warnings": [],
+      "seconds": 0.07
+    },
+    {
+      "symbol": "SRL9",
+      "name": "白糖加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "days": 104,
+      "warmup": 616,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.49
+    },
+    {
+      "symbol": "SRL9",
+      "name": "白糖加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "days": 104,
+      "warmup": 658,
+      "passed": 5,
+      "verified_passed": 5,
+      "warnings": [],
+      "seconds": 0.25
+    },
+    {
+      "symbol": "TAL9",
+      "name": "PTA加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "days": 104,
+      "warmup": 4857,
+      "passed": 7,
+      "verified_passed": 7,
+      "warnings": [
+        {
+          "date": "2026-04-10",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-07-07",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-07-21",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 5.5
+    },
+    {
+      "symbol": "TAL9",
+      "name": "PTA加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "days": 104,
+      "warmup": 575,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [],
+      "seconds": 0.09
+    },
+    {
+      "symbol": "TAL9",
+      "name": "PTA加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "days": 104,
+      "warmup": 420,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-04-10",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-07-07",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-07-21",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.07
+    },
+    {
+      "symbol": "TAL9",
+      "name": "PTA加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "days": 104,
+      "warmup": 616,
+      "passed": 3,
+      "verified_passed": 2,
+      "warnings": [
+        {
+          "date": "2026-04-10",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-07-07",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-07-21",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.47
+    },
+    {
+      "symbol": "TAL9",
+      "name": "PTA加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "days": 104,
+      "warmup": 658,
+      "passed": 0,
+      "verified_passed": 0,
+      "warnings": [
+        {
+          "date": "2026-04-10",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-07-07",
+          "volume": true,
+          "ohlc": false
+        },
+        {
+          "date": "2026-07-21",
+          "volume": true,
+          "ohlc": false
+        }
+      ],
+      "seconds": 0.23
+    }
+  ],
+  "passed": 66,
+  "verified_passed": 64,
+  "native_passed": 63,
+  "derived_passed": 3,
+  "native_verified": 61,
+  "derived_verified": 3,
+  "data_note": "复用此前全部加权品种归档；按A火苗结束交易日筛选，确认日期另列；不重新抓行情"
+}

@@ -1,0 +1,41 @@
+{
+  "rule_version": "flame-offset2-blue-gap-first-blue-point-v8",
+  "groups": 52,
+  "algorithm_passed": 66,
+  "displayed": 64,
+  "native": 61,
+  "derived240": 3,
+  "pending_source_checks": 2,
+  "independent_nearest_flame_and_endpoint_matching": "64 displayed points passed",
+  "independent_strict_red_trapezoid_and_peak": "64 displayed points passed",
+  "divergence_point": "全部展示点均为A结束后第一根蓝K，前面仅允许十字星；算法确认时间独立记录",
+  "window_before_50": "all passed",
+  "after_50_available": 61,
+  "after_insufficient": [
+    {
+      "symbol": "CFL9",
+      "interval": "1d",
+      "A_date": "2026-08-28",
+      "confirmation": "2026-09-02",
+      "after": 21
+    },
+    {
+      "symbol": "MAL9",
+      "interval": "240m",
+      "A_date": "2026-08-25",
+      "confirmation": "2026-08-26",
+      "after": 49
+    },
+    {
+      "symbol": "SRL9",
+      "interval": "1d",
+      "A_date": "2026-08-24",
+      "confirmation": "2026-08-27",
+      "after": 25
+    }
+  ],
+  "formula_note": "指标使用同一公式历史结果；匹配选择和严格红区积分在本脚本独立重算，不称独立行情源证明",
+  "data_note": "复用归档，没有新抓行情。后续数据仅用于图表显示，判定只用确认时刻及之前。",
+  "candle_gap": "全部展示点的间隔K线严格为蓝K；不含红K或十字星",
+  "production": "本地后端已改为v8并通过88项测试；本次逐点复核；未部署"
+}

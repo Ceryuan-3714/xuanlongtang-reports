@@ -1,41 +1,547 @@
 {
-  "rule_version": "flame-offset2-blue-gap-first-blue-point-v8",
+  "rule": {
+    "b_strength": 0.2,
+    "warmup_bars": 150,
+    "formula_version": "s10103-v1",
+    "area_version": "full-crossing-linear-v2",
+    "separation_version": "complete-blue-bounded-unique5-no-peak-v9",
+    "correspondence_bars": 5,
+    "candle_gap_rule": "all_blue",
+    "correspondence_policy": "unique_region_and_flame",
+    "red_region_policy": "complete_blue_bounded_crossings",
+    "peak_rule": "none",
+    "divergence_point_policy": "first_blue_after_A_before_new_red",
+    "confirmation_policy": "complete_regions_unique5_and_first_blue"
+  },
   "groups": 52,
-  "algorithm_passed": 66,
-  "displayed": 64,
-  "native": 61,
-  "derived240": 3,
-  "pending_source_checks": 2,
-  "independent_nearest_flame_and_endpoint_matching": "64 displayed points passed",
-  "independent_strict_red_trapezoid_and_peak": "64 displayed points passed",
-  "divergence_point": "全部展示点均为A结束后第一根蓝K，前面仅允许十字星；算法确认时间独立记录",
-  "window_before_50": "all passed",
-  "after_50_available": 61,
-  "after_insufficient": [
+  "independent_algorithm_passed": 0,
+  "complete_regions_in_period": 1355,
+  "unique_regions_in_period": 6,
+  "ambiguous_regions_in_period": 1349,
+  "one_to_one_regions_in_period": 3,
+  "full_history_bars": 120874,
+  "groups_verified": [
+    {
+      "symbol": "APL9",
+      "interval": "15m",
+      "bars": 5600,
+      "regions": 49,
+      "unique": 0,
+      "ambiguous": 49,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "APL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 1,
+      "unique": 0,
+      "ambiguous": 1,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "APL9",
+      "interval": "240m",
+      "bars": 373,
+      "regions": 1,
+      "unique": 0,
+      "ambiguous": 1,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "APL9",
+      "interval": "30m",
+      "bars": 1400,
+      "regions": 26,
+      "unique": 0,
+      "ambiguous": 26,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "APL9",
+      "interval": "60m",
+      "bars": 700,
+      "regions": 15,
+      "unique": 0,
+      "ambiguous": 15,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "BUL9",
+      "interval": "15m",
+      "bars": 2100,
+      "regions": 20,
+      "unique": 0,
+      "ambiguous": 20,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "BUL9",
+      "interval": "60m",
+      "bars": 700,
+      "regions": 9,
+      "unique": 0,
+      "ambiguous": 9,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "CFL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 77,
+      "unique": 0,
+      "ambiguous": 77,
+      "passed": 0,
+      "one_to_one": 0
+    },
     {
       "symbol": "CFL9",
       "interval": "1d",
-      "A_date": "2026-08-28",
-      "confirmation": "2026-09-02",
-      "after": 21
+      "bars": 700,
+      "regions": 4,
+      "unique": 0,
+      "ambiguous": 4,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "CFL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 6,
+      "unique": 0,
+      "ambiguous": 6,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "CFL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 39,
+      "unique": 0,
+      "ambiguous": 39,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "CFL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 22,
+      "unique": 1,
+      "ambiguous": 21,
+      "passed": 0,
+      "one_to_one": 1
+    },
+    {
+      "symbol": "FGL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 72,
+      "unique": 1,
+      "ambiguous": 71,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "FGL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 1,
+      "unique": 0,
+      "ambiguous": 1,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "FGL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 8,
+      "unique": 0,
+      "ambiguous": 8,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "FGL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 39,
+      "unique": 0,
+      "ambiguous": 39,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "FGL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 16,
+      "unique": 0,
+      "ambiguous": 16,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "IL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 92,
+      "unique": 0,
+      "ambiguous": 92,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "IL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 1,
+      "unique": 0,
+      "ambiguous": 1,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "IL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 3,
+      "unique": 0,
+      "ambiguous": 3,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "IL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 40,
+      "unique": 0,
+      "ambiguous": 40,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "IL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 24,
+      "unique": 0,
+      "ambiguous": 24,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "JDL9",
+      "interval": "15m",
+      "bars": 5600,
+      "regions": 54,
+      "unique": 0,
+      "ambiguous": 54,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "JDL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 1,
+      "unique": 0,
+      "ambiguous": 1,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "JDL9",
+      "interval": "240m",
+      "bars": 373,
+      "regions": 1,
+      "unique": 0,
+      "ambiguous": 1,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "JDL9",
+      "interval": "30m",
+      "bars": 1400,
+      "regions": 28,
+      "unique": 0,
+      "ambiguous": 28,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "JDL9",
+      "interval": "60m",
+      "bars": 700,
+      "regions": 13,
+      "unique": 0,
+      "ambiguous": 13,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "MAL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 75,
+      "unique": 1,
+      "ambiguous": 74,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "MAL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 2,
+      "unique": 0,
+      "ambiguous": 2,
+      "passed": 0,
+      "one_to_one": 0
     },
     {
       "symbol": "MAL9",
       "interval": "240m",
-      "A_date": "2026-08-25",
-      "confirmation": "2026-08-26",
-      "after": 49
+      "bars": 666,
+      "regions": 3,
+      "unique": 0,
+      "ambiguous": 3,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "MAL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 34,
+      "unique": 1,
+      "ambiguous": 33,
+      "passed": 0,
+      "one_to_one": 1
+    },
+    {
+      "symbol": "MAL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 16,
+      "unique": 0,
+      "ambiguous": 16,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "ML9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 79,
+      "unique": 0,
+      "ambiguous": 79,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "ML9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 4,
+      "unique": 0,
+      "ambiguous": 4,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "ML9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 7,
+      "unique": 0,
+      "ambiguous": 7,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "ML9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 46,
+      "unique": 0,
+      "ambiguous": 46,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "ML9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 19,
+      "unique": 0,
+      "ambiguous": 19,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "SAL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 74,
+      "unique": 1,
+      "ambiguous": 73,
+      "passed": 0,
+      "one_to_one": 1
+    },
+    {
+      "symbol": "SAL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 1,
+      "unique": 0,
+      "ambiguous": 1,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "SAL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 7,
+      "unique": 0,
+      "ambiguous": 7,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "SAL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 31,
+      "unique": 0,
+      "ambiguous": 31,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "SAL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 14,
+      "unique": 0,
+      "ambiguous": 14,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "SRL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 66,
+      "unique": 0,
+      "ambiguous": 66,
+      "passed": 0,
+      "one_to_one": 0
     },
     {
       "symbol": "SRL9",
       "interval": "1d",
-      "A_date": "2026-08-24",
-      "confirmation": "2026-08-27",
-      "after": 25
+      "bars": 700,
+      "regions": 2,
+      "unique": 0,
+      "ambiguous": 2,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "SRL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 5,
+      "unique": 0,
+      "ambiguous": 5,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "SRL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 39,
+      "unique": 0,
+      "ambiguous": 39,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "SRL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 21,
+      "unique": 0,
+      "ambiguous": 21,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "TAL9",
+      "interval": "15m",
+      "bars": 7700,
+      "regions": 80,
+      "unique": 0,
+      "ambiguous": 80,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "TAL9",
+      "interval": "1d",
+      "bars": 700,
+      "regions": 0,
+      "unique": 0,
+      "ambiguous": 0,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "TAL9",
+      "interval": "240m",
+      "bars": 666,
+      "regions": 6,
+      "unique": 0,
+      "ambiguous": 6,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "TAL9",
+      "interval": "30m",
+      "bars": 2100,
+      "regions": 40,
+      "unique": 1,
+      "ambiguous": 39,
+      "passed": 0,
+      "one_to_one": 0
+    },
+    {
+      "symbol": "TAL9",
+      "interval": "60m",
+      "bars": 1400,
+      "regions": 22,
+      "unique": 0,
+      "ambiguous": 22,
+      "passed": 0,
+      "one_to_one": 0
     }
   ],
-  "formula_note": "指标使用同一公式历史结果；匹配选择和严格红区积分在本脚本独立重算，不称独立行情源证明",
-  "data_note": "复用归档，没有新抓行情。后续数据仅用于图表显示，判定只用确认时刻及之前。",
-  "candle_gap": "全部展示点的间隔K线严格为蓝K；不含红K或十字星",
-  "production": "本地后端已改为v8并通过88项测试；本次逐点复核；未部署"
+  "method": "独立批处理重建全部火苗、完整蓝包红区、5根唯一对应、交点积分及最近已对应B，不导入后端检测器；覆盖全部52组，不以0个展示点做空验证。",
+  "source_note": "复用归档；独立算法复核不代表独立行情源；240分钟为合成参考；未抓取截至今天的新行情。"
 }

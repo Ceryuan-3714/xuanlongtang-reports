@@ -1,16 +1,24 @@
 {
+  "one_to_one_regions_in_period": 3,
+  "pending_flames_in_period": 0,
+  "open_red_region_groups_in_period": 0,
+  "complete_regions_in_period": 1355,
+  "unique_regions_in_period": 6,
+  "ambiguous_regions_in_period": 1349,
+  "pending_regions_in_period": 0,
   "parameters": {
     "b_strength": 0.2,
     "warmup_bars": 150,
     "formula_version": "s10103-v1",
-    "area_version": "linear-half-edge-v1",
-    "separation_version": "flame-offset2-blue-gap-first-blue-point-v8",
-    "flame_offset_bars": 2,
+    "area_version": "full-crossing-linear-v2",
+    "separation_version": "complete-blue-bounded-unique5-no-peak-v9",
+    "correspondence_bars": 5,
     "candle_gap_rule": "all_blue",
-    "red_region_policy": "nearest_endpoint_all_red_interval",
-    "peak_rule": "aa_A_strictly_greater",
+    "correspondence_policy": "unique_region_and_flame",
+    "red_region_policy": "complete_blue_bounded_crossings",
+    "peak_rule": "none",
     "divergence_point_policy": "first_blue_after_A_before_new_red",
-    "confirmation_policy": "flame_end_plus_3_closed_bars_or_blue_later"
+    "confirmation_policy": "complete_regions_unique5_and_first_blue"
   },
   "groups": 52,
   "coverage": [
@@ -25,8 +33,8 @@
       "period_bars": 1560,
       "days": 104,
       "warmup": 3725,
-      "passed": 5,
-      "verified_passed": 4,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-07-23",
@@ -34,7 +42,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 3.04
+      "seconds": 0.92,
+      "complete_regions_in_period": 49,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 49,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 1250,
+        "A_new_red_before_blue": 39,
+        "red_region_multiple_flames": 185,
+        "flame_multiple_red_regions": 192,
+        "no_prior_corresponding_larger_flame": 1
+      }
     },
     {
       "symbol": "APL9",
@@ -50,7 +72,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08
+      "seconds": 0.05,
+      "complete_regions_in_period": 1,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 1,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 138,
+        "A_new_red_before_blue": 1,
+        "red_region_multiple_flames": 24,
+        "flame_multiple_red_regions": 31
+      }
     },
     {
       "symbol": "APL9",
@@ -72,7 +107,19 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.03
+      "seconds": 0.03,
+      "complete_regions_in_period": 1,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 1,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 84,
+        "red_region_multiple_flames": 6,
+        "flame_multiple_red_regions": 4
+      }
     },
     {
       "symbol": "APL9",
@@ -85,8 +132,8 @@
       "period_bars": 832,
       "days": 104,
       "warmup": 400,
-      "passed": 3,
-      "verified_passed": 3,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-07-23",
@@ -94,7 +141,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.24
+      "seconds": 0.12,
+      "complete_regions_in_period": 26,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 26,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 326,
+        "A_new_red_before_blue": 4,
+        "red_region_multiple_flames": 31,
+        "flame_multiple_red_regions": 24
+      }
     },
     {
       "symbol": "APL9",
@@ -107,8 +167,8 @@
       "period_bars": 416,
       "days": 104,
       "warmup": 200,
-      "passed": 2,
-      "verified_passed": 2,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-07-23",
@@ -116,7 +176,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.08
+      "seconds": 0.05,
+      "complete_regions_in_period": 15,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 15,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 171,
+        "red_region_multiple_flames": 17,
+        "flame_multiple_red_regions": 13,
+        "A_new_red_before_blue": 1
+      }
     },
     {
       "symbol": "BUL9",
@@ -132,7 +205,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.74
+      "seconds": 0.19,
+      "complete_regions_in_period": 20,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 20,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 439,
+        "A_new_red_before_blue": 15,
+        "red_region_multiple_flames": 68,
+        "flame_multiple_red_regions": 57
+      }
     },
     {
       "symbol": "BUL9",
@@ -145,10 +231,23 @@
       "period_bars": 124,
       "days": 21,
       "warmup": 569,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.1
+      "seconds": 0.06,
+      "complete_regions_in_period": 9,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 9,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "A_new_red_before_blue": 8,
+        "flame_no_unique_red_region": 142,
+        "red_region_multiple_flames": 22,
+        "flame_multiple_red_regions": 20
+      }
     },
     {
       "symbol": "CFL9",
@@ -161,10 +260,24 @@
       "period_bars": 2368,
       "days": 104,
       "warmup": 4857,
-      "passed": 4,
-      "verified_passed": 4,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 5.57
+      "seconds": 1.14,
+      "complete_regions_in_period": 77,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 77,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 1606,
+        "A_new_red_before_blue": 182,
+        "red_region_multiple_flames": 235,
+        "flame_multiple_red_regions": 177,
+        "no_prior_corresponding_larger_flame": 1
+      }
     },
     {
       "symbol": "CFL9",
@@ -177,10 +290,23 @@
       "period_bars": 104,
       "days": 104,
       "warmup": 575,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08
+      "seconds": 0.05,
+      "complete_regions_in_period": 4,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 4,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 151,
+        "A_new_red_before_blue": 5,
+        "red_region_multiple_flames": 14,
+        "flame_multiple_red_regions": 13
+      }
     },
     {
       "symbol": "CFL9",
@@ -196,7 +322,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08
+      "seconds": 0.05,
+      "complete_regions_in_period": 6,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 6,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 153,
+        "A_new_red_before_blue": 8,
+        "red_region_multiple_flames": 16,
+        "flame_multiple_red_regions": 21
+      }
     },
     {
       "symbol": "CFL9",
@@ -209,10 +348,24 @@
       "period_bars": 1236,
       "days": 104,
       "warmup": 616,
-      "passed": 2,
-      "verified_passed": 2,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.47
+      "seconds": 0.15,
+      "complete_regions_in_period": 39,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 39,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 463,
+        "A_new_red_before_blue": 38,
+        "red_region_multiple_flames": 57,
+        "flame_multiple_red_regions": 40,
+        "no_prior_corresponding_larger_flame": 1
+      }
     },
     {
       "symbol": "CFL9",
@@ -225,10 +378,24 @@
       "period_bars": 618,
       "days": 104,
       "warmup": 658,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.25
+      "seconds": 0.1,
+      "complete_regions_in_period": 22,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 21,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "A_new_red_before_blue": 21,
+        "flame_no_unique_red_region": 311,
+        "red_region_multiple_flames": 37,
+        "flame_multiple_red_regions": 39,
+        "no_prior_corresponding_larger_flame": 1
+      }
     },
     {
       "symbol": "FGL9",
@@ -244,7 +411,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 6.41
+      "seconds": 1.25,
+      "complete_regions_in_period": 72,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 71,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 1535,
+        "A_new_red_before_blue": 242,
+        "red_region_multiple_flames": 205,
+        "flame_multiple_red_regions": 152,
+        "no_prior_corresponding_larger_flame": 1
+      }
     },
     {
       "symbol": "FGL9",
@@ -260,7 +441,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08
+      "seconds": 0.08,
+      "complete_regions_in_period": 1,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 1,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 167,
+        "red_region_multiple_flames": 16,
+        "flame_multiple_red_regions": 12,
+        "A_new_red_before_blue": 2
+      }
     },
     {
       "symbol": "FGL9",
@@ -276,7 +470,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.07
+      "seconds": 0.08,
+      "complete_regions_in_period": 8,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 8,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 154,
+        "A_new_red_before_blue": 4,
+        "red_region_multiple_flames": 16,
+        "flame_multiple_red_regions": 9
+      }
     },
     {
       "symbol": "FGL9",
@@ -289,10 +496,23 @@
       "period_bars": 1236,
       "days": 104,
       "warmup": 616,
-      "passed": 2,
-      "verified_passed": 2,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.48
+      "seconds": 0.26,
+      "complete_regions_in_period": 39,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 39,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 429,
+        "A_new_red_before_blue": 50,
+        "red_region_multiple_flames": 58,
+        "flame_multiple_red_regions": 49
+      }
     },
     {
       "symbol": "FGL9",
@@ -305,10 +525,23 @@
       "period_bars": 618,
       "days": 104,
       "warmup": 658,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.24
+      "seconds": 0.17,
+      "complete_regions_in_period": 16,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 16,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 303,
+        "A_new_red_before_blue": 30,
+        "red_region_multiple_flames": 34,
+        "flame_multiple_red_regions": 28
+      }
     },
     {
       "symbol": "IL9",
@@ -324,7 +557,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 6.76
+      "seconds": 0.85,
+      "complete_regions_in_period": 92,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 92,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 1505,
+        "A_new_red_before_blue": 249,
+        "red_region_multiple_flames": 258,
+        "flame_multiple_red_regions": 217,
+        "no_prior_corresponding_larger_flame": 1
+      }
     },
     {
       "symbol": "IL9",
@@ -337,10 +584,23 @@
       "period_bars": 104,
       "days": 104,
       "warmup": 575,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08
+      "seconds": 0.07,
+      "complete_regions_in_period": 1,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 1,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 158,
+        "red_region_multiple_flames": 16,
+        "flame_multiple_red_regions": 13,
+        "A_new_red_before_blue": 2
+      }
     },
     {
       "symbol": "IL9",
@@ -356,7 +616,21 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.07
+      "seconds": 0.07,
+      "complete_regions_in_period": 3,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 3,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "A_new_red_before_blue": 10,
+        "flame_no_unique_red_region": 158,
+        "red_region_multiple_flames": 12,
+        "no_prior_corresponding_larger_flame": 1,
+        "flame_multiple_red_regions": 7
+      }
     },
     {
       "symbol": "IL9",
@@ -369,10 +643,23 @@
       "period_bars": 1236,
       "days": 104,
       "warmup": 616,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.48
+      "seconds": 0.24,
+      "complete_regions_in_period": 40,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 40,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 417,
+        "A_new_red_before_blue": 50,
+        "red_region_multiple_flames": 70,
+        "flame_multiple_red_regions": 73
+      }
     },
     {
       "symbol": "IL9",
@@ -385,10 +672,23 @@
       "period_bars": 618,
       "days": 104,
       "warmup": 658,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.24
+      "seconds": 0.14,
+      "complete_regions_in_period": 24,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 24,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 294,
+        "A_new_red_before_blue": 27,
+        "red_region_multiple_flames": 40,
+        "flame_multiple_red_regions": 35
+      }
     },
     {
       "symbol": "JDL9",
@@ -401,8 +701,8 @@
       "period_bars": 1560,
       "days": 104,
       "warmup": 3725,
-      "passed": 3,
-      "verified_passed": 3,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-06-24",
@@ -410,7 +710,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 3.07
+      "seconds": 0.78,
+      "complete_regions_in_period": 54,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 54,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 1194,
+        "A_new_red_before_blue": 113,
+        "red_region_multiple_flames": 152,
+        "flame_multiple_red_regions": 108
+      }
     },
     {
       "symbol": "JDL9",
@@ -423,10 +736,23 @@
       "period_bars": 104,
       "days": 104,
       "warmup": 575,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08
+      "seconds": 0.08,
+      "complete_regions_in_period": 1,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 1,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 173,
+        "red_region_multiple_flames": 17,
+        "flame_multiple_red_regions": 13,
+        "A_new_red_before_blue": 1
+      }
     },
     {
       "symbol": "JDL9",
@@ -439,8 +765,8 @@
       "period_bars": 104,
       "days": 104,
       "warmup": 248,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-06-24",
@@ -448,7 +774,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.03
+      "seconds": 0.05,
+      "complete_regions_in_period": 1,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 1,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 97,
+        "red_region_multiple_flames": 6,
+        "flame_multiple_red_regions": 3,
+        "A_new_red_before_blue": 1
+      }
     },
     {
       "symbol": "JDL9",
@@ -470,7 +809,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.23
+      "seconds": 0.19,
+      "complete_regions_in_period": 28,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 28,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 297,
+        "A_new_red_before_blue": 16,
+        "red_region_multiple_flames": 37,
+        "flame_multiple_red_regions": 25
+      }
     },
     {
       "symbol": "JDL9",
@@ -483,8 +835,8 @@
       "period_bars": 416,
       "days": 104,
       "warmup": 200,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-06-24",
@@ -492,7 +844,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.08
+      "seconds": 0.09,
+      "complete_regions_in_period": 13,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 13,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "A_new_red_before_blue": 6,
+        "flame_no_unique_red_region": 145,
+        "red_region_multiple_flames": 17,
+        "flame_multiple_red_regions": 16
+      }
     },
     {
       "symbol": "MAL9",
@@ -505,8 +870,8 @@
       "period_bars": 2368,
       "days": 104,
       "warmup": 4857,
-      "passed": 6,
-      "verified_passed": 6,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-04-10",
@@ -519,7 +884,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 5.64
+      "seconds": 1.19,
+      "complete_regions_in_period": 75,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 74,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 1595,
+        "red_region_multiple_flames": 250,
+        "flame_multiple_red_regions": 219,
+        "A_new_red_before_blue": 134,
+        "no_prior_corresponding_larger_flame": 2
+      }
     },
     {
       "symbol": "MAL9",
@@ -535,7 +914,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08
+      "seconds": 0.08,
+      "complete_regions_in_period": 2,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 2,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 156,
+        "A_new_red_before_blue": 2,
+        "red_region_multiple_flames": 17,
+        "flame_multiple_red_regions": 21
+      }
     },
     {
       "symbol": "MAL9",
@@ -548,8 +940,8 @@
       "period_bars": 205,
       "days": 104,
       "warmup": 420,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-04-10",
@@ -562,7 +954,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.07
+      "seconds": 0.08,
+      "complete_regions_in_period": 3,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 3,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 157,
+        "A_new_red_before_blue": 6,
+        "red_region_multiple_flames": 8,
+        "flame_multiple_red_regions": 6
+      }
     },
     {
       "symbol": "MAL9",
@@ -575,8 +980,8 @@
       "period_bars": 1236,
       "days": 104,
       "warmup": 616,
-      "passed": 2,
-      "verified_passed": 2,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-04-10",
@@ -589,7 +994,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.47
+      "seconds": 0.29,
+      "complete_regions_in_period": 34,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 33,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 450,
+        "A_new_red_before_blue": 30,
+        "red_region_multiple_flames": 54,
+        "flame_multiple_red_regions": 45,
+        "no_prior_corresponding_larger_flame": 2
+      }
     },
     {
       "symbol": "MAL9",
@@ -602,8 +1021,8 @@
       "period_bars": 618,
       "days": 104,
       "warmup": 658,
-      "passed": 2,
-      "verified_passed": 2,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-04-10",
@@ -616,7 +1035,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.24
+      "seconds": 0.18,
+      "complete_regions_in_period": 16,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 16,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 303,
+        "A_new_red_before_blue": 12,
+        "red_region_multiple_flames": 42,
+        "flame_multiple_red_regions": 33
+      }
     },
     {
       "symbol": "ML9",
@@ -629,10 +1061,23 @@
       "period_bars": 2368,
       "days": 104,
       "warmup": 4857,
-      "passed": 3,
-      "verified_passed": 3,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 6.22
+      "seconds": 1.0,
+      "complete_regions_in_period": 79,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 79,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 1573,
+        "A_new_red_before_blue": 171,
+        "red_region_multiple_flames": 253,
+        "flame_multiple_red_regions": 236
+      }
     },
     {
       "symbol": "ML9",
@@ -648,7 +1093,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08
+      "seconds": 0.07,
+      "complete_regions_in_period": 4,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 4,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 156,
+        "red_region_multiple_flames": 21,
+        "flame_multiple_red_regions": 18,
+        "A_new_red_before_blue": 5
+      }
     },
     {
       "symbol": "ML9",
@@ -664,7 +1122,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.07
+      "seconds": 0.06,
+      "complete_regions_in_period": 7,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 7,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 140,
+        "A_new_red_before_blue": 4,
+        "red_region_multiple_flames": 15,
+        "flame_multiple_red_regions": 13
+      }
     },
     {
       "symbol": "ML9",
@@ -677,10 +1148,23 @@
       "period_bars": 1236,
       "days": 104,
       "warmup": 616,
-      "passed": 2,
-      "verified_passed": 2,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.48
+      "seconds": 0.23,
+      "complete_regions_in_period": 46,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 46,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 450,
+        "A_new_red_before_blue": 37,
+        "red_region_multiple_flames": 60,
+        "flame_multiple_red_regions": 47
+      }
     },
     {
       "symbol": "ML9",
@@ -696,7 +1180,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.24
+      "seconds": 0.14,
+      "complete_regions_in_period": 19,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 19,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 295,
+        "A_new_red_before_blue": 25,
+        "red_region_multiple_flames": 39,
+        "flame_multiple_red_regions": 37
+      }
     },
     {
       "symbol": "SAL9",
@@ -718,7 +1215,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 5.58
+      "seconds": 1.28,
+      "complete_regions_in_period": 74,
+      "one_to_one_regions_in_period": 1,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 73,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 1538,
+        "A_new_red_before_blue": 212,
+        "red_region_multiple_flames": 240,
+        "flame_multiple_red_regions": 188,
+        "no_prior_corresponding_larger_flame": 1
+      }
     },
     {
       "symbol": "SAL9",
@@ -734,7 +1245,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08
+      "seconds": 0.08,
+      "complete_regions_in_period": 1,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 1,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 149,
+        "red_region_multiple_flames": 22,
+        "flame_multiple_red_regions": 25,
+        "A_new_red_before_blue": 5
+      }
     },
     {
       "symbol": "SAL9",
@@ -756,7 +1280,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.07
+      "seconds": 0.08,
+      "complete_regions_in_period": 7,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 7,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 144,
+        "A_new_red_before_blue": 7,
+        "red_region_multiple_flames": 15,
+        "flame_multiple_red_regions": 11
+      }
     },
     {
       "symbol": "SAL9",
@@ -769,8 +1306,8 @@
       "period_bars": 1236,
       "days": 104,
       "warmup": 616,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-08-10",
@@ -778,7 +1315,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.62
+      "seconds": 0.38,
+      "complete_regions_in_period": 31,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 31,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "A_new_red_before_blue": 51,
+        "flame_no_unique_red_region": 422,
+        "red_region_multiple_flames": 58,
+        "flame_multiple_red_regions": 47
+      }
     },
     {
       "symbol": "SAL9",
@@ -800,7 +1350,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.59
+      "seconds": 0.17,
+      "complete_regions_in_period": 14,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 14,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 293,
+        "A_new_red_before_blue": 27,
+        "red_region_multiple_flames": 41,
+        "flame_multiple_red_regions": 37
+      }
     },
     {
       "symbol": "SRL9",
@@ -813,10 +1376,23 @@
       "period_bars": 2368,
       "days": 104,
       "warmup": 4857,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 5.79
+      "seconds": 1.25,
+      "complete_regions_in_period": 66,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 66,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 1659,
+        "A_new_red_before_blue": 156,
+        "red_region_multiple_flames": 216,
+        "flame_multiple_red_regions": 166
+      }
     },
     {
       "symbol": "SRL9",
@@ -829,10 +1405,23 @@
       "period_bars": 104,
       "days": 104,
       "warmup": 575,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.08
+      "seconds": 0.1,
+      "complete_regions_in_period": 2,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 2,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 156,
+        "A_new_red_before_blue": 2,
+        "red_region_multiple_flames": 17,
+        "flame_multiple_red_regions": 10
+      }
     },
     {
       "symbol": "SRL9",
@@ -845,10 +1434,24 @@
       "period_bars": 205,
       "days": 104,
       "warmup": 420,
-      "passed": 1,
-      "verified_passed": 1,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.07
+      "seconds": 0.08,
+      "complete_regions_in_period": 5,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 5,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 140,
+        "A_new_red_before_blue": 3,
+        "no_prior_corresponding_larger_flame": 1,
+        "red_region_multiple_flames": 13,
+        "flame_multiple_red_regions": 15
+      }
     },
     {
       "symbol": "SRL9",
@@ -864,7 +1467,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.49
+      "seconds": 0.27,
+      "complete_regions_in_period": 39,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 39,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 459,
+        "A_new_red_before_blue": 25,
+        "red_region_multiple_flames": 66,
+        "flame_multiple_red_regions": 60
+      }
     },
     {
       "symbol": "SRL9",
@@ -877,10 +1493,23 @@
       "period_bars": 618,
       "days": 104,
       "warmup": 658,
-      "passed": 5,
-      "verified_passed": 5,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.25
+      "seconds": 0.2,
+      "complete_regions_in_period": 21,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 21,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 313,
+        "A_new_red_before_blue": 18,
+        "red_region_multiple_flames": 38,
+        "flame_multiple_red_regions": 32
+      }
     },
     {
       "symbol": "TAL9",
@@ -893,8 +1522,8 @@
       "period_bars": 2368,
       "days": 104,
       "warmup": 4857,
-      "passed": 7,
-      "verified_passed": 7,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-04-10",
@@ -912,7 +1541,21 @@
           "ohlc": false
         }
       ],
-      "seconds": 5.5
+      "seconds": 1.24,
+      "complete_regions_in_period": 80,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 80,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 1599,
+        "A_new_red_before_blue": 146,
+        "red_region_multiple_flames": 238,
+        "flame_multiple_red_regions": 194,
+        "no_prior_corresponding_larger_flame": 1
+      }
     },
     {
       "symbol": "TAL9",
@@ -928,7 +1571,20 @@
       "passed": 0,
       "verified_passed": 0,
       "warnings": [],
-      "seconds": 0.09
+      "seconds": 0.08,
+      "complete_regions_in_period": 0,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 0,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 157,
+        "A_new_red_before_blue": 2,
+        "red_region_multiple_flames": 16,
+        "flame_multiple_red_regions": 12
+      }
     },
     {
       "symbol": "TAL9",
@@ -960,7 +1616,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.07
+      "seconds": 0.1,
+      "complete_regions_in_period": 6,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 6,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 142,
+        "A_new_red_before_blue": 4,
+        "red_region_multiple_flames": 17,
+        "flame_multiple_red_regions": 14
+      }
     },
     {
       "symbol": "TAL9",
@@ -973,8 +1642,8 @@
       "period_bars": 1236,
       "days": 104,
       "warmup": 616,
-      "passed": 3,
-      "verified_passed": 2,
+      "passed": 0,
+      "verified_passed": 0,
       "warnings": [
         {
           "date": "2026-04-10",
@@ -992,7 +1661,20 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.47
+      "seconds": 0.28,
+      "complete_regions_in_period": 40,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 1,
+      "ambiguous_regions_in_period": 39,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 443,
+        "A_new_red_before_blue": 21,
+        "red_region_multiple_flames": 63,
+        "flame_multiple_red_regions": 57
+      }
     },
     {
       "symbol": "TAL9",
@@ -1024,14 +1706,27 @@
           "ohlc": false
         }
       ],
-      "seconds": 0.23
+      "seconds": 0.2,
+      "complete_regions_in_period": 22,
+      "one_to_one_regions_in_period": 0,
+      "unique_regions_in_period": 0,
+      "ambiguous_regions_in_period": 22,
+      "pending_regions_in_period": 0,
+      "pending_flames_in_period": 0,
+      "open_red_region_overlaps_period": false,
+      "rejection_counts": {
+        "flame_no_unique_red_region": 310,
+        "A_new_red_before_blue": 8,
+        "red_region_multiple_flames": 37,
+        "flame_multiple_red_regions": 34
+      }
     }
   ],
-  "passed": 66,
-  "verified_passed": 64,
-  "native_passed": 63,
-  "derived_passed": 3,
-  "native_verified": 61,
-  "derived_verified": 3,
+  "passed": 0,
+  "verified_passed": 0,
+  "native_passed": 0,
+  "derived_passed": 0,
+  "native_verified": 0,
+  "derived_verified": 0,
   "data_note": "复用此前全部加权品种归档；按A火苗结束交易日筛选，确认日期另列；不重新抓行情"
 }
