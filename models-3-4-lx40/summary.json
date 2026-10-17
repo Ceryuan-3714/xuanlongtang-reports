@@ -1,0 +1,1102 @@
+{
+  "status": "complete",
+  "groups": 52,
+  "coverage": [
+    {
+      "symbol": "APL9",
+      "name": "苹果加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 5600,
+      "period_bars": 1560,
+      "scanned_bars": 5600,
+      "hits": 52,
+      "verified_hits": 41,
+      "by_model": {
+        "near_golden": 29,
+        "near_death": 23
+      },
+      "touch_bars": 136
+    },
+    {
+      "symbol": "APL9",
+      "name": "苹果加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "scanned_bars": 700,
+      "hits": 3,
+      "verified_hits": 3,
+      "by_model": {
+        "near_golden": 3
+      },
+      "touch_bars": 8
+    },
+    {
+      "symbol": "APL9",
+      "name": "苹果加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 373,
+      "period_bars": 104,
+      "scanned_bars": 373,
+      "hits": 3,
+      "verified_hits": 1,
+      "by_model": {
+        "near_golden": 3
+      },
+      "touch_bars": 8
+    },
+    {
+      "symbol": "APL9",
+      "name": "苹果加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 832,
+      "scanned_bars": 1400,
+      "hits": 37,
+      "verified_hits": 24,
+      "by_model": {
+        "near_golden": 23,
+        "near_death": 14
+      },
+      "touch_bars": 85
+    },
+    {
+      "symbol": "APL9",
+      "name": "苹果加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 416,
+      "scanned_bars": 700,
+      "hits": 19,
+      "verified_hits": 16,
+      "by_model": {
+        "near_golden": 10,
+        "near_death": 9
+      },
+      "touch_bars": 32
+    },
+    {
+      "symbol": "BUL9",
+      "name": "沥青加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-09-01",
+      "period_end": "2026-09-30",
+      "source_bars": 2100,
+      "period_bars": 475,
+      "scanned_bars": 2100,
+      "hits": 17,
+      "verified_hits": 17,
+      "by_model": {
+        "near_death": 8,
+        "near_golden": 9
+      },
+      "touch_bars": 39
+    },
+    {
+      "symbol": "BUL9",
+      "name": "沥青加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-09-01",
+      "period_end": "2026-09-30",
+      "source_bars": 700,
+      "period_bars": 124,
+      "scanned_bars": 700,
+      "hits": 3,
+      "verified_hits": 3,
+      "by_model": {
+        "near_death": 2,
+        "near_golden": 1
+      },
+      "touch_bars": 4
+    },
+    {
+      "symbol": "CFL9",
+      "name": "郑棉加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "scanned_bars": 7700,
+      "hits": 84,
+      "verified_hits": 84,
+      "by_model": {
+        "near_golden": 40,
+        "near_death": 44
+      },
+      "touch_bars": 224
+    },
+    {
+      "symbol": "CFL9",
+      "name": "郑棉加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "scanned_bars": 700,
+      "hits": 1,
+      "verified_hits": 1,
+      "by_model": {
+        "near_death": 1
+      },
+      "touch_bars": 4
+    },
+    {
+      "symbol": "CFL9",
+      "name": "郑棉加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "scanned_bars": 666,
+      "hits": 10,
+      "verified_hits": 10,
+      "by_model": {
+        "near_death": 6,
+        "near_golden": 4
+      },
+      "touch_bars": 25
+    },
+    {
+      "symbol": "CFL9",
+      "name": "郑棉加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "scanned_bars": 2100,
+      "hits": 36,
+      "verified_hits": 36,
+      "by_model": {
+        "near_death": 18,
+        "near_golden": 18
+      },
+      "touch_bars": 97
+    },
+    {
+      "symbol": "CFL9",
+      "name": "郑棉加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "scanned_bars": 1400,
+      "hits": 21,
+      "verified_hits": 21,
+      "by_model": {
+        "near_death": 10,
+        "near_golden": 11
+      },
+      "touch_bars": 42
+    },
+    {
+      "symbol": "FGL9",
+      "name": "玻璃加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "scanned_bars": 7700,
+      "hits": 91,
+      "verified_hits": 91,
+      "by_model": {
+        "near_golden": 48,
+        "near_death": 43
+      },
+      "touch_bars": 265
+    },
+    {
+      "symbol": "FGL9",
+      "name": "玻璃加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "scanned_bars": 700,
+      "hits": 2,
+      "verified_hits": 2,
+      "by_model": {
+        "near_death": 1,
+        "near_golden": 1
+      },
+      "touch_bars": 3
+    },
+    {
+      "symbol": "FGL9",
+      "name": "玻璃加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "scanned_bars": 666,
+      "hits": 4,
+      "verified_hits": 4,
+      "by_model": {
+        "near_golden": 3,
+        "near_death": 1
+      },
+      "touch_bars": 9
+    },
+    {
+      "symbol": "FGL9",
+      "name": "玻璃加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "scanned_bars": 2100,
+      "hits": 38,
+      "verified_hits": 36,
+      "by_model": {
+        "near_golden": 24,
+        "near_death": 14
+      },
+      "touch_bars": 109
+    },
+    {
+      "symbol": "FGL9",
+      "name": "玻璃加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "scanned_bars": 1400,
+      "hits": 23,
+      "verified_hits": 22,
+      "by_model": {
+        "near_golden": 16,
+        "near_death": 7
+      },
+      "touch_bars": 66
+    },
+    {
+      "symbol": "IL9",
+      "name": "铁矿加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "scanned_bars": 7700,
+      "hits": 93,
+      "verified_hits": 93,
+      "by_model": {
+        "near_golden": 43,
+        "near_death": 50
+      },
+      "touch_bars": 273
+    },
+    {
+      "symbol": "IL9",
+      "name": "铁矿加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "scanned_bars": 700,
+      "hits": 4,
+      "verified_hits": 4,
+      "by_model": {
+        "near_death": 2,
+        "near_golden": 2
+      },
+      "touch_bars": 10
+    },
+    {
+      "symbol": "IL9",
+      "name": "铁矿加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "scanned_bars": 666,
+      "hits": 6,
+      "verified_hits": 6,
+      "by_model": {
+        "near_death": 5,
+        "near_golden": 1
+      },
+      "touch_bars": 13
+    },
+    {
+      "symbol": "IL9",
+      "name": "铁矿加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "scanned_bars": 2100,
+      "hits": 36,
+      "verified_hits": 36,
+      "by_model": {
+        "near_golden": 22,
+        "near_death": 14
+      },
+      "touch_bars": 113
+    },
+    {
+      "symbol": "IL9",
+      "name": "铁矿加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "scanned_bars": 1400,
+      "hits": 19,
+      "verified_hits": 18,
+      "by_model": {
+        "near_death": 9,
+        "near_golden": 10
+      },
+      "touch_bars": 53
+    },
+    {
+      "symbol": "JDL9",
+      "name": "鸡蛋加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 5600,
+      "period_bars": 1560,
+      "scanned_bars": 5600,
+      "hits": 31,
+      "verified_hits": 29,
+      "by_model": {
+        "near_death": 20,
+        "near_golden": 11
+      },
+      "touch_bars": 88
+    },
+    {
+      "symbol": "JDL9",
+      "name": "鸡蛋加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "scanned_bars": 700,
+      "hits": 1,
+      "verified_hits": 1,
+      "by_model": {
+        "near_death": 1
+      },
+      "touch_bars": 2
+    },
+    {
+      "symbol": "JDL9",
+      "name": "鸡蛋加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 373,
+      "period_bars": 104,
+      "scanned_bars": 373,
+      "hits": 1,
+      "verified_hits": 0,
+      "by_model": {
+        "near_death": 1
+      },
+      "touch_bars": 2
+    },
+    {
+      "symbol": "JDL9",
+      "name": "鸡蛋加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 832,
+      "scanned_bars": 1400,
+      "hits": 18,
+      "verified_hits": 17,
+      "by_model": {
+        "near_death": 10,
+        "near_golden": 8
+      },
+      "touch_bars": 51
+    },
+    {
+      "symbol": "JDL9",
+      "name": "鸡蛋加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 416,
+      "scanned_bars": 700,
+      "hits": 12,
+      "verified_hits": 6,
+      "by_model": {
+        "near_death": 3,
+        "near_golden": 9
+      },
+      "touch_bars": 34
+    },
+    {
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "scanned_bars": 7700,
+      "hits": 56,
+      "verified_hits": 54,
+      "by_model": {
+        "near_golden": 28,
+        "near_death": 28
+      },
+      "touch_bars": 164
+    },
+    {
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "scanned_bars": 700,
+      "hits": 1,
+      "verified_hits": 1,
+      "by_model": {
+        "near_golden": 1
+      },
+      "touch_bars": 6
+    },
+    {
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "scanned_bars": 666,
+      "hits": 10,
+      "verified_hits": 8,
+      "by_model": {
+        "near_death": 4,
+        "near_golden": 6
+      },
+      "touch_bars": 29
+    },
+    {
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "scanned_bars": 2100,
+      "hits": 20,
+      "verified_hits": 17,
+      "by_model": {
+        "near_death": 7,
+        "near_golden": 13
+      },
+      "touch_bars": 54
+    },
+    {
+      "symbol": "MAL9",
+      "name": "甲醇加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "scanned_bars": 1400,
+      "hits": 21,
+      "verified_hits": 20,
+      "by_model": {
+        "near_death": 10,
+        "near_golden": 11
+      },
+      "touch_bars": 52
+    },
+    {
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "scanned_bars": 7700,
+      "hits": 77,
+      "verified_hits": 77,
+      "by_model": {
+        "near_golden": 30,
+        "near_death": 47
+      },
+      "touch_bars": 211
+    },
+    {
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "scanned_bars": 700,
+      "hits": 2,
+      "verified_hits": 2,
+      "by_model": {
+        "near_death": 1,
+        "near_golden": 1
+      },
+      "touch_bars": 10
+    },
+    {
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "scanned_bars": 666,
+      "hits": 11,
+      "verified_hits": 11,
+      "by_model": {
+        "near_death": 8,
+        "near_golden": 3
+      },
+      "touch_bars": 29
+    },
+    {
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "scanned_bars": 2100,
+      "hits": 45,
+      "verified_hits": 45,
+      "by_model": {
+        "near_golden": 18,
+        "near_death": 27
+      },
+      "touch_bars": 126
+    },
+    {
+      "symbol": "ML9",
+      "name": "豆粕加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "scanned_bars": 1400,
+      "hits": 20,
+      "verified_hits": 20,
+      "by_model": {
+        "near_golden": 8,
+        "near_death": 12
+      },
+      "touch_bars": 54
+    },
+    {
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "scanned_bars": 7700,
+      "hits": 65,
+      "verified_hits": 64,
+      "by_model": {
+        "near_golden": 31,
+        "near_death": 34
+      },
+      "touch_bars": 186
+    },
+    {
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "scanned_bars": 700,
+      "hits": 6,
+      "verified_hits": 6,
+      "by_model": {
+        "near_death": 4,
+        "near_golden": 2
+      },
+      "touch_bars": 14
+    },
+    {
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "scanned_bars": 666,
+      "hits": 9,
+      "verified_hits": 7,
+      "by_model": {
+        "near_death": 3,
+        "near_golden": 6
+      },
+      "touch_bars": 24
+    },
+    {
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "scanned_bars": 2100,
+      "hits": 27,
+      "verified_hits": 25,
+      "by_model": {
+        "near_golden": 16,
+        "near_death": 11
+      },
+      "touch_bars": 66
+    },
+    {
+      "symbol": "SAL9",
+      "name": "纯碱加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "scanned_bars": 1400,
+      "hits": 10,
+      "verified_hits": 9,
+      "by_model": {
+        "near_golden": 6,
+        "near_death": 4
+      },
+      "touch_bars": 23
+    },
+    {
+      "symbol": "SRL9",
+      "name": "白糖加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "scanned_bars": 7700,
+      "hits": 73,
+      "verified_hits": 73,
+      "by_model": {
+        "near_golden": 40,
+        "near_death": 33
+      },
+      "touch_bars": 193
+    },
+    {
+      "symbol": "SRL9",
+      "name": "白糖加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "scanned_bars": 700,
+      "hits": 6,
+      "verified_hits": 6,
+      "by_model": {
+        "near_death": 4,
+        "near_golden": 2
+      },
+      "touch_bars": 21
+    },
+    {
+      "symbol": "SRL9",
+      "name": "白糖加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "scanned_bars": 666,
+      "hits": 9,
+      "verified_hits": 9,
+      "by_model": {
+        "near_death": 4,
+        "near_golden": 5
+      },
+      "touch_bars": 25
+    },
+    {
+      "symbol": "SRL9",
+      "name": "白糖加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "scanned_bars": 2100,
+      "hits": 36,
+      "verified_hits": 36,
+      "by_model": {
+        "near_golden": 14,
+        "near_death": 22
+      },
+      "touch_bars": 101
+    },
+    {
+      "symbol": "SRL9",
+      "name": "白糖加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "scanned_bars": 1400,
+      "hits": 18,
+      "verified_hits": 18,
+      "by_model": {
+        "near_golden": 12,
+        "near_death": 6
+      },
+      "touch_bars": 55
+    },
+    {
+      "symbol": "TAL9",
+      "name": "PTA加权",
+      "interval": "15m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 7700,
+      "period_bars": 2368,
+      "scanned_bars": 7700,
+      "hits": 87,
+      "verified_hits": 80,
+      "by_model": {
+        "near_golden": 45,
+        "near_death": 42
+      },
+      "touch_bars": 217
+    },
+    {
+      "symbol": "TAL9",
+      "name": "PTA加权",
+      "interval": "1d",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 700,
+      "period_bars": 104,
+      "scanned_bars": 700,
+      "hits": 1,
+      "verified_hits": 1,
+      "by_model": {
+        "near_death": 1
+      },
+      "touch_bars": 5
+    },
+    {
+      "symbol": "TAL9",
+      "name": "PTA加权",
+      "interval": "240m",
+      "derived": true,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 666,
+      "period_bars": 205,
+      "scanned_bars": 666,
+      "hits": 7,
+      "verified_hits": 3,
+      "by_model": {
+        "near_death": 3,
+        "near_golden": 4
+      },
+      "touch_bars": 17
+    },
+    {
+      "symbol": "TAL9",
+      "name": "PTA加权",
+      "interval": "30m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 2100,
+      "period_bars": 1236,
+      "scanned_bars": 2100,
+      "hits": 54,
+      "verified_hits": 47,
+      "by_model": {
+        "near_golden": 26,
+        "near_death": 28
+      },
+      "touch_bars": 125
+    },
+    {
+      "symbol": "TAL9",
+      "name": "PTA加权",
+      "interval": "60m",
+      "derived": false,
+      "period_start": "2026-04-01",
+      "period_end": "2026-08-31",
+      "source_bars": 1400,
+      "period_bars": 618,
+      "scanned_bars": 1400,
+      "hits": 28,
+      "verified_hits": 24,
+      "by_model": {
+        "near_golden": 15,
+        "near_death": 13
+      },
+      "touch_bars": 67
+    }
+  ],
+  "algorithm_hits": 1364,
+  "verified_hits": 1285,
+  "pending_source_checks": 79,
+  "axis": "主图共用价格轴，红线MA92/蓝线MA14，不归一化或自动缩放；包含影线，low<=MA92<=high",
+  "cross_naming": "红线上穿蓝线=死叉，红线下穿蓝线=金叉",
+  "warmup_bars": 92,
+  "history_note": "复用此前归档：十品种2026年4—8月、沥青2026年9月；不是10月17日新行情",
+  "outcome_note": "后N根收盘相对触发K收盘的涨跌及最高/最低变化；不等同交易收益或胜率",
+  "models": {
+    "near_golden": {
+      "name": "模型3 · 将金不金",
+      "algorithm_hits": 692,
+      "verified_hits": 641,
+      "native_verified": 612,
+      "derived_verified": 29,
+      "forward": {
+        "native_1": {
+          "samples": 611,
+          "up": 256,
+          "down": 296,
+          "flat": 59,
+          "mean_return_pct": -0.03062159226234191,
+          "median_return_pct": 0.0
+        },
+        "derived240_1": {
+          "samples": 29,
+          "up": 14,
+          "down": 14,
+          "flat": 1,
+          "mean_return_pct": 0.041281589736136465,
+          "median_return_pct": 0.0
+        },
+        "native_3": {
+          "samples": 609,
+          "up": 294,
+          "down": 283,
+          "flat": 32,
+          "mean_return_pct": 0.008191957488063123,
+          "median_return_pct": 0.0
+        },
+        "derived240_3": {
+          "samples": 29,
+          "up": 22,
+          "down": 7,
+          "flat": 0,
+          "mean_return_pct": 0.21315802361439384,
+          "median_return_pct": 0.37700282752120007
+        },
+        "native_5": {
+          "samples": 608,
+          "up": 285,
+          "down": 297,
+          "flat": 26,
+          "mean_return_pct": -0.015274973028724617,
+          "median_return_pct": 0.0
+        },
+        "derived240_5": {
+          "samples": 29,
+          "up": 17,
+          "down": 12,
+          "flat": 0,
+          "mean_return_pct": -0.19346126808505312,
+          "median_return_pct": 0.42545320014797383
+        },
+        "native_10": {
+          "samples": 607,
+          "up": 308,
+          "down": 279,
+          "flat": 20,
+          "mean_return_pct": 0.02482299586818316,
+          "median_return_pct": 0.025984149668700773
+        },
+        "derived240_10": {
+          "samples": 29,
+          "up": 15,
+          "down": 14,
+          "flat": 0,
+          "mean_return_pct": -1.3997349557943999,
+          "median_return_pct": 0.2404735479097253
+        }
+      }
+    },
+    "near_death": {
+      "name": "模型4 · 将死不死",
+      "algorithm_hits": 672,
+      "verified_hits": 644,
+      "native_verified": 614,
+      "derived_verified": 30,
+      "forward": {
+        "native_1": {
+          "samples": 614,
+          "up": 277,
+          "down": 272,
+          "flat": 65,
+          "mean_return_pct": 0.009933801086327755,
+          "median_return_pct": 0.0
+        },
+        "derived240_1": {
+          "samples": 30,
+          "up": 10,
+          "down": 18,
+          "flat": 2,
+          "mean_return_pct": -0.042817959803428396,
+          "median_return_pct": -0.12164186254040588
+        },
+        "native_3": {
+          "samples": 614,
+          "up": 300,
+          "down": 283,
+          "flat": 31,
+          "mean_return_pct": 0.010152215381809916,
+          "median_return_pct": 0.0
+        },
+        "derived240_3": {
+          "samples": 30,
+          "up": 12,
+          "down": 17,
+          "flat": 1,
+          "mean_return_pct": -0.1189985264368713,
+          "median_return_pct": -0.15982959816141507
+        },
+        "native_5": {
+          "samples": 613,
+          "up": 315,
+          "down": 273,
+          "flat": 25,
+          "mean_return_pct": 0.0060945271383897,
+          "median_return_pct": 0.03741814780169328
+        },
+        "derived240_5": {
+          "samples": 30,
+          "up": 13,
+          "down": 17,
+          "flat": 0,
+          "mean_return_pct": -0.04421357113331914,
+          "median_return_pct": -0.3249000275410807
+        },
+        "native_10": {
+          "samples": 609,
+          "up": 311,
+          "down": 288,
+          "flat": 10,
+          "mean_return_pct": -0.004098637454006858,
+          "median_return_pct": 0.061595318755780504
+        },
+        "derived240_10": {
+          "samples": 30,
+          "up": 12,
+          "down": 18,
+          "flat": 0,
+          "mean_return_pct": -0.23151083363842265,
+          "median_return_pct": -0.14865353224030597
+        }
+      }
+    }
+  },
+  "formula": {
+    "name": "LX40",
+    "red": "SMA(CLOSE,92)",
+    "blue": "SMA(CLOSE,14)",
+    "ready_bars": 92
+  },
+  "old_AA_MA35_result": "invalid",
+  "candle_color_rule": "用户已确认：close>open为红K，close<open为蓝K，close=open为十字星；十字星不记录触线或触发",
+  "screenshot_verification_scope": "LX40均线数值已核验；模型红蓝K按用户确认的开收价规则",
+  "candle_color_confirmed": true,
+  "adjacency_rule": "用户已确认允许间隔：触线后第一根反色K触发，触发前一根不要求相交"
+}
